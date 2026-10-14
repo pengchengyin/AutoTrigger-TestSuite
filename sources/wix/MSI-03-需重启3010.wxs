@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="*" Name="AT Synthetic MSI 03 Reboot" Language="1033" Version="1.0.0.0"
+           Manufacturer="AT-TestSuite" UpgradeCode="{349DC68F-7D39-5F7E-9104-476F03EBB80F}">
+    <Package Id="*" InstallerVersion="500" Compressed="yes" InstallScope="perMachine"
+             InstallPrivileges="elevated" Description="AT Synthetic MSI 03 Reboot" Comments="AT synthetic MSI sample" />
+    <MajorUpgrade DowngradeErrorMessage="A newer version is already installed." AllowSameVersionUpgrades="yes" />
+    <MediaTemplate EmbedCab="yes" />
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFiles64Folder">
+        <Directory Id="INSTALLFOLDER" Name="ATSynthMsi03" />
+      </Directory>
+    </Directory>
+
+    <DirectoryRef Id="INSTALLFOLDER">
+      <Component Id="cmp0" Guid="{6B6299CF-893B-5385-8C75-94928A59E5FB}">
+        <File Id="fil0" Source="$(var.ATS_ROOT)\sources\payload\app.exe" KeyPath="yes" />
+      </Component>
+      <Component Id="cmp1" Guid="{612BF19C-DE55-58E0-B6E2-D70940FE4D61}">
+        <File Id="fil1" Source="$(var.ATS_ROOT)\sources\payload\core.dll" KeyPath="yes" />
+      </Component>
+      <Component Id="cmp2" Guid="{7FF9D7FC-6105-509C-B0F5-E1689797E2F6}">
+        <File Id="fil2" Source="$(var.ATS_ROOT)\sources\payload\resources.dat" KeyPath="yes" />
+      </Component>
+      <Component Id="cmp3" Guid="{614A390E-A7ED-5E80-8221-981907BE3128}">
+        <File Id="fil3" Source="$(var.ATS_ROOT)\sources\payload\readme.txt" KeyPath="yes" />
+      </Component>
+      <Component Id="cmpSentinel" Guid="{57F916F8-5135-5D34-9262-894F4F775144}">
+        <RegistryKey Root="HKLM" Key="Software\AT-TestSuite\MSI03">
+          <RegistryValue Type="string" Name="Installed" Value="1" KeyPath="yes" />
+          <RegistryValue Type="string" Name="Version" Value="1.0.0.0" />
+          <RegistryValue Type="string" Name="InstallLocation" Value="[INSTALLFOLDER]" />
+        </RegistryKey>
+      </Component>
+    </DirectoryRef>
+
+    <Feature Id="MainFeature" Title="AT Synthetic MSI" Level="1" Display="expand">
+      <ComponentRef Id="cmpSentinel" />
+      <ComponentRef Id="cmp0" />
+      <ComponentRef Id="cmp1" />
+      <ComponentRef Id="cmp2" />
+      <ComponentRef Id="cmp3" />
+    </Feature>
+
+    <Property Id="ARPPRODUCTICON" Value="app.exe" />
+    <Property Id="REBOOT" Value="Force" />
+
+    <InstallExecuteSequence>
+      <ScheduleReboot After="InstallFinalize">NOT Installed</ScheduleReboot>
+    </InstallExecuteSequence>
+
+    <UIRef Id="WixUI_Minimal" />
+  </Product>
+</Wix>

@@ -1,0 +1,13 @@
+﻿--- start ---
+##### GROUP 01-Inno Setup #####
+EXIT=0 ELAPSED_S=914.5
+##### GROUP 02-NSIS #####
+EXIT=0 ELAPSED_S=252.8
+##### GROUP 03-MSI #####
+EXIT=0 ELAPSED_S=547.8
+##### GROUP 04-Burn bootstrapper #####
+EXIT=0 ELAPSED_S=563.2
+##### GROUP 05-其它厂商安装器 #####
+EXIT=0 ELAPSED_S=766
+##### GROUP 06-压缩包 #####
+EXIT=2 ELAPSED_S=913.6

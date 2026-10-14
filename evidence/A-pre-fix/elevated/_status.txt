@@ -1,0 +1,9 @@
+﻿--- cleanup ---
+msiexec /x {9B8F9F05-C520-40EB-91E3-C7B339D0749A} -> exit=0
+msiexec /x {3B0346D3-155D-43E5-9561-B9BE51CF2EB6} -> exit=0
+##### GROUP 18-合成安装器(NSIS) #####
+EXIT=0 ELAPSED_S=394.4
+##### GROUP 19-合成安装器(MSI-WiX) #####
+EXIT=0 ELAPSED_S=87.5
+##### GROUP 17-合成安装器(Inno) #####
+EXIT=0 ELAPSED_S=561.3

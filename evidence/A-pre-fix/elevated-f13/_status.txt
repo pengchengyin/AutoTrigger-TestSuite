@@ -1,0 +1,7 @@
+﻿--- start ---
+##### [1] F13-参数探测桩-记录全部尝试.exe #####
+EXIT=0 ELAPSED_S=51.2
+##### [2] F13-参数探测桩-见VERYSILENT即成功.exe #####
+EXIT=0 ELAPSED_S=19
+##### [3] F13-参数探测桩-只认NSIS的S.exe #####
+EXIT=0 ELAPSED_S=11.3

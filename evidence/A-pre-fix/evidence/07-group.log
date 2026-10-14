@@ -1,0 +1,134 @@
+2026-10-11 10:13:49 [警告] 【任务】配置提示：内置图像模板为空：仍会使用 UIA/Win32 与 OCR 识别；如需更高命中率，请按 D17 补齐模板
+2026-10-11 10:13:49 [信息] 【任务】任务开始：task_id=f1646b8c-8734-4248-9eca-28becc7ad8e7，工具版本 0.1.0，资源包 0.1.0
+2026-10-11 10:13:49 [信息] 【任务】结果文件：<REPORT_ROOT_A>\evidence\07-group.json
+2026-10-11 10:13:49 [信息] 【任务】日志文件：<REPORT_ROOT_A>\evidence\07-group.log
+2026-10-11 10:13:52 [警告] 【任务】环境提示：建议以管理员身份运行：当前进程未提权，即使账户属于 Administrators 也可能是标准权限。系统级安装与 HKLM 采证可能不完整；权限拒绝需在管理员会话复测，不能据此推断安装器或工具有缺陷。UAC 处理见 README 使用说明
+2026-10-11 10:13:52 [信息] 【任务】开始处理目录：<SUITE_ROOT>\samples\07-脚本与快捷方式（递归=false，共发现 15 个文件）
+2026-10-11 10:13:53 [信息] 【入口】结构分析完成：候选入口 15 个，排除 0 个（排除项见结果 JSON 的 layout_analysis）
+2026-10-11 10:13:53 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\07-脚本与快捷方式\09-快捷方式-指向安装器.lnk（优先级 P0，判定依据 entry_p0_lure）
+2026-10-11 10:13:53 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\07-脚本与快捷方式\09-快捷方式-指向安装器.lnk → shortcut（1.0 KB）
+2026-10-11 10:13:53 [信息] 【结果】<SUITE_ROOT>\samples\07-脚本与快捷方式\09-快捷方式-指向安装器.lnk → 跳过（excluded_blacklist: uninstall|unins0|卸载|反安装|remove）
+2026-10-11 10:13:53 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\07-脚本与快捷方式\10-快捷方式-指向不存在目标.lnk（优先级 P0，判定依据 entry_p0_lure）
+2026-10-11 10:13:53 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\07-脚本与快捷方式\10-快捷方式-指向不存在目标.lnk → shortcut（503 B）
+2026-10-11 10:13:53 [信息] 【结果】<SUITE_ROOT>\samples\07-脚本与快捷方式\10-快捷方式-指向不存在目标.lnk → 失败（open C:\AT-NotExist\ghost-installer.exe: The system cannot find the path specified.）
+2026-10-11 10:13:53 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\07-脚本与快捷方式\11-快捷方式-指向文档.lnk（优先级 P0，判定依据 entry_p0_lure）
+2026-10-11 10:13:53 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\07-脚本与快捷方式\11-快捷方式-指向文档.lnk → shortcut（974 B）
+2026-10-11 10:13:53 [信息] 【执行】准备按 1 种方式依次尝试安装：document_host
+2026-10-11 10:13:53 [信息] 【执行】第 1/1 次尝试：方法=document_host，命令="C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe" "--single-argument" "C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\08-文档类\\01-有效文档.pdf"
+2026-10-11 10:13:53 [信息] 【执行】已启动安装进程：方法=document_host，PID=10960
+2026-10-11 10:13:53 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 0.1 秒
+2026-10-11 10:13:53 [信息] 【结果】<SUITE_ROOT>\samples\07-脚本与快捷方式\11-快捷方式-指向文档.lnk → 已触发（未确认安装）
+2026-10-11 10:13:53 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\07-脚本与快捷方式\com-命令触发器.com（优先级 P4，判定依据 entry_p4_main）
+2026-10-11 10:13:53 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\07-脚本与快捷方式\com-命令触发器.com → pe_executable（6.5 KB）
+2026-10-11 10:13:53 [信息] 【执行】准备按 1 种方式依次尝试安装：no_param_run
+2026-10-11 10:13:53 [信息] 【执行】第 1/1 次尝试：方法=no_param_run，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\07-脚本与快捷方式\\com-命令触发器.com"
+2026-10-11 10:13:56 [信息] 【执行】已启动安装进程：方法=no_param_run，PID=3424
+2026-10-11 10:13:58 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 4.6 秒
+2026-10-11 10:13:58 [信息] 【结果】<SUITE_ROOT>\samples\07-脚本与快捷方式\com-命令触发器.com → 已触发（未确认安装）
+2026-10-11 10:13:58 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\07-脚本与快捷方式\scr-屏保触发器.scr（优先级 P4，判定依据 entry_p4_main）
+2026-10-11 10:13:58 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\07-脚本与快捷方式\scr-屏保触发器.scr → pe_executable（6.5 KB）
+2026-10-11 10:13:58 [信息] 【执行】准备按 1 种方式依次尝试安装：no_param_run
+2026-10-11 10:13:58 [信息] 【执行】第 1/1 次尝试：方法=no_param_run，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\07-脚本与快捷方式\\scr-屏保触发器.scr"
+2026-10-11 10:13:58 [信息] 【执行】已启动安装进程：方法=no_param_run，PID=1140
+2026-10-11 10:14:00 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 2.3 秒
+2026-10-11 10:14:00 [信息] 【结果】<SUITE_ROOT>\samples\07-脚本与快捷方式\scr-屏保触发器.scr → 已触发（未确认安装）
+2026-10-11 10:14:00 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\07-脚本与快捷方式\01-批处理.bat（优先级 P5，判定依据 fallback_p5）
+2026-10-11 10:14:00 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\07-脚本与快捷方式\01-批处理.bat → script（175 B）
+2026-10-11 10:14:00 [信息] 【执行】准备按 1 种方式依次尝试安装：script
+2026-10-11 10:14:00 [信息] 【执行】第 1/1 次尝试：方法=script，命令="C:\\WINDOWS\\System32\\cmd.exe" "/d" "/s" "/c" "\"C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\07-脚本与快捷方式\\01-批处理.bat\""
+2026-10-11 10:14:00 [信息] 【执行】已启动安装进程：方法=script，PID=4616
+2026-10-11 10:14:00 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 0.2 秒
+2026-10-11 10:14:00 [信息] 【结果】<SUITE_ROOT>\samples\07-脚本与快捷方式\01-批处理.bat → 已触发（未确认安装）
+2026-10-11 10:14:00 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\07-脚本与快捷方式\02-命令脚本.cmd（优先级 P5，判定依据 fallback_p5）
+2026-10-11 10:14:00 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\07-脚本与快捷方式\02-命令脚本.cmd → script（149 B）
+2026-10-11 10:14:00 [信息] 【执行】准备按 1 种方式依次尝试安装：script
+2026-10-11 10:14:00 [信息] 【执行】第 1/1 次尝试：方法=script，命令="C:\\WINDOWS\\System32\\cmd.exe" "/d" "/s" "/c" "\"C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\07-脚本与快捷方式\\02-命令脚本.cmd\""
+2026-10-11 10:14:00 [信息] 【执行】已启动安装进程：方法=script，PID=2744
+2026-10-11 10:14:00 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 0.1 秒
+2026-10-11 10:14:00 [信息] 【结果】<SUITE_ROOT>\samples\07-脚本与快捷方式\02-命令脚本.cmd → 已触发（未确认安装）
+2026-10-11 10:14:00 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\07-脚本与快捷方式\03-PowerShell.ps1（优先级 P5，判定依据 fallback_p5）
+2026-10-11 10:14:00 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\07-脚本与快捷方式\03-PowerShell.ps1 → script（196 B）
+2026-10-11 10:14:00 [信息] 【执行】准备按 1 种方式依次尝试安装：script
+2026-10-11 10:14:00 [信息] 【执行】第 1/1 次尝试：方法=script，命令="C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" "-NoProfile" "-ExecutionPolicy" "Bypass" "-File" "C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\07-脚本与快捷方式\\03-PowerShell.ps1"
+2026-10-11 10:14:00 [信息] 【执行】已启动安装进程：方法=script，PID=11080
+2026-10-11 10:14:05 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 4.3 秒
+2026-10-11 10:14:05 [信息] 【结果】<SUITE_ROOT>\samples\07-脚本与快捷方式\03-PowerShell.ps1 → 已触发（未确认安装）
+2026-10-11 10:14:05 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\07-脚本与快捷方式\04-VBScript.vbs（优先级 P5，判定依据 fallback_p5）
+2026-10-11 10:14:05 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\07-脚本与快捷方式\04-VBScript.vbs → script（301 B）
+2026-10-11 10:14:05 [信息] 【执行】准备按 2 种方式依次尝试安装：script、script
+2026-10-11 10:14:05 [信息] 【执行】第 1/2 次尝试：方法=script，命令="C:\\WINDOWS\\System32\\wscript.exe" "C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\07-脚本与快捷方式\\04-VBScript.vbs"
+2026-10-11 10:14:05 [信息] 【执行】已启动安装进程：方法=script，PID=8588
+2026-10-11 10:14:06 [信息] 【界面】自动点击：确定（识别来源 uia，窗口 "Windows Script Host"）
+2026-10-11 10:14:06 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 1.2 秒
+2026-10-11 10:14:06 [信息] 【结果】<SUITE_ROOT>\samples\07-脚本与快捷方式\04-VBScript.vbs → 已触发（未确认安装）
+2026-10-11 10:14:06 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\07-脚本与快捷方式\05-JScript.js（优先级 P5，判定依据 fallback_p5）
+2026-10-11 10:14:06 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\07-脚本与快捷方式\05-JScript.js → script（307 B）
+2026-10-11 10:14:06 [信息] 【执行】准备按 2 种方式依次尝试安装：script、script
+2026-10-11 10:14:06 [信息] 【执行】第 1/2 次尝试：方法=script，命令="C:\\WINDOWS\\System32\\wscript.exe" "C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\07-脚本与快捷方式\\05-JScript.js"
+2026-10-11 10:14:06 [信息] 【执行】已启动安装进程：方法=script，PID=4036
+2026-10-11 10:14:07 [信息] 【界面】自动点击：确定（识别来源 uia，窗口 "Windows Script Host"）
+2026-10-11 10:14:07 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 1.0 秒
+2026-10-11 10:14:07 [信息] 【结果】<SUITE_ROOT>\samples\07-脚本与快捷方式\05-JScript.js → 已触发（未确认安装）
+2026-10-11 10:14:07 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\07-脚本与快捷方式\06-WSF脚本.wsf（优先级 P5，判定依据 fallback_p5）
+2026-10-11 10:14:07 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\07-脚本与快捷方式\06-WSF脚本.wsf → script（238 B）
+2026-10-11 10:14:07 [信息] 【执行】准备按 2 种方式依次尝试安装：script、script
+2026-10-11 10:14:07 [信息] 【执行】第 1/2 次尝试：方法=script，命令="C:\\WINDOWS\\System32\\wscript.exe" "C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\07-脚本与快捷方式\\06-WSF脚本.wsf"
+2026-10-11 10:14:07 [信息] 【执行】已启动安装进程：方法=script，PID=10220
+2026-10-11 10:14:07 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 0.2 秒
+2026-10-11 10:14:07 [信息] 【结果】<SUITE_ROOT>\samples\07-脚本与快捷方式\06-WSF脚本.wsf → 已触发（未确认安装）
+2026-10-11 10:14:07 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\07-脚本与快捷方式\07-普通JS文本.js（优先级 P5，判定依据 fallback_p5）
+2026-10-11 10:14:07 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\07-脚本与快捷方式\07-普通JS文本.js → script（61 B）
+2026-10-11 10:14:07 [信息] 【执行】准备按 2 种方式依次尝试安装：script、script
+2026-10-11 10:14:07 [信息] 【执行】第 1/2 次尝试：方法=script，命令="C:\\WINDOWS\\System32\\wscript.exe" "C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\07-脚本与快捷方式\\07-普通JS文本.js"
+2026-10-11 10:14:07 [信息] 【执行】已启动安装进程：方法=script，PID=9420
+2026-10-11 10:14:08 [信息] 【界面】自动点击：确定（识别来源 uia，窗口 "Windows Script Host"）
+2026-10-11 10:14:08 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 0.9 秒
+2026-10-11 10:14:08 [信息] 【结果】<SUITE_ROOT>\samples\07-脚本与快捷方式\07-普通JS文本.js → 已触发（未确认安装）
+2026-10-11 10:14:08 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\07-脚本与快捷方式\08-UTF16LE批处理.bat（优先级 P5，判定依据 fallback_p5）
+2026-10-11 10:14:08 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\07-脚本与快捷方式\08-UTF16LE批处理.bat → script（144 B）
+2026-10-11 10:14:08 [信息] 【执行】准备按 1 种方式依次尝试安装：script
+2026-10-11 10:14:08 [信息] 【执行】第 1/1 次尝试：方法=script，命令="C:\\WINDOWS\\System32\\cmd.exe" "/d" "/s" "/c" "\"C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1269417715\\normalized.bat\""
+2026-10-11 10:14:08 [信息] 【执行】已启动安装进程：方法=script，PID=3732
+2026-10-11 10:14:08 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 0.1 秒
+2026-10-11 10:14:08 [信息] 【结果】<SUITE_ROOT>\samples\07-脚本与快捷方式\08-UTF16LE批处理.bat → 已触发（未确认安装）
+2026-10-11 10:14:08 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\07-脚本与快捷方式\10-导出函数库.dll（优先级 P5，判定依据 fallback_p5）
+2026-10-11 10:14:08 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\07-脚本与快捷方式\10-导出函数库.dll → pe_dll（3.5 KB）
+2026-10-11 10:14:08 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<SUITE_ROOT>\samples\07-脚本与快捷方式\10-导出函数库.dll
+2026-10-11 10:14:08 [警告] 【判定】基线采集告警（<SUITE_ROOT>\samples\07-脚本与快捷方式\10-导出函数库.dll）：C:\Program Files\WindowsApps: open C:\Program Files\WindowsApps: Access is denied.
+2026-10-11 10:14:08 [警告] 【判定】基线采集告警（<SUITE_ROOT>\samples\07-脚本与快捷方式\10-导出函数库.dll）：C:\ProgramData\Microsoft\Diagnosis: open C:\ProgramData\Microsoft\Diagnosis: Access is denied.
+2026-10-11 10:14:08 [警告] 【判定】基线采集告警（<SUITE_ROOT>\samples\07-脚本与快捷方式\10-导出函数库.dll）：C:\ProgramData\Microsoft\SmsRouter: open C:\ProgramData\Microsoft\SmsRouter: Access is denied.
+2026-10-11 10:14:08 [警告] 【判定】基线采集告警（<SUITE_ROOT>\samples\07-脚本与快捷方式\10-导出函数库.dll）：C:\ProgramData\Microsoft\Windows Defender: open C:\ProgramData\Microsoft\Windows Defender: Access is denied.
+2026-10-11 10:14:08 [警告] 【判定】基线采集告警（<SUITE_ROOT>\samples\07-脚本与快捷方式\10-导出函数库.dll）：C:\ProgramData\Packages: open C:\ProgramData\Packages: Access is denied.
+2026-10-11 10:14:08 [警告] 【判定】基线采集告警（<SUITE_ROOT>\samples\07-脚本与快捷方式\10-导出函数库.dll）：文件系统快照达到条目数或 450ms 预算上限：负向文件计数证据已禁用
+2026-10-11 10:14:08 [信息] 【结果】<SUITE_ROOT>\samples\07-脚本与快捷方式\10-导出函数库.dll → 失败（DLL has no valid export directory）
+2026-10-11 10:14:08 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\07-脚本与快捷方式\11-原生导出表(7z).dll（优先级 P5，判定依据 fallback_p5）
+2026-10-11 10:14:08 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\07-脚本与快捷方式\11-原生导出表(7z).dll → pe_dll（1.8 MB）
+2026-10-11 10:14:08 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<SUITE_ROOT>\samples\07-脚本与快捷方式\11-原生导出表(7z).dll
+2026-10-11 10:14:08 [警告] 【判定】基线采集告警（<SUITE_ROOT>\samples\07-脚本与快捷方式\11-原生导出表(7z).dll）：C:\Program Files\WindowsApps: open C:\Program Files\WindowsApps: Access is denied.
+2026-10-11 10:14:08 [警告] 【判定】基线采集告警（<SUITE_ROOT>\samples\07-脚本与快捷方式\11-原生导出表(7z).dll）：C:\ProgramData\Microsoft\Diagnosis: open C:\ProgramData\Microsoft\Diagnosis: Access is denied.
+2026-10-11 10:14:08 [警告] 【判定】基线采集告警（<SUITE_ROOT>\samples\07-脚本与快捷方式\11-原生导出表(7z).dll）：C:\ProgramData\Microsoft\SmsRouter: open C:\ProgramData\Microsoft\SmsRouter: Access is denied.
+2026-10-11 10:14:08 [警告] 【判定】基线采集告警（<SUITE_ROOT>\samples\07-脚本与快捷方式\11-原生导出表(7z).dll）：C:\ProgramData\Microsoft\Windows Defender: open C:\ProgramData\Microsoft\Windows Defender: Access is denied.
+2026-10-11 10:14:08 [警告] 【判定】基线采集告警（<SUITE_ROOT>\samples\07-脚本与快捷方式\11-原生导出表(7z).dll）：C:\ProgramData\Packages: open C:\ProgramData\Packages: Access is denied.
+2026-10-11 10:14:08 [警告] 【判定】基线采集告警（<SUITE_ROOT>\samples\07-脚本与快捷方式\11-原生导出表(7z).dll）：文件系统快照达到条目数或 450ms 预算上限：负向文件计数证据已禁用
+2026-10-11 10:14:08 [信息] 【执行】准备按 3 种方式依次尝试安装：dll_probe、dll_probe、dll_probe
+2026-10-11 10:14:08 [信息] 【执行】第 1/3 次尝试：方法=dll_probe，命令="C:\\WINDOWS\\System32\\rundll32.exe" "C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\07-脚本与快捷方式\\11-原生导出表(7z).dll,CreateDecoder"
+2026-10-11 10:14:08 [信息] 【执行】已启动安装进程：方法=dll_probe，PID=9448
+2026-10-11 10:14:11 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3221225477，耗时 2.8 秒
+2026-10-11 10:14:15 [信息] 【判定】第 1/3 次尝试判定：部分完成（置信度 low）
+2026-10-11 10:14:15 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3221225477
+2026-10-11 10:14:17 [信息] 【执行】第 2/3 次尝试：方法=dll_probe，命令="C:\\WINDOWS\\System32\\rundll32.exe" "C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\07-脚本与快捷方式\\11-原生导出表(7z).dll,CreateEncoder"
+2026-10-11 10:14:17 [信息] 【执行】已启动安装进程：方法=dll_probe，PID=10924
+2026-10-11 10:14:19 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3221225477，耗时 2.2 秒
+2026-10-11 10:14:22 [信息] 【判定】第 2/3 次尝试判定：部分完成（置信度 low）
+2026-10-11 10:14:22 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3221225477
+2026-10-11 10:14:22 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3221225477
+2026-10-11 10:14:24 [信息] 【执行】第 3/3 次尝试：方法=dll_probe，命令="C:\\WINDOWS\\System32\\rundll32.exe" "C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\07-脚本与快捷方式\\11-原生导出表(7z).dll,CreateObject"
+2026-10-11 10:14:24 [信息] 【执行】已启动安装进程：方法=dll_probe，PID=4244
+2026-10-11 10:14:24 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 0.0 秒
+2026-10-11 10:14:40 [信息] 【判定】第 3/3 次尝试判定：部分完成（置信度 low）
+2026-10-11 10:14:40 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3221225477
+2026-10-11 10:14:40 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3221225477
+2026-10-11 10:14:40 [信息] 【结果】<SUITE_ROOT>\samples\07-脚本与快捷方式\11-原生导出表(7z).dll → 部分完成
+2026-10-11 10:14:40 [信息] 【结果】本次运行结束：总耗时 50.4 秒，退出码 0 —— 处理完成（具体结果见结果 JSON）
+2026-10-11 10:14:40 [信息] 【结果】总体结论：部分成功
+2026-10-11 10:14:40 [信息] 【结果】样本统计：样本总数 15｜部分完成 1｜已触发 11｜失败 2｜跳过 1

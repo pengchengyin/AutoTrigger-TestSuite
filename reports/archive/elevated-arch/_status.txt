@@ -1,0 +1,17 @@
+﻿--- start ---
+##### [1/8] nssm-2.24.zip #####
+EXIT=0 ELAPSED_S=106.5
+##### [2/8] 7z2501-extra.7z #####
+EXIT=0 ELAPSED_S=185.6
+##### [3/8] 7z2600-x64-32bit.exe #####
+EXIT=0 ELAPSED_S=187.8
+##### [4/8] 01-一层嵌套.7z #####
+EXIT=0 ELAPSED_S=18.8
+##### [5/8] 02-两层嵌套.zip #####
+EXIT=0 ELAPSED_S=10.4
+##### [6/8] putty-0.85-w64.zip #####
+EXIT=0 ELAPSED_S=185.2
+##### [7/8] npp.8.8.1.portable.x64.zip #####
+EXIT=0 ELAPSED_S=185.9
+##### [8/8] MobaXterm_Installer.zip #####
+EXIT=0 ELAPSED_S=18.5

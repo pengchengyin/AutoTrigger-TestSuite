@@ -1,0 +1,35 @@
+{
+ "note": "编译器不随仓库分发，请从官方渠道获取；版本号取自原始制作环境记录",
+ "tools": [
+  {
+   "name": "Inno Setup",
+   "version": "6.7.1",
+   "url": "https://jrsoftware.org/isdl.php",
+   "used_for": "sources/innosetup"
+  },
+  {
+   "name": "NSIS",
+   "version": "3.13",
+   "url": "https://nsis.sourceforge.io/Download",
+   "used_for": "sources/nsis"
+  },
+  {
+   "name": "WiX Toolset",
+   "version": "3.14",
+   "url": "https://github.com/wixtoolset/wix3/releases",
+   "used_for": "sources/wix"
+  },
+  {
+   "name": "7-Zip",
+   "version": "26.03",
+   "url": "https://www.7-zip.org/",
+   "used_for": "运行套件（压缩包/ISO）"
+  },
+  {
+   "name": "PaddleOCR-json",
+   "version": "1.4.1",
+   "url": "见 AutoTrigger 主项目",
+   "used_for": "自绘界面样本（可选）"
+  }
+ ]
+}

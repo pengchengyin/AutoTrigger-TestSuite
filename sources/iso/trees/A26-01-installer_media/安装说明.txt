@@ -1,0 +1,4 @@
+安装说明 / Installation Notes
+============================
+双击 install.bat 开始安装。
+Run setup.exe /S for silent installation.

@@ -1,0 +1,15 @@
+﻿--- start2 ---
+##### A29-01 #####
+EXIT=0 ELAPSED_S=68.3
+##### A29-08 #####
+EXIT=0 ELAPSED_S=54.2
+##### A30-03 #####
+EXIT=0 ELAPSED_S=206.7
+##### A30-05 #####
+EXIT=0 ELAPSED_S=205.4
+##### A30-09 #####
+EXIT=0 ELAPSED_S=604.9
+##### VC-redist #####
+EXIT=0 ELAPSED_S=13
+##### GRP06 #####
+EXIT=0 ELAPSED_S=2293.6

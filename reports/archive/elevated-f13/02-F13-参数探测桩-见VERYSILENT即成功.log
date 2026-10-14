@@ -1,0 +1,16 @@
+2026-10-11 12:21:52 [警告] 【任务】配置提示：内置图像模板为空：仍会使用 UIA/Win32 与 OCR 识别；如需更高命中率，请按 D17 补齐模板
+2026-10-11 12:21:52 [信息] 【任务】任务开始：task_id=b00d9ca8-79af-4e84-80e6-2eec471f0c9e，工具版本 0.1.0，资源包 0.1.0
+2026-10-11 12:21:52 [信息] 【任务】结果文件：<REPORT_ROOT_A>\elevated-f13\02-F13-参数探测桩-见VERYSILENT即成功.json
+2026-10-11 12:21:52 [信息] 【任务】日志文件：<REPORT_ROOT_A>\elevated-f13\02-F13-参数探测桩-见VERYSILENT即成功.log
+2026-10-11 12:21:53 [信息] 【任务】开始处理样本：<SUITE_ROOT>\samples\20-静默参数探测\F13-参数探测桩-见VERYSILENT即成功.exe（7.0 KB）
+2026-10-11 12:21:53 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\20-静默参数探测\F13-参数探测桩-见VERYSILENT即成功.exe → pe_executable（7.0 KB）
+2026-10-11 12:21:53 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<SUITE_ROOT>\samples\20-静默参数探测\F13-参数探测桩-见VERYSILENT即成功.exe
+2026-10-11 12:21:53 [信息] 【执行】准备按 9 种方式依次尝试安装：silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、no_param_run
+2026-10-11 12:21:53 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\20-静默参数探测\\F13-参数探测桩-见VERYSILENT即成功.exe" "/VERYSILENT" "/NORESTART" "/SUPPRESSMSGBOXES"
+2026-10-11 12:22:04 [信息] 【执行】已启动安装进程：方法=silent_install，PID=8420
+2026-10-11 12:22:04 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 10.4 秒
+2026-10-11 12:22:11 [信息] 【判定】第 1/9 次尝试判定：安装成功（置信度 medium）
+2026-10-11 12:22:11 [信息] 【结果】<SUITE_ROOT>\samples\20-静默参数探测\F13-参数探测桩-见VERYSILENT即成功.exe → 安装成功
+2026-10-11 12:22:11 [信息] 【结果】本次运行结束：总耗时 18.9 秒，退出码 0 —— 处理完成（具体结果见结果 JSON）
+2026-10-11 12:22:11 [信息] 【结果】总体结论：安装成功
+2026-10-11 12:22:11 [信息] 【结果】样本统计：样本总数 1｜安装成功 1

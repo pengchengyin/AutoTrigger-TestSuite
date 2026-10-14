@@ -1,0 +1,705 @@
+2026-10-11 10:28:50 [警告] 【任务】配置提示：内置图像模板为空：仍会使用 UIA/Win32 与 OCR 识别；如需更高命中率，请按 D17 补齐模板
+2026-10-11 10:28:50 [信息] 【任务】任务开始：task_id=63ff30a0-5336-43a7-b4b4-89a36f120cc5，工具版本 0.1.0，资源包 0.1.0
+2026-10-11 10:28:50 [信息] 【任务】结果文件：<REPORT_ROOT_A>\evidence\10-group.json
+2026-10-11 10:28:50 [信息] 【任务】日志文件：<REPORT_ROOT_A>\evidence\10-group.log
+2026-10-11 10:28:55 [警告] 【任务】环境提示：建议以管理员身份运行：当前进程未提权，即使账户属于 Administrators 也可能是标准权限。系统级安装与 HKLM 采证可能不完整；权限拒绝需在管理员会话复测，不能据此推断安装器或工具有缺陷。UAC 处理见 README 使用说明
+2026-10-11 10:28:55 [信息] 【任务】开始处理目录：<SUITE_ROOT>\samples\10-入口分层与黑名单（递归=false，共发现 2 个文件）
+2026-10-11 10:28:55 [信息] 【入口】结构分析完成：候选入口 2 个，排除 0 个（排除项见结果 JSON 的 layout_analysis）
+2026-10-11 10:28:55 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-04-规范包压缩版.7z（优先级 P5，判定依据 fallback_p5）
+2026-10-11 10:28:56 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-04-规范包压缩版.7z → archive（247.0 KB）
+2026-10-11 10:28:56 [信息] 【解压】识别为压缩包，开始解压处理：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-04-规范包压缩版.7z
+2026-10-11 10:28:56 [信息] 【解压】预检归档文件：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-04-规范包压缩版.7z，可执行条目 51 个，已排除 11 个（卸载/修复/更新/调试类绝不执行）
+2026-10-11 10:28:56 [信息] 【解压】开始解压到临时目录：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678
+2026-10-11 10:29:01 [信息] 【入口】结构分析完成：候选入口 62 个，排除 11 个（排除项见结果 JSON 的 layout_analysis）
+2026-10-11 10:29:01 [信息] 【入口】选用入口：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\vcredist_x64.exe（优先级 P3，判定依据 entry_p3_prereq）
+2026-10-11 10:29:01 [信息] 【识别】识别结果：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\vcredist_x64.exe → pe_executable（6.5 KB）
+2026-10-11 10:29:01 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\vcredist_x64.exe
+2026-10-11 10:29:01 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\vcredist_x64.exe）：C:\Program Files\WindowsApps: open C:\Program Files\WindowsApps: Access is denied.
+2026-10-11 10:29:01 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\vcredist_x64.exe）：C:\ProgramData\Microsoft\Diagnosis: open C:\ProgramData\Microsoft\Diagnosis: Access is denied.
+2026-10-11 10:29:01 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\vcredist_x64.exe）：C:\ProgramData\Microsoft\SmsRouter: open C:\ProgramData\Microsoft\SmsRouter: Access is denied.
+2026-10-11 10:29:01 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\vcredist_x64.exe）：C:\ProgramData\Microsoft\Windows Defender: open C:\ProgramData\Microsoft\Windows Defender: Access is denied.
+2026-10-11 10:29:01 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\vcredist_x64.exe）：C:\ProgramData\Packages: open C:\ProgramData\Packages: Access is denied.
+2026-10-11 10:29:01 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\vcredist_x64.exe）：文件系统快照达到条目数或 450ms 预算上限：负向文件计数证据已禁用
+2026-10-11 10:29:01 [信息] 【执行】准备按 9 种方式依次尝试安装：silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、no_param_run
+2026-10-11 10:29:01 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\vcredist_x64.exe" "/VERYSILENT" "/NORESTART" "/SUPPRESSMSGBOXES"
+2026-10-11 10:29:01 [信息] 【执行】已启动安装进程：方法=silent_install，PID=4708
+2026-10-11 10:29:02 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 1.3 秒
+2026-10-11 10:29:08 [信息] 【判定】第 1/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:29:08 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:29:10 [信息] 【执行】第 2/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\vcredist_x64.exe" "/S"
+2026-10-11 10:29:10 [信息] 【执行】已启动安装进程：方法=silent_install，PID=1392
+2026-10-11 10:29:11 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.5 秒
+2026-10-11 10:29:14 [信息] 【判定】第 2/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:29:14 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:29:14 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:29:16 [信息] 【执行】第 3/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\vcredist_x64.exe" "/s" "/v/qn"
+2026-10-11 10:29:16 [信息] 【执行】已启动安装进程：方法=silent_install，PID=7468
+2026-10-11 10:29:17 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.7 秒
+2026-10-11 10:29:20 [信息] 【判定】第 3/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:29:20 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:29:20 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:29:20 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:29:22 [信息] 【执行】第 4/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\vcredist_x64.exe" "/quiet" "/norestart"
+2026-10-11 10:29:22 [信息] 【执行】已启动安装进程：方法=silent_install，PID=2988
+2026-10-11 10:29:23 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.7 秒
+2026-10-11 10:29:26 [信息] 【判定】第 4/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:29:26 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:29:26 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:29:26 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:29:26 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:29:28 [信息] 【执行】第 5/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\vcredist_x64.exe" "/silent"
+2026-10-11 10:29:28 [信息] 【执行】已启动安装进程：方法=silent_install，PID=1532
+2026-10-11 10:29:29 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.7 秒
+2026-10-11 10:29:48 [信息] 【判定】第 5/9 次尝试判定：部分完成（置信度 low）
+2026-10-11 10:29:48 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:29:48 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:29:48 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:29:48 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:29:48 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:29:50 [信息] 【执行】第 6/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\vcredist_x64.exe" "--silent"
+2026-10-11 10:29:50 [信息] 【执行】已启动安装进程：方法=silent_install，PID=8456
+2026-10-11 10:29:51 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.9 秒
+2026-10-11 10:29:57 [信息] 【判定】第 6/9 次尝试判定：部分完成（置信度 low）
+2026-10-11 10:29:57 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:29:57 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:29:57 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:29:57 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:29:57 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:29:57 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:29:59 [信息] 【执行】第 7/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\vcredist_x64.exe" "--quiet"
+2026-10-11 10:29:59 [信息] 【执行】已启动安装进程：方法=silent_install，PID=8540
+2026-10-11 10:30:00 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.5 秒
+2026-10-11 10:30:03 [信息] 【判定】第 7/9 次尝试判定：部分完成（置信度 low）
+2026-10-11 10:30:03 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:30:03 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:30:03 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:30:03 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:30:03 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:30:03 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:30:03 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:30:05 [信息] 【执行】第 8/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\vcredist_x64.exe" "-s"
+2026-10-11 10:30:05 [信息] 【执行】已启动安装进程：方法=silent_install，PID=1436
+2026-10-11 10:30:06 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.8 秒
+2026-10-11 10:30:12 [信息] 【判定】第 8/9 次尝试判定：部分完成（置信度 low）
+2026-10-11 10:30:12 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:30:12 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:30:12 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:30:12 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:30:12 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:30:12 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:30:12 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:30:12 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:30:14 [信息] 【执行】第 9/9 次尝试：方法=no_param_run，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\vcredist_x64.exe"
+2026-10-11 10:30:14 [信息] 【执行】已启动安装进程：方法=no_param_run，PID=2432
+2026-10-11 10:30:15 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.6 秒
+2026-10-11 10:30:18 [信息] 【判定】第 9/9 次尝试判定：部分完成（置信度 low）
+2026-10-11 10:30:18 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:30:18 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:30:18 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:30:18 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:30:18 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:30:18 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:30:18 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:30:18 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:30:18 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:30:18 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\vcredist_x64.exe → 部分完成
+2026-10-11 10:30:18 [信息] 【入口】选用入口：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\install.bat（优先级 P0，判定依据 entry_p0_manifest）
+2026-10-11 10:30:18 [信息] 【识别】识别结果：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\install.bat → script（825 B）
+2026-10-11 10:30:18 [信息] 【执行】准备按 1 种方式依次尝试安装：script
+2026-10-11 10:30:18 [信息] 【执行】第 1/1 次尝试：方法=script，命令="C:\\WINDOWS\\System32\\cmd.exe" "/d" "/s" "/c" "\"C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\install.bat\""
+2026-10-11 10:30:18 [信息] 【执行】已启动安装进程：方法=script，PID=1684
+2026-10-11 10:30:18 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 0.5 秒
+2026-10-11 10:30:18 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\install.bat → 已触发（未确认安装）
+2026-10-11 10:30:18 [信息] 【入口】选用入口：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup.exe（优先级 P0，判定依据 entry_p0_manifest）
+2026-10-11 10:30:18 [信息] 【识别】识别结果：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup.exe → pe_executable（242.2 KB）
+2026-10-11 10:30:18 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup.exe
+2026-10-11 10:30:18 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup.exe）：C:\Program Files\WindowsApps: open C:\Program Files\WindowsApps: Access is denied.
+2026-10-11 10:30:18 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup.exe）：C:\ProgramData\Microsoft\Diagnosis: open C:\ProgramData\Microsoft\Diagnosis: Access is denied.
+2026-10-11 10:30:18 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup.exe）：C:\ProgramData\Microsoft\SmsRouter: open C:\ProgramData\Microsoft\SmsRouter: Access is denied.
+2026-10-11 10:30:18 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup.exe）：C:\ProgramData\Microsoft\Windows Defender: open C:\ProgramData\Microsoft\Windows Defender: Access is denied.
+2026-10-11 10:30:18 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup.exe）：C:\ProgramData\Packages: open C:\ProgramData\Packages: Access is denied.
+2026-10-11 10:30:18 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup.exe）：文件系统快照达到条目数或 450ms 预算上限：负向文件计数证据已禁用
+2026-10-11 10:30:18 [信息] 【执行】准备按 9 种方式依次尝试安装：silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、no_param_run
+2026-10-11 10:30:18 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\setup.exe" "/S"
+2026-10-11 10:30:20 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup.exe: The requested operation requires elevation.
+2026-10-11 10:30:20 [信息] 【判定】第 1/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:30:22 [信息] 【执行】第 2/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\setup.exe" "/VERYSILENT" "/NORESTART" "/SUPPRESSMSGBOXES"
+2026-10-11 10:30:22 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup.exe: The requested operation requires elevation.
+2026-10-11 10:30:22 [信息] 【判定】第 2/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:30:24 [信息] 【执行】第 3/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\setup.exe" "/s" "/v/qn"
+2026-10-11 10:30:24 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup.exe: The requested operation requires elevation.
+2026-10-11 10:30:24 [信息] 【判定】第 3/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:30:26 [信息] 【执行】第 4/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\setup.exe" "/quiet" "/norestart"
+2026-10-11 10:30:26 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup.exe: The requested operation requires elevation.
+2026-10-11 10:30:26 [信息] 【判定】第 4/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:30:28 [信息] 【执行】第 5/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\setup.exe" "/silent"
+2026-10-11 10:30:28 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup.exe: The requested operation requires elevation.
+2026-10-11 10:30:28 [信息] 【判定】第 5/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:30:30 [信息] 【执行】第 6/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\setup.exe" "--silent"
+2026-10-11 10:30:30 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup.exe: The requested operation requires elevation.
+2026-10-11 10:30:30 [信息] 【判定】第 6/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:30:32 [信息] 【执行】第 7/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\setup.exe" "--quiet"
+2026-10-11 10:30:33 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup.exe: The requested operation requires elevation.
+2026-10-11 10:30:33 [信息] 【判定】第 7/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:30:35 [信息] 【执行】第 8/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\setup.exe" "-s"
+2026-10-11 10:30:35 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup.exe: The requested operation requires elevation.
+2026-10-11 10:30:35 [信息] 【判定】第 8/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:30:37 [信息] 【执行】第 9/9 次尝试：方法=no_param_run，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\setup.exe"
+2026-10-11 10:30:37 [警告] 【执行】无法启动安装进程（方法=no_param_run）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup.exe: The requested operation requires elevation.
+2026-10-11 10:30:37 [信息] 【判定】第 9/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:30:37 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup.exe → 失败
+2026-10-11 10:30:37 [信息] 【入口】选用入口：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x64.exe（优先级 P1，判定依据 entry_p1_named）
+2026-10-11 10:30:37 [信息] 【识别】识别结果：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x64.exe → pe_executable（242.2 KB）
+2026-10-11 10:30:37 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x64.exe
+2026-10-11 10:30:37 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x64.exe）：C:\Program Files\WindowsApps: open C:\Program Files\WindowsApps: Access is denied.
+2026-10-11 10:30:37 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x64.exe）：C:\ProgramData\Microsoft\Diagnosis: open C:\ProgramData\Microsoft\Diagnosis: Access is denied.
+2026-10-11 10:30:37 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x64.exe）：C:\ProgramData\Microsoft\SmsRouter: open C:\ProgramData\Microsoft\SmsRouter: Access is denied.
+2026-10-11 10:30:37 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x64.exe）：C:\ProgramData\Microsoft\Windows Defender: open C:\ProgramData\Microsoft\Windows Defender: Access is denied.
+2026-10-11 10:30:37 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x64.exe）：C:\ProgramData\Packages: open C:\ProgramData\Packages: Access is denied.
+2026-10-11 10:30:37 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x64.exe）：文件系统快照达到条目数或 450ms 预算上限：负向文件计数证据已禁用
+2026-10-11 10:30:37 [信息] 【执行】准备按 9 种方式依次尝试安装：silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、no_param_run
+2026-10-11 10:30:37 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\setup_x64.exe" "/S"
+2026-10-11 10:30:37 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x64.exe: The requested operation requires elevation.
+2026-10-11 10:30:37 [信息] 【判定】第 1/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:30:39 [信息] 【执行】第 2/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\setup_x64.exe" "/VERYSILENT" "/NORESTART" "/SUPPRESSMSGBOXES"
+2026-10-11 10:30:39 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x64.exe: The requested operation requires elevation.
+2026-10-11 10:30:39 [信息] 【判定】第 2/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:30:41 [信息] 【执行】第 3/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\setup_x64.exe" "/s" "/v/qn"
+2026-10-11 10:30:41 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x64.exe: The requested operation requires elevation.
+2026-10-11 10:30:41 [信息] 【判定】第 3/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:30:43 [信息] 【执行】第 4/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\setup_x64.exe" "/quiet" "/norestart"
+2026-10-11 10:30:43 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x64.exe: The requested operation requires elevation.
+2026-10-11 10:30:43 [信息] 【判定】第 4/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:30:45 [信息] 【执行】第 5/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\setup_x64.exe" "/silent"
+2026-10-11 10:30:45 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x64.exe: The requested operation requires elevation.
+2026-10-11 10:30:45 [信息] 【判定】第 5/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:30:47 [信息] 【执行】第 6/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\setup_x64.exe" "--silent"
+2026-10-11 10:30:47 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x64.exe: The requested operation requires elevation.
+2026-10-11 10:30:47 [信息] 【判定】第 6/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:30:49 [信息] 【执行】第 7/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\setup_x64.exe" "--quiet"
+2026-10-11 10:30:49 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x64.exe: The requested operation requires elevation.
+2026-10-11 10:30:49 [信息] 【判定】第 7/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:30:52 [信息] 【执行】第 8/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\setup_x64.exe" "-s"
+2026-10-11 10:30:52 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x64.exe: The requested operation requires elevation.
+2026-10-11 10:30:52 [信息] 【判定】第 8/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:30:54 [信息] 【执行】第 9/9 次尝试：方法=no_param_run，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\setup_x64.exe"
+2026-10-11 10:30:54 [警告] 【执行】无法启动安装进程（方法=no_param_run）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x64.exe: The requested operation requires elevation.
+2026-10-11 10:30:54 [信息] 【判定】第 9/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:30:54 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x64.exe → 失败
+2026-10-11 10:30:54 [信息] 【入口】选用入口：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x86.exe（优先级 P1，判定依据 entry_p1_named）
+2026-10-11 10:30:54 [信息] 【识别】识别结果：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x86.exe → pe_executable（242.2 KB）
+2026-10-11 10:30:54 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x86.exe
+2026-10-11 10:30:54 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x86.exe）：C:\Program Files\WindowsApps: open C:\Program Files\WindowsApps: Access is denied.
+2026-10-11 10:30:54 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x86.exe）：C:\ProgramData\Microsoft\Diagnosis: open C:\ProgramData\Microsoft\Diagnosis: Access is denied.
+2026-10-11 10:30:54 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x86.exe）：C:\ProgramData\Microsoft\SmsRouter: open C:\ProgramData\Microsoft\SmsRouter: Access is denied.
+2026-10-11 10:30:54 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x86.exe）：C:\ProgramData\Microsoft\Windows Defender: open C:\ProgramData\Microsoft\Windows Defender: Access is denied.
+2026-10-11 10:30:54 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x86.exe）：C:\ProgramData\Packages: open C:\ProgramData\Packages: Access is denied.
+2026-10-11 10:30:54 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x86.exe）：文件系统快照达到条目数或 450ms 预算上限：负向文件计数证据已禁用
+2026-10-11 10:30:54 [信息] 【执行】准备按 9 种方式依次尝试安装：silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、no_param_run
+2026-10-11 10:30:54 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\setup_x86.exe" "/S"
+2026-10-11 10:30:55 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x86.exe: The requested operation requires elevation.
+2026-10-11 10:30:55 [信息] 【判定】第 1/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:30:57 [信息] 【执行】第 2/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\setup_x86.exe" "/VERYSILENT" "/NORESTART" "/SUPPRESSMSGBOXES"
+2026-10-11 10:30:57 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x86.exe: The requested operation requires elevation.
+2026-10-11 10:30:57 [信息] 【判定】第 2/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:30:59 [信息] 【执行】第 3/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\setup_x86.exe" "/s" "/v/qn"
+2026-10-11 10:30:59 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x86.exe: The requested operation requires elevation.
+2026-10-11 10:30:59 [信息] 【判定】第 3/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:31:01 [信息] 【执行】第 4/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\setup_x86.exe" "/quiet" "/norestart"
+2026-10-11 10:31:01 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x86.exe: The requested operation requires elevation.
+2026-10-11 10:31:01 [信息] 【判定】第 4/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:31:03 [信息] 【执行】第 5/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\setup_x86.exe" "/silent"
+2026-10-11 10:31:03 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x86.exe: The requested operation requires elevation.
+2026-10-11 10:31:03 [信息] 【判定】第 5/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:31:05 [信息] 【执行】第 6/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\setup_x86.exe" "--silent"
+2026-10-11 10:31:05 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x86.exe: The requested operation requires elevation.
+2026-10-11 10:31:05 [信息] 【判定】第 6/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:31:07 [信息] 【执行】第 7/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\setup_x86.exe" "--quiet"
+2026-10-11 10:31:07 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x86.exe: The requested operation requires elevation.
+2026-10-11 10:31:07 [信息] 【判定】第 7/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:31:09 [信息] 【执行】第 8/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\setup_x86.exe" "-s"
+2026-10-11 10:31:09 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x86.exe: The requested operation requires elevation.
+2026-10-11 10:31:09 [信息] 【判定】第 8/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:31:11 [信息] 【执行】第 9/9 次尝试：方法=no_param_run，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\setup_x86.exe"
+2026-10-11 10:31:11 [警告] 【执行】无法启动安装进程（方法=no_param_run）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x86.exe: The requested operation requires elevation.
+2026-10-11 10:31:11 [信息] 【判定】第 9/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:31:11 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\setup_x86.exe → 失败
+2026-10-11 10:31:11 [信息] 【入口】选用入口：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\MyApp.exe（优先级 P4，判定依据 entry_p4_main）
+2026-10-11 10:31:11 [信息] 【识别】识别结果：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\MyApp.exe → pe_executable（6.5 KB）
+2026-10-11 10:31:11 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\MyApp.exe
+2026-10-11 10:31:11 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\MyApp.exe）：C:\Program Files\WindowsApps: open C:\Program Files\WindowsApps: Access is denied.
+2026-10-11 10:31:11 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\MyApp.exe）：C:\ProgramData\Microsoft\Diagnosis: open C:\ProgramData\Microsoft\Diagnosis: Access is denied.
+2026-10-11 10:31:11 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\MyApp.exe）：C:\ProgramData\Microsoft\SmsRouter: open C:\ProgramData\Microsoft\SmsRouter: Access is denied.
+2026-10-11 10:31:11 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\MyApp.exe）：C:\ProgramData\Microsoft\Windows Defender: open C:\ProgramData\Microsoft\Windows Defender: Access is denied.
+2026-10-11 10:31:11 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\MyApp.exe）：C:\ProgramData\Packages: open C:\ProgramData\Packages: Access is denied.
+2026-10-11 10:31:11 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\MyApp.exe）：文件系统快照达到条目数或 450ms 预算上限：负向文件计数证据已禁用
+2026-10-11 10:31:11 [信息] 【执行】准备按 9 种方式依次尝试安装：silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、no_param_run
+2026-10-11 10:31:11 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\MyApp.exe" "/VERYSILENT" "/NORESTART" "/SUPPRESSMSGBOXES"
+2026-10-11 10:31:11 [信息] 【执行】已启动安装进程：方法=silent_install，PID=9700
+2026-10-11 10:31:11 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.5 秒
+2026-10-11 10:31:15 [信息] 【判定】第 1/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:31:15 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:17 [信息] 【执行】第 2/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\MyApp.exe" "/S"
+2026-10-11 10:31:17 [信息] 【执行】已启动安装进程：方法=silent_install，PID=6452
+2026-10-11 10:31:18 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.7 秒
+2026-10-11 10:31:21 [信息] 【判定】第 2/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:31:21 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:21 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:23 [信息] 【执行】第 3/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\MyApp.exe" "/s" "/v/qn"
+2026-10-11 10:31:23 [信息] 【执行】已启动安装进程：方法=silent_install，PID=2428
+2026-10-11 10:31:23 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.5 秒
+2026-10-11 10:31:27 [信息] 【判定】第 3/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:31:27 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:27 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:27 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:29 [信息] 【执行】第 4/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\MyApp.exe" "/quiet" "/norestart"
+2026-10-11 10:31:29 [信息] 【执行】已启动安装进程：方法=silent_install，PID=7800
+2026-10-11 10:31:29 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.4 秒
+2026-10-11 10:31:32 [信息] 【判定】第 4/9 次尝试判定：部分完成（置信度 low）
+2026-10-11 10:31:32 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:32 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:32 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:32 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:34 [信息] 【执行】第 5/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\MyApp.exe" "/silent"
+2026-10-11 10:31:34 [信息] 【执行】已启动安装进程：方法=silent_install，PID=2660
+2026-10-11 10:31:35 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.5 秒
+2026-10-11 10:31:38 [信息] 【判定】第 5/9 次尝试判定：部分完成（置信度 low）
+2026-10-11 10:31:38 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:38 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:38 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:38 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:38 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:40 [信息] 【执行】第 6/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\MyApp.exe" "--silent"
+2026-10-11 10:31:40 [信息] 【执行】已启动安装进程：方法=silent_install，PID=10084
+2026-10-11 10:31:40 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.4 秒
+2026-10-11 10:31:43 [信息] 【判定】第 6/9 次尝试判定：部分完成（置信度 low）
+2026-10-11 10:31:43 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:43 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:43 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:43 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:43 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:43 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:45 [信息] 【执行】第 7/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\MyApp.exe" "--quiet"
+2026-10-11 10:31:45 [信息] 【执行】已启动安装进程：方法=silent_install，PID=8324
+2026-10-11 10:31:46 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.6 秒
+2026-10-11 10:31:49 [信息] 【判定】第 7/9 次尝试判定：部分完成（置信度 low）
+2026-10-11 10:31:49 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:49 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:49 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:49 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:49 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:49 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:49 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:51 [信息] 【执行】第 8/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-285097678\\MyApp.exe" "-s"
+2026-10-11 10:31:51 [信息] 【执行】已启动安装进程：方法=silent_install，PID=1944
+2026-10-11 10:31:52 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.3 秒
+2026-10-11 10:31:55 [信息] 【判定】第 8/9 次尝试判定：部分完成（置信度 low）
+2026-10-11 10:31:55 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:55 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:55 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:55 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:55 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:55 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:55 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:55 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:31:55 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\MyApp.exe → 部分完成
+2026-10-11 10:31:55 [信息] 【入口】排除（命中禁执行清单 update|updater|checkupdate|升级）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\checkupdate.exe
+2026-10-11 10:31:55 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\checkupdate.exe → 跳过（excluded_blacklist: update|updater|checkupdate|升级）
+2026-10-11 10:31:55 [信息] 【入口】排除（命中禁执行清单 crashpad|crashreporter|werfault|debug）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\crashpad_handler.exe
+2026-10-11 10:31:55 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\crashpad_handler.exe → 跳过（excluded_blacklist: crashpad|crashreporter|werfault|debug）
+2026-10-11 10:31:55 [信息] 【入口】排除（命中禁执行清单 crashpad|crashreporter|werfault|debug）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\crashreporter.exe
+2026-10-11 10:31:55 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\crashreporter.exe → 跳过（excluded_blacklist: crashpad|crashreporter|werfault|debug）
+2026-10-11 10:31:55 [信息] 【入口】排除（命中禁执行清单 crashpad|crashreporter|werfault|debug）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\debug-helper.exe
+2026-10-11 10:31:55 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\debug-helper.exe → 跳过（excluded_blacklist: crashpad|crashreporter|werfault|debug）
+2026-10-11 10:31:55 [信息] 【入口】排除（命中禁执行清单 ）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\help.chm
+2026-10-11 10:31:55 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\help.chm → 跳过（non_executable_entry）
+2026-10-11 10:31:55 [信息] 【入口】排除（命中禁执行清单 ）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\manual.pdf
+2026-10-11 10:31:55 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\manual.pdf → 跳过（non_executable_entry）
+2026-10-11 10:31:55 [信息] 【入口】排除（命中禁执行清单 repair|修复|modify）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\modify.exe
+2026-10-11 10:31:55 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\modify.exe → 跳过（excluded_blacklist: repair|修复|modify）
+2026-10-11 10:31:55 [信息] 【入口】排除（命中禁执行清单 ）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\readme.txt
+2026-10-11 10:31:55 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\readme.txt → 跳过（non_executable_entry）
+2026-10-11 10:31:55 [信息] 【入口】排除（命中禁执行清单 repair|修复|modify）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\repair.exe
+2026-10-11 10:31:55 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\repair.exe → 跳过（excluded_blacklist: repair|修复|modify）
+2026-10-11 10:31:55 [信息] 【入口】排除（命中禁执行清单 uninstall|unins0|卸载|反安装|remove）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\unins000.exe
+2026-10-11 10:31:55 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\unins000.exe → 跳过（excluded_blacklist: uninstall|unins0|卸载|反安装|remove）
+2026-10-11 10:31:55 [信息] 【入口】排除（命中禁执行清单 uninstall|unins0|卸载|反安装|remove）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\uninstall.exe
+2026-10-11 10:31:55 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\uninstall.exe → 跳过（excluded_blacklist: uninstall|unins0|卸载|反安装|remove）
+2026-10-11 10:31:55 [信息] 【入口】排除（命中禁执行清单 update|updater|checkupdate|升级）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\update.exe
+2026-10-11 10:31:55 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\update.exe → 跳过（excluded_blacklist: update|updater|checkupdate|升级）
+2026-10-11 10:31:55 [信息] 【入口】排除（命中禁执行清单 update|updater|checkupdate|升级）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\updater.exe
+2026-10-11 10:31:55 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\updater.exe → 跳过（excluded_blacklist: update|updater|checkupdate|升级）
+2026-10-11 10:31:55 [信息] 【入口】排除（命中禁执行清单 uninstall|unins0|卸载|反安装|remove）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\卸载.exe
+2026-10-11 10:31:55 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\卸载.exe → 跳过（excluded_blacklist: uninstall|unins0|卸载|反安装|remove）
+2026-10-11 10:31:55 [信息] 【入口】排除（命中禁执行清单 ）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\安装说明.txt
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\安装说明.txt → 跳过（non_executable_entry）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib00.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib00.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib01.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib01.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib02.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib02.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib03.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib03.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib04.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib04.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib05.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib05.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib06.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib06.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib07.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib07.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib08.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib08.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib09.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib09.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib10.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib10.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib11.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib11.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib12.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib12.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib13.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib13.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib14.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib14.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib15.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib15.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib16.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib16.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib17.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib17.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib18.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib18.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib19.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib19.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib20.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib20.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib21.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib21.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib22.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib22.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib23.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib23.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib24.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib24.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib25.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib25.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib26.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib26.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib27.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib27.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib28.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib28.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib29.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib29.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib30.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib30.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib31.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib31.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib32.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib32.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib33.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib33.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib34.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib34.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib35.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib35.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib36.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib36.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib37.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib37.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib38.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib38.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib39.dll
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\runtime\lib39.dll → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【入口】跳过（任务总时长已到上限）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\sub\deep\tool-p5.exe
+2026-10-11 10:31:56 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-285097678\sub\deep\tool-p5.exe → 跳过（task_timeout）
+2026-10-11 10:31:56 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-04-规范包压缩版.7z → 已触发（未确认安装）（container processed）
+2026-10-11 10:31:56 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-04-规范包压缩版.zip（优先级 P5，判定依据 fallback_p5）
+2026-10-11 10:31:56 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-04-规范包压缩版.zip → archive（732.3 KB）
+2026-10-11 10:31:56 [信息] 【解压】识别为压缩包，开始解压处理：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-04-规范包压缩版.zip
+2026-10-11 10:31:56 [信息] 【解压】预检归档文件：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-04-规范包压缩版.zip，可执行条目 51 个，已排除 11 个（卸载/修复/更新/调试类绝不执行）
+2026-10-11 10:31:56 [信息] 【解压】开始解压到临时目录：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479
+2026-10-11 10:31:56 [信息] 【入口】结构分析完成：候选入口 62 个，排除 11 个（排除项见结果 JSON 的 layout_analysis）
+2026-10-11 10:31:56 [信息] 【入口】选用入口：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\vcredist_x64.exe（优先级 P3，判定依据 entry_p3_prereq）
+2026-10-11 10:31:56 [信息] 【识别】识别结果：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\vcredist_x64.exe → pe_executable（6.5 KB）
+2026-10-11 10:31:56 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\vcredist_x64.exe
+2026-10-11 10:31:56 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\vcredist_x64.exe）：C:\Program Files\WindowsApps: open C:\Program Files\WindowsApps: Access is denied.
+2026-10-11 10:31:56 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\vcredist_x64.exe）：C:\ProgramData\Microsoft\Diagnosis: open C:\ProgramData\Microsoft\Diagnosis: Access is denied.
+2026-10-11 10:31:56 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\vcredist_x64.exe）：C:\ProgramData\Microsoft\SmsRouter: open C:\ProgramData\Microsoft\SmsRouter: Access is denied.
+2026-10-11 10:31:56 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\vcredist_x64.exe）：C:\ProgramData\Microsoft\Windows Defender: open C:\ProgramData\Microsoft\Windows Defender: Access is denied.
+2026-10-11 10:31:56 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\vcredist_x64.exe）：C:\ProgramData\Packages: open C:\ProgramData\Packages: Access is denied.
+2026-10-11 10:31:56 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\vcredist_x64.exe）：文件系统快照达到条目数或 450ms 预算上限：负向文件计数证据已禁用
+2026-10-11 10:31:56 [信息] 【执行】准备按 9 种方式依次尝试安装：silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、no_param_run
+2026-10-11 10:31:56 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\vcredist_x64.exe" "/VERYSILENT" "/NORESTART" "/SUPPRESSMSGBOXES"
+2026-10-11 10:31:56 [信息] 【执行】已启动安装进程：方法=silent_install，PID=8404
+2026-10-11 10:31:56 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.3 秒
+2026-10-11 10:31:59 [信息] 【判定】第 1/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:31:59 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:01 [信息] 【执行】第 2/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\vcredist_x64.exe" "/S"
+2026-10-11 10:32:01 [信息] 【执行】已启动安装进程：方法=silent_install，PID=10652
+2026-10-11 10:32:02 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.3 秒
+2026-10-11 10:32:05 [信息] 【判定】第 2/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:32:05 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:05 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:07 [信息] 【执行】第 3/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\vcredist_x64.exe" "/s" "/v/qn"
+2026-10-11 10:32:07 [信息] 【执行】已启动安装进程：方法=silent_install，PID=1604
+2026-10-11 10:32:07 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.3 秒
+2026-10-11 10:32:11 [信息] 【判定】第 3/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:32:11 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:11 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:11 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:13 [信息] 【执行】第 4/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\vcredist_x64.exe" "/quiet" "/norestart"
+2026-10-11 10:32:13 [信息] 【执行】已启动安装进程：方法=silent_install，PID=9864
+2026-10-11 10:32:13 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.3 秒
+2026-10-11 10:32:17 [信息] 【判定】第 4/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:32:17 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:17 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:17 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:17 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:19 [信息] 【执行】第 5/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\vcredist_x64.exe" "/silent"
+2026-10-11 10:32:19 [信息] 【执行】已启动安装进程：方法=silent_install，PID=8248
+2026-10-11 10:32:19 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.5 秒
+2026-10-11 10:32:23 [信息] 【判定】第 5/9 次尝试判定：部分完成（置信度 low）
+2026-10-11 10:32:23 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:23 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:23 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:23 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:23 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:25 [信息] 【执行】第 6/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\vcredist_x64.exe" "--silent"
+2026-10-11 10:32:25 [信息] 【执行】已启动安装进程：方法=silent_install，PID=1264
+2026-10-11 10:32:25 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.1 秒
+2026-10-11 10:32:28 [信息] 【判定】第 6/9 次尝试判定：部分完成（置信度 low）
+2026-10-11 10:32:28 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:28 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:28 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:28 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:28 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:28 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:30 [信息] 【执行】第 7/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\vcredist_x64.exe" "--quiet"
+2026-10-11 10:32:30 [信息] 【执行】已启动安装进程：方法=silent_install，PID=4824
+2026-10-11 10:32:30 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.1 秒
+2026-10-11 10:32:35 [信息] 【判定】第 7/9 次尝试判定：部分完成（置信度 low）
+2026-10-11 10:32:35 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:35 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:35 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:35 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:35 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:35 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:35 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:37 [信息] 【执行】第 8/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\vcredist_x64.exe" "-s"
+2026-10-11 10:32:37 [信息] 【执行】已启动安装进程：方法=silent_install，PID=504
+2026-10-11 10:32:37 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.1 秒
+2026-10-11 10:32:41 [信息] 【判定】第 8/9 次尝试判定：部分完成（置信度 low）
+2026-10-11 10:32:41 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:41 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:41 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:41 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:41 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:41 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:41 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:41 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:43 [信息] 【执行】第 9/9 次尝试：方法=no_param_run，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\vcredist_x64.exe"
+2026-10-11 10:32:43 [信息] 【执行】已启动安装进程：方法=no_param_run，PID=1436
+2026-10-11 10:32:43 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.2 秒
+2026-10-11 10:32:46 [信息] 【判定】第 9/9 次尝试判定：部分完成（置信度 low）
+2026-10-11 10:32:46 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:46 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:46 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:46 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:46 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:46 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:46 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:46 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:46 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:32:46 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\vcredist_x64.exe → 部分完成
+2026-10-11 10:32:46 [信息] 【入口】选用入口：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\install.bat（优先级 P0，判定依据 entry_p0_manifest）
+2026-10-11 10:32:46 [信息] 【识别】识别结果：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\install.bat → script（825 B）
+2026-10-11 10:32:46 [信息] 【执行】准备按 1 种方式依次尝试安装：script
+2026-10-11 10:32:46 [信息] 【执行】第 1/1 次尝试：方法=script，命令="C:\\WINDOWS\\System32\\cmd.exe" "/d" "/s" "/c" "\"C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\install.bat\""
+2026-10-11 10:32:46 [信息] 【执行】已启动安装进程：方法=script，PID=2752
+2026-10-11 10:32:46 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 0.1 秒
+2026-10-11 10:32:46 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\install.bat → 已触发（未确认安装）
+2026-10-11 10:32:46 [信息] 【入口】选用入口：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup.exe（优先级 P0，判定依据 entry_p0_manifest）
+2026-10-11 10:32:46 [信息] 【识别】识别结果：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup.exe → pe_executable（242.2 KB）
+2026-10-11 10:32:46 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup.exe
+2026-10-11 10:32:47 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup.exe）：C:\Program Files\WindowsApps: open C:\Program Files\WindowsApps: Access is denied.
+2026-10-11 10:32:47 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup.exe）：C:\ProgramData\Microsoft\Diagnosis: open C:\ProgramData\Microsoft\Diagnosis: Access is denied.
+2026-10-11 10:32:47 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup.exe）：C:\ProgramData\Microsoft\SmsRouter: open C:\ProgramData\Microsoft\SmsRouter: Access is denied.
+2026-10-11 10:32:47 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup.exe）：C:\ProgramData\Microsoft\Windows Defender: open C:\ProgramData\Microsoft\Windows Defender: Access is denied.
+2026-10-11 10:32:47 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup.exe）：C:\ProgramData\Packages: open C:\ProgramData\Packages: Access is denied.
+2026-10-11 10:32:47 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup.exe）：文件系统快照达到条目数或 450ms 预算上限：负向文件计数证据已禁用
+2026-10-11 10:32:47 [信息] 【执行】准备按 9 种方式依次尝试安装：silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、no_param_run
+2026-10-11 10:32:47 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\setup.exe" "/S"
+2026-10-11 10:32:47 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup.exe: The requested operation requires elevation.
+2026-10-11 10:32:47 [信息] 【判定】第 1/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:32:49 [信息] 【执行】第 2/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\setup.exe" "/VERYSILENT" "/NORESTART" "/SUPPRESSMSGBOXES"
+2026-10-11 10:32:49 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup.exe: The requested operation requires elevation.
+2026-10-11 10:32:49 [信息] 【判定】第 2/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:32:51 [信息] 【执行】第 3/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\setup.exe" "/s" "/v/qn"
+2026-10-11 10:32:51 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup.exe: The requested operation requires elevation.
+2026-10-11 10:32:51 [信息] 【判定】第 3/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:32:53 [信息] 【执行】第 4/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\setup.exe" "/quiet" "/norestart"
+2026-10-11 10:32:53 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup.exe: The requested operation requires elevation.
+2026-10-11 10:32:53 [信息] 【判定】第 4/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:32:55 [信息] 【执行】第 5/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\setup.exe" "/silent"
+2026-10-11 10:32:55 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup.exe: The requested operation requires elevation.
+2026-10-11 10:32:55 [信息] 【判定】第 5/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:32:57 [信息] 【执行】第 6/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\setup.exe" "--silent"
+2026-10-11 10:32:57 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup.exe: The requested operation requires elevation.
+2026-10-11 10:32:57 [信息] 【判定】第 6/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:32:59 [信息] 【执行】第 7/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\setup.exe" "--quiet"
+2026-10-11 10:32:59 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup.exe: The requested operation requires elevation.
+2026-10-11 10:32:59 [信息] 【判定】第 7/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:33:01 [信息] 【执行】第 8/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\setup.exe" "-s"
+2026-10-11 10:33:01 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup.exe: The requested operation requires elevation.
+2026-10-11 10:33:01 [信息] 【判定】第 8/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:33:03 [信息] 【执行】第 9/9 次尝试：方法=no_param_run，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\setup.exe"
+2026-10-11 10:33:03 [警告] 【执行】无法启动安装进程（方法=no_param_run）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup.exe: The requested operation requires elevation.
+2026-10-11 10:33:03 [信息] 【判定】第 9/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:33:03 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup.exe → 失败
+2026-10-11 10:33:03 [信息] 【入口】选用入口：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x64.exe（优先级 P1，判定依据 entry_p1_named）
+2026-10-11 10:33:03 [信息] 【识别】识别结果：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x64.exe → pe_executable（242.2 KB）
+2026-10-11 10:33:03 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x64.exe
+2026-10-11 10:33:03 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x64.exe）：C:\Program Files\WindowsApps: open C:\Program Files\WindowsApps: Access is denied.
+2026-10-11 10:33:03 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x64.exe）：C:\ProgramData\Microsoft\Diagnosis: open C:\ProgramData\Microsoft\Diagnosis: Access is denied.
+2026-10-11 10:33:03 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x64.exe）：C:\ProgramData\Microsoft\SmsRouter: open C:\ProgramData\Microsoft\SmsRouter: Access is denied.
+2026-10-11 10:33:03 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x64.exe）：C:\ProgramData\Microsoft\Windows Defender: open C:\ProgramData\Microsoft\Windows Defender: Access is denied.
+2026-10-11 10:33:03 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x64.exe）：C:\ProgramData\Packages: open C:\ProgramData\Packages: Access is denied.
+2026-10-11 10:33:03 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x64.exe）：文件系统快照达到条目数或 450ms 预算上限：负向文件计数证据已禁用
+2026-10-11 10:33:03 [信息] 【执行】准备按 9 种方式依次尝试安装：silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、no_param_run
+2026-10-11 10:33:03 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\setup_x64.exe" "/S"
+2026-10-11 10:33:03 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x64.exe: The requested operation requires elevation.
+2026-10-11 10:33:03 [信息] 【判定】第 1/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:33:05 [信息] 【执行】第 2/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\setup_x64.exe" "/VERYSILENT" "/NORESTART" "/SUPPRESSMSGBOXES"
+2026-10-11 10:33:05 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x64.exe: The requested operation requires elevation.
+2026-10-11 10:33:05 [信息] 【判定】第 2/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:33:07 [信息] 【执行】第 3/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\setup_x64.exe" "/s" "/v/qn"
+2026-10-11 10:33:07 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x64.exe: The requested operation requires elevation.
+2026-10-11 10:33:07 [信息] 【判定】第 3/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:33:09 [信息] 【执行】第 4/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\setup_x64.exe" "/quiet" "/norestart"
+2026-10-11 10:33:09 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x64.exe: The requested operation requires elevation.
+2026-10-11 10:33:09 [信息] 【判定】第 4/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:33:11 [信息] 【执行】第 5/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\setup_x64.exe" "/silent"
+2026-10-11 10:33:11 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x64.exe: The requested operation requires elevation.
+2026-10-11 10:33:11 [信息] 【判定】第 5/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:33:13 [信息] 【执行】第 6/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\setup_x64.exe" "--silent"
+2026-10-11 10:33:13 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x64.exe: The requested operation requires elevation.
+2026-10-11 10:33:13 [信息] 【判定】第 6/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:33:15 [信息] 【执行】第 7/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\setup_x64.exe" "--quiet"
+2026-10-11 10:33:15 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x64.exe: The requested operation requires elevation.
+2026-10-11 10:33:15 [信息] 【判定】第 7/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:33:17 [信息] 【执行】第 8/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\setup_x64.exe" "-s"
+2026-10-11 10:33:17 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x64.exe: The requested operation requires elevation.
+2026-10-11 10:33:17 [信息] 【判定】第 8/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:33:19 [信息] 【执行】第 9/9 次尝试：方法=no_param_run，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\setup_x64.exe"
+2026-10-11 10:33:19 [警告] 【执行】无法启动安装进程（方法=no_param_run）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x64.exe: The requested operation requires elevation.
+2026-10-11 10:33:19 [信息] 【判定】第 9/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:33:19 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x64.exe → 失败
+2026-10-11 10:33:19 [信息] 【入口】选用入口：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x86.exe（优先级 P1，判定依据 entry_p1_named）
+2026-10-11 10:33:19 [信息] 【识别】识别结果：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x86.exe → pe_executable（242.2 KB）
+2026-10-11 10:33:19 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x86.exe
+2026-10-11 10:33:20 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x86.exe）：C:\Program Files\WindowsApps: open C:\Program Files\WindowsApps: Access is denied.
+2026-10-11 10:33:20 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x86.exe）：C:\ProgramData\Microsoft\Diagnosis: open C:\ProgramData\Microsoft\Diagnosis: Access is denied.
+2026-10-11 10:33:20 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x86.exe）：C:\ProgramData\Microsoft\SmsRouter: open C:\ProgramData\Microsoft\SmsRouter: Access is denied.
+2026-10-11 10:33:20 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x86.exe）：C:\ProgramData\Microsoft\Windows Defender: open C:\ProgramData\Microsoft\Windows Defender: Access is denied.
+2026-10-11 10:33:20 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x86.exe）：C:\ProgramData\Packages: open C:\ProgramData\Packages: Access is denied.
+2026-10-11 10:33:20 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x86.exe）：文件系统快照达到条目数或 450ms 预算上限：负向文件计数证据已禁用
+2026-10-11 10:33:20 [信息] 【执行】准备按 9 种方式依次尝试安装：silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、no_param_run
+2026-10-11 10:33:20 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\setup_x86.exe" "/S"
+2026-10-11 10:33:20 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x86.exe: The requested operation requires elevation.
+2026-10-11 10:33:20 [信息] 【判定】第 1/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:33:22 [信息] 【执行】第 2/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\setup_x86.exe" "/VERYSILENT" "/NORESTART" "/SUPPRESSMSGBOXES"
+2026-10-11 10:33:22 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x86.exe: The requested operation requires elevation.
+2026-10-11 10:33:22 [信息] 【判定】第 2/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:33:24 [信息] 【执行】第 3/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\setup_x86.exe" "/s" "/v/qn"
+2026-10-11 10:33:24 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x86.exe: The requested operation requires elevation.
+2026-10-11 10:33:24 [信息] 【判定】第 3/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:33:26 [信息] 【执行】第 4/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\setup_x86.exe" "/quiet" "/norestart"
+2026-10-11 10:33:26 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x86.exe: The requested operation requires elevation.
+2026-10-11 10:33:26 [信息] 【判定】第 4/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:33:28 [信息] 【执行】第 5/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\setup_x86.exe" "/silent"
+2026-10-11 10:33:28 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x86.exe: The requested operation requires elevation.
+2026-10-11 10:33:28 [信息] 【判定】第 5/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:33:30 [信息] 【执行】第 6/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\setup_x86.exe" "--silent"
+2026-10-11 10:33:30 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x86.exe: The requested operation requires elevation.
+2026-10-11 10:33:30 [信息] 【判定】第 6/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:33:32 [信息] 【执行】第 7/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\setup_x86.exe" "--quiet"
+2026-10-11 10:33:32 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x86.exe: The requested operation requires elevation.
+2026-10-11 10:33:32 [信息] 【判定】第 7/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:33:34 [信息] 【执行】第 8/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\setup_x86.exe" "-s"
+2026-10-11 10:33:34 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x86.exe: The requested operation requires elevation.
+2026-10-11 10:33:34 [信息] 【判定】第 8/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:33:36 [信息] 【执行】第 9/9 次尝试：方法=no_param_run，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\setup_x86.exe"
+2026-10-11 10:33:36 [警告] 【执行】无法启动安装进程（方法=no_param_run）：fork/exec <DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x86.exe: The requested operation requires elevation.
+2026-10-11 10:33:36 [信息] 【判定】第 9/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:33:36 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\setup_x86.exe → 失败
+2026-10-11 10:33:36 [信息] 【入口】选用入口：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\MyApp.exe（优先级 P4，判定依据 entry_p4_main）
+2026-10-11 10:33:36 [信息] 【识别】识别结果：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\MyApp.exe → pe_executable（6.5 KB）
+2026-10-11 10:33:36 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\MyApp.exe
+2026-10-11 10:33:36 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\MyApp.exe）：C:\Program Files\WindowsApps: open C:\Program Files\WindowsApps: Access is denied.
+2026-10-11 10:33:36 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\MyApp.exe）：C:\ProgramData\Microsoft\Diagnosis: open C:\ProgramData\Microsoft\Diagnosis: Access is denied.
+2026-10-11 10:33:36 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\MyApp.exe）：C:\ProgramData\Microsoft\SmsRouter: open C:\ProgramData\Microsoft\SmsRouter: Access is denied.
+2026-10-11 10:33:36 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\MyApp.exe）：C:\ProgramData\Microsoft\Windows Defender: open C:\ProgramData\Microsoft\Windows Defender: Access is denied.
+2026-10-11 10:33:36 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\MyApp.exe）：C:\ProgramData\Packages: open C:\ProgramData\Packages: Access is denied.
+2026-10-11 10:33:36 [警告] 【判定】基线采集告警（<DESKTOP>\<USER>\AppData\Local\Temp\AT-1665838479\MyApp.exe）：文件系统快照达到条目数或 450ms 预算上限：负向文件计数证据已禁用
+2026-10-11 10:33:36 [信息] 【执行】准备按 9 种方式依次尝试安装：silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、no_param_run
+2026-10-11 10:33:36 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\MyApp.exe" "/VERYSILENT" "/NORESTART" "/SUPPRESSMSGBOXES"
+2026-10-11 10:33:36 [信息] 【执行】已启动安装进程：方法=silent_install，PID=9436
+2026-10-11 10:33:36 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.2 秒
+2026-10-11 10:33:47 [信息] 【判定】第 1/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:33:47 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:33:49 [信息] 【执行】第 2/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\MyApp.exe" "/S"
+2026-10-11 10:33:49 [信息] 【执行】已启动安装进程：方法=silent_install，PID=4768
+2026-10-11 10:33:49 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.1 秒
+2026-10-11 10:33:52 [信息] 【判定】第 2/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:33:52 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:33:52 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:33:54 [信息] 【执行】第 3/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\MyApp.exe" "/s" "/v/qn"
+2026-10-11 10:33:54 [信息] 【执行】已启动安装进程：方法=silent_install，PID=3828
+2026-10-11 10:33:54 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.1 秒
+2026-10-11 10:33:57 [信息] 【判定】第 3/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:33:57 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:33:57 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:33:57 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:33:59 [信息] 【执行】第 4/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\MyApp.exe" "/quiet" "/norestart"
+2026-10-11 10:33:59 [信息] 【执行】已启动安装进程：方法=silent_install，PID=5420
+2026-10-11 10:33:59 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.1 秒
+2026-10-11 10:34:10 [信息] 【判定】第 4/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:34:10 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:34:10 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:34:10 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:34:10 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:34:12 [信息] 【执行】第 5/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\MyApp.exe" "/silent"
+2026-10-11 10:34:12 [信息] 【执行】已启动安装进程：方法=silent_install，PID=8248
+2026-10-11 10:34:12 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.1 秒
+2026-10-11 10:34:16 [信息] 【判定】第 5/9 次尝试判定：失败（置信度 未知）
+2026-10-11 10:34:16 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:34:16 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:34:16 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:34:16 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:34:16 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:34:18 [信息] 【执行】第 6/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\MyApp.exe" "--silent"
+2026-10-11 10:34:18 [信息] 【执行】已启动安装进程：方法=silent_install，PID=9000
+2026-10-11 10:34:18 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.1 秒
+2026-10-11 10:34:21 [信息] 【判定】第 6/9 次尝试判定：部分完成（置信度 low）
+2026-10-11 10:34:21 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:34:21 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:34:21 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:34:21 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:34:21 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:34:21 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:34:23 [信息] 【执行】第 7/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\MyApp.exe" "--quiet"
+2026-10-11 10:34:23 [信息] 【执行】已启动安装进程：方法=silent_install，PID=4976
+2026-10-11 10:34:23 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3762504530，耗时 0.1 秒
+2026-10-11 10:34:26 [信息] 【判定】第 7/9 次尝试判定：部分完成（置信度 low）
+2026-10-11 10:34:26 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:34:26 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:34:26 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:34:26 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:34:26 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:34:26 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:34:26 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 3762504530
+2026-10-11 10:34:28 [信息] 【执行】第 8/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1665838479\\MyApp.exe" "-s"
+2026-10-11 10:34:28 [信息] 【执行】已启动安装进程：方法=silent_install，PID=8032

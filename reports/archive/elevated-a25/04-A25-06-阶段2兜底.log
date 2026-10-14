@@ -1,0 +1,146 @@
+2026-10-11 12:26:31 [警告] 【任务】配置提示：内置图像模板为空：仍会使用 UIA/Win32 与 OCR 识别；如需更高命中率，请按 D17 补齐模板
+2026-10-11 12:26:31 [信息] 【任务】任务开始：task_id=295d6598-9a91-4ff7-9382-a79cfa10da32，工具版本 0.1.0，资源包 0.1.0
+2026-10-11 12:26:31 [信息] 【任务】结果文件：<REPORT_ROOT_A>\elevated-a25\04-A25-06-阶段2兜底.json
+2026-10-11 12:26:31 [信息] 【任务】日志文件：<REPORT_ROOT_A>\elevated-a25\04-A25-06-阶段2兜底.log
+2026-10-11 12:26:32 [信息] 【任务】开始处理目录：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底（递归=false，共发现 6 个文件）
+2026-10-11 12:26:32 [信息] 【入口】结构分析完成：候选入口 6 个，排除 0 个（排除项见结果 JSON 的 layout_analysis）
+2026-10-11 12:26:32 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\vcredist_x64.exe（优先级 P3，判定依据 entry_p3_prereq）
+2026-10-11 12:26:32 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\vcredist_x64.exe → pe_executable（514 B）
+2026-10-11 12:26:32 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\vcredist_x64.exe
+2026-10-11 12:26:32 [信息] 【执行】准备按 9 种方式依次尝试安装：silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、no_param_run
+2026-10-11 12:26:32 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\vcredist_x64.exe" "/VERYSILENT" "/NORESTART" "/SUPPRESSMSGBOXES"
+2026-10-11 12:26:32 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\vcredist_x64.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:26:32 [信息] 【判定】第 1/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:26:34 [信息] 【执行】第 2/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\vcredist_x64.exe" "/S"
+2026-10-11 12:26:34 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\vcredist_x64.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:26:34 [信息] 【判定】第 2/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:26:36 [信息] 【执行】第 3/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\vcredist_x64.exe" "/s" "/v/qn"
+2026-10-11 12:26:36 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\vcredist_x64.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:26:36 [信息] 【判定】第 3/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:26:38 [信息] 【执行】第 4/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\vcredist_x64.exe" "/quiet" "/norestart"
+2026-10-11 12:26:38 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\vcredist_x64.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:26:38 [信息] 【判定】第 4/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:26:40 [信息] 【执行】第 5/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\vcredist_x64.exe" "/silent"
+2026-10-11 12:26:40 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\vcredist_x64.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:26:40 [信息] 【判定】第 5/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:26:42 [信息] 【执行】第 6/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\vcredist_x64.exe" "--silent"
+2026-10-11 12:26:42 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\vcredist_x64.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:26:42 [信息] 【判定】第 6/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:26:44 [信息] 【执行】第 7/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\vcredist_x64.exe" "--quiet"
+2026-10-11 12:26:44 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\vcredist_x64.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:26:44 [信息] 【判定】第 7/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:26:46 [信息] 【执行】第 8/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\vcredist_x64.exe" "-s"
+2026-10-11 12:26:46 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\vcredist_x64.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:26:46 [信息] 【判定】第 8/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:26:48 [信息] 【执行】第 9/9 次尝试：方法=no_param_run，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\vcredist_x64.exe"
+2026-10-11 12:26:48 [警告] 【执行】无法启动安装进程（方法=no_param_run）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\vcredist_x64.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:26:48 [信息] 【判定】第 9/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:26:48 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\vcredist_x64.exe → 失败
+2026-10-11 12:26:48 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\install.bat（优先级 P0，判定依据 entry_p0_manifest）
+2026-10-11 12:26:48 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\install.bat → script（47 B）
+2026-10-11 12:26:48 [信息] 【执行】准备按 1 种方式依次尝试安装：script
+2026-10-11 12:26:48 [信息] 【执行】第 1/1 次尝试：方法=script，命令="C:\\WINDOWS\\System32\\cmd.exe" "/d" "/s" "/c" "\"C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\install.bat\""
+2026-10-11 12:26:48 [信息] 【执行】已启动安装进程：方法=script，PID=5960
+2026-10-11 12:26:48 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=1，耗时 0.1 秒
+2026-10-11 12:26:49 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\install.bat → 失败
+2026-10-11 12:26:49 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\install-helper.exe（优先级 P1，判定依据 entry_p1_named）
+2026-10-11 12:26:49 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\install-helper.exe → pe_executable（514 B）
+2026-10-11 12:26:49 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\install-helper.exe
+2026-10-11 12:26:49 [信息] 【执行】准备按 9 种方式依次尝试安装：silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、no_param_run
+2026-10-11 12:26:49 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\install-helper.exe" "/VERYSILENT" "/NORESTART" "/SUPPRESSMSGBOXES"
+2026-10-11 12:26:49 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\install-helper.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:26:49 [信息] 【判定】第 1/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:26:51 [信息] 【执行】第 2/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\install-helper.exe" "/S"
+2026-10-11 12:26:51 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\install-helper.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:26:51 [信息] 【判定】第 2/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:26:53 [信息] 【执行】第 3/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\install-helper.exe" "/s" "/v/qn"
+2026-10-11 12:26:53 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\install-helper.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:26:53 [信息] 【判定】第 3/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:26:55 [信息] 【执行】第 4/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\install-helper.exe" "/quiet" "/norestart"
+2026-10-11 12:26:55 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\install-helper.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:26:55 [信息] 【判定】第 4/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:26:57 [信息] 【执行】第 5/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\install-helper.exe" "/silent"
+2026-10-11 12:26:57 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\install-helper.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:26:57 [信息] 【判定】第 5/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:26:59 [信息] 【执行】第 6/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\install-helper.exe" "--silent"
+2026-10-11 12:26:59 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\install-helper.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:26:59 [信息] 【判定】第 6/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:27:01 [信息] 【执行】第 7/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\install-helper.exe" "--quiet"
+2026-10-11 12:27:01 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\install-helper.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:27:01 [信息] 【判定】第 7/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:27:03 [信息] 【执行】第 8/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\install-helper.exe" "-s"
+2026-10-11 12:27:03 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\install-helper.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:27:03 [信息] 【判定】第 8/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:27:05 [信息] 【执行】第 9/9 次尝试：方法=no_param_run，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\install-helper.exe"
+2026-10-11 12:27:05 [警告] 【执行】无法启动安装进程（方法=no_param_run）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\install-helper.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:27:05 [信息] 【判定】第 9/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:27:05 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\install-helper.exe → 失败
+2026-10-11 12:27:05 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\setup.exe（优先级 P1，判定依据 entry_p1_named）
+2026-10-11 12:27:05 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\setup.exe → pe_executable（514 B）
+2026-10-11 12:27:05 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\setup.exe
+2026-10-11 12:27:05 [信息] 【执行】准备按 9 种方式依次尝试安装：silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、no_param_run
+2026-10-11 12:27:05 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\setup.exe" "/VERYSILENT" "/NORESTART" "/SUPPRESSMSGBOXES"
+2026-10-11 12:27:05 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\setup.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:27:05 [信息] 【判定】第 1/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:27:07 [信息] 【执行】第 2/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\setup.exe" "/S"
+2026-10-11 12:27:07 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\setup.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:27:07 [信息] 【判定】第 2/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:27:09 [信息] 【执行】第 3/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\setup.exe" "/s" "/v/qn"
+2026-10-11 12:27:09 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\setup.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:27:09 [信息] 【判定】第 3/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:27:11 [信息] 【执行】第 4/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\setup.exe" "/quiet" "/norestart"
+2026-10-11 12:27:11 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\setup.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:27:11 [信息] 【判定】第 4/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:27:13 [信息] 【执行】第 5/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\setup.exe" "/silent"
+2026-10-11 12:27:13 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\setup.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:27:13 [信息] 【判定】第 5/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:27:15 [信息] 【执行】第 6/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\setup.exe" "--silent"
+2026-10-11 12:27:15 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\setup.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:27:15 [信息] 【判定】第 6/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:27:17 [信息] 【执行】第 7/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\setup.exe" "--quiet"
+2026-10-11 12:27:17 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\setup.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:27:17 [信息] 【判定】第 7/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:27:19 [信息] 【执行】第 8/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\setup.exe" "-s"
+2026-10-11 12:27:19 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\setup.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:27:19 [信息] 【判定】第 8/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:27:21 [信息] 【执行】第 9/9 次尝试：方法=no_param_run，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\setup.exe"
+2026-10-11 12:27:21 [警告] 【执行】无法启动安装进程（方法=no_param_run）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\setup.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:27:21 [信息] 【判定】第 9/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:27:21 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\setup.exe → 失败
+2026-10-11 12:27:21 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\MyApp.exe（优先级 P4，判定依据 entry_p4_main）
+2026-10-11 12:27:21 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\MyApp.exe → pe_executable（514 B）
+2026-10-11 12:27:21 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\MyApp.exe
+2026-10-11 12:27:21 [信息] 【执行】准备按 9 种方式依次尝试安装：silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、no_param_run
+2026-10-11 12:27:21 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\MyApp.exe" "/VERYSILENT" "/NORESTART" "/SUPPRESSMSGBOXES"
+2026-10-11 12:27:21 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\MyApp.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:27:21 [信息] 【判定】第 1/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:27:23 [信息] 【执行】第 2/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\MyApp.exe" "/S"
+2026-10-11 12:27:24 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\MyApp.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:27:24 [信息] 【判定】第 2/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:27:26 [信息] 【执行】第 3/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\MyApp.exe" "/s" "/v/qn"
+2026-10-11 12:27:26 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\MyApp.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:27:26 [信息] 【判定】第 3/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:27:28 [信息] 【执行】第 4/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\MyApp.exe" "/quiet" "/norestart"
+2026-10-11 12:27:28 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\MyApp.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:27:28 [信息] 【判定】第 4/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:27:30 [信息] 【执行】第 5/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\MyApp.exe" "/silent"
+2026-10-11 12:27:30 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\MyApp.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:27:30 [信息] 【判定】第 5/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:27:32 [信息] 【执行】第 6/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\MyApp.exe" "--silent"
+2026-10-11 12:27:32 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\MyApp.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:27:32 [信息] 【判定】第 6/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:27:34 [信息] 【执行】第 7/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\MyApp.exe" "--quiet"
+2026-10-11 12:27:34 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\MyApp.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:27:34 [信息] 【判定】第 7/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:27:36 [信息] 【执行】第 8/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\MyApp.exe" "-s"
+2026-10-11 12:27:36 [警告] 【执行】无法启动安装进程（方法=silent_install）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\MyApp.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:27:36 [信息] 【判定】第 8/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:27:38 [信息] 【执行】第 9/9 次尝试：方法=no_param_run，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-06-阶段2兜底\\MyApp.exe"
+2026-10-11 12:27:38 [警告] 【执行】无法启动安装进程（方法=no_param_run）：fork/exec <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\MyApp.exe: This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+2026-10-11 12:27:38 [信息] 【判定】第 9/9 次尝试判定：失败（置信度 未知）
+2026-10-11 12:27:38 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\MyApp.exe → 失败
+2026-10-11 12:27:38 [信息] 【入口】排除（命中禁执行清单 ）：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\安装说明.txt
+2026-10-11 12:27:38 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-06-阶段2兜底\安装说明.txt → 跳过（non_executable_entry）
+2026-10-11 12:27:38 [信息] 【结果】本次运行结束：总耗时 66.8 秒，退出码 0 —— 处理完成（具体结果见结果 JSON）
+2026-10-11 12:27:38 [信息] 【结果】总体结论：安装失败
+2026-10-11 12:27:38 [信息] 【结果】样本统计：样本总数 6｜失败 5｜跳过 1

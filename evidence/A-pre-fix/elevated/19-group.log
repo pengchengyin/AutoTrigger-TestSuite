@@ -1,0 +1,163 @@
+2026-10-11 10:41:10 [警告] 【任务】配置提示：内置图像模板为空：仍会使用 UIA/Win32 与 OCR 识别；如需更高命中率，请按 D17 补齐模板
+2026-10-11 10:41:10 [信息] 【任务】任务开始：task_id=5c3a4c3c-c382-4320-8728-670591a1b1bc，工具版本 0.1.0，资源包 0.1.0
+2026-10-11 10:41:10 [信息] 【任务】结果文件：<REPORT_ROOT_A>\elevated\19-group.json
+2026-10-11 10:41:10 [信息] 【任务】日志文件：<REPORT_ROOT_A>\elevated\19-group.log
+2026-10-11 10:41:12 [信息] 【任务】开始处理目录：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)（递归=false，共发现 16 个文件）
+2026-10-11 10:41:12 [信息] 【入口】结构分析完成：候选入口 16 个，排除 4 个（排除项见结果 JSON 的 layout_analysis）
+2026-10-11 10:41:12 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-01-标准安装成功.msi（优先级 P1，判定依据 entry_p1_named）
+2026-10-11 10:41:12 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-01-标准安装成功.msi → msi（440.0 KB）
+2026-10-11 10:41:12 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-01-标准安装成功.msi
+2026-10-11 10:41:13 [信息] 【执行】准备按 3 种方式依次尝试安装：msi、msi、msi
+2026-10-11 10:41:13 [信息] 【执行】第 1/3 次尝试：方法=msi，命令="C:\\WINDOWS\\System32\\msiexec.exe" "/i" "C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\19-合成安装器(MSI-WiX)\\MSI-01-标准安装成功.msi" "/quiet" "/norestart" "/L*v" "C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-873497229\\MSI-0.log"
+2026-10-11 10:41:13 [信息] 【执行】已启动安装进程：方法=msi，PID=10104
+2026-10-11 10:41:15 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 2.5 秒
+2026-10-11 10:41:15 [信息] 【执行】Windows Installer 退出状态：0
+2026-10-11 10:41:21 [信息] 【判定】第 1/3 次尝试判定：安装成功（置信度 medium）
+2026-10-11 10:41:21 [信息] 【结果】<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-01-标准安装成功.msi → 安装成功
+2026-10-11 10:41:21 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-02-安装致命错误1603.msi（优先级 P1，判定依据 entry_p1_named）
+2026-10-11 10:41:21 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-02-安装致命错误1603.msi → msi（440.0 KB）
+2026-10-11 10:41:21 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-02-安装致命错误1603.msi
+2026-10-11 10:41:21 [信息] 【执行】准备按 3 种方式依次尝试安装：msi、msi、msi
+2026-10-11 10:41:21 [信息] 【执行】第 1/3 次尝试：方法=msi，命令="C:\\WINDOWS\\System32\\msiexec.exe" "/i" "C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\19-合成安装器(MSI-WiX)\\MSI-02-安装致命错误1603.msi" "/quiet" "/norestart" "/L*v" "C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-2530568389\\MSI-0.log"
+2026-10-11 10:41:21 [信息] 【执行】已启动安装进程：方法=msi，PID=9984
+2026-10-11 10:41:22 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=1603，耗时 1.1 秒
+2026-10-11 10:41:22 [信息] 【执行】Windows Installer 退出状态：1603：安装过程中发生致命错误（常见：未以管理员身份运行、前置条件不满足、自定义操作失败、磁盘空间不足；详因见 MSI 详细日志）
+2026-10-11 10:41:22 [警告] 【判定】MSI 详细日志要点：MSI (s) (A0:10) [10:41:22:451]: Note: 1: 2228 2:  3: Error 4: SELECT `Message` FROM `Error` WHERE `Error` = 1709 ｜ Action ended 10:41:22: INSTALL. Return value 3.
+2026-10-11 10:41:26 [信息] 【判定】第 1/3 次尝试判定：部分完成（置信度 low）
+2026-10-11 10:41:26 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 1603：安装过程中发生致命错误（常见：未以管理员身份运行、前置条件不满足、自定义操作失败、磁盘空间不足；详因见 MSI 详细日志）
+2026-10-11 10:41:28 [信息] 【执行】第 2/3 次尝试：方法=msi，命令="C:\\WINDOWS\\System32\\msiexec.exe" "/i" "C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\19-合成安装器(MSI-WiX)\\MSI-02-安装致命错误1603.msi" "/passive" "/norestart" "/L*v" "C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-2530568389\\MSI-1.log"
+2026-10-11 10:41:28 [信息] 【执行】已启动安装进程：方法=msi，PID=1136
+2026-10-11 10:41:30 [调试] 【界面】界面识别详情：窗口 "Windows Installer"（PID 1136）未识别到可点击控件：
+2026-10-11 10:41:30 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=1603，耗时 1.0 秒
+2026-10-11 10:41:30 [信息] 【执行】Windows Installer 退出状态：1603：安装过程中发生致命错误（常见：未以管理员身份运行、前置条件不满足、自定义操作失败、磁盘空间不足；详因见 MSI 详细日志）
+2026-10-11 10:41:30 [警告] 【判定】MSI 详细日志要点：MSI (s) (A0:78) [10:41:29:872]: Note: 1: 2228 2:  3: Error 4: SELECT `Message` FROM `Error` WHERE `Error` = 1709 ｜ Action ended 10:41:29: INSTALL. Return value 3.
+2026-10-11 10:41:41 [信息] 【判定】第 2/3 次尝试判定：部分完成（置信度 low）
+2026-10-11 10:41:41 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 1603：安装过程中发生致命错误（常见：未以管理员身份运行、前置条件不满足、自定义操作失败、磁盘空间不足；详因见 MSI 详细日志）
+2026-10-11 10:41:41 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 1603：安装过程中发生致命错误（常见：未以管理员身份运行、前置条件不满足、自定义操作失败、磁盘空间不足；详因见 MSI 详细日志）
+2026-10-11 10:41:43 [信息] 【执行】第 3/3 次尝试：方法=msi，命令="C:\\WINDOWS\\System32\\msiexec.exe" "/i" "C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\19-合成安装器(MSI-WiX)\\MSI-02-安装致命错误1603.msi" "/norestart" "/L*v" "C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-2530568389\\MSI-2.log"
+2026-10-11 10:41:43 [信息] 【执行】已启动安装进程：方法=msi，PID=4408
+2026-10-11 10:41:44 [信息] 【界面】自动点击：I accept the terms in the License Agreement（识别来源 uia，窗口 "AT Synthetic MSI 02 Fail1603 Setup"）
+2026-10-11 10:41:46 [信息] 【界面】自动点击：Install（识别来源 uia，窗口 "AT Synthetic MSI 02 Fail1603 Setup"）
+2026-10-11 10:41:47 [警告] 【界面】界面识别/点击未产生动作：窗口 "AT Synthetic MSI 02 Fail1603 Setup" 的按钮 "OK"（uia）点击失败：cannot focus sample window (foreground is "AT Synthetic MSI 02 Fail1603 Setup")
+2026-10-11 10:41:48 [调试] 【界面】界面识别详情：窗口 "AT Synthetic MSI 02 Fail1603 Setup"（PID 4408）未识别到可点击控件：
+2026-10-11 10:41:48 [信息] 【界面】自动点击：OK（识别来源 uia，窗口 "AT Synthetic MSI 02 Fail1603 Setup"）
+2026-10-11 10:41:48 [信息] 【界面】自动点击：Finish（识别来源 uia，窗口 "AT Synthetic MSI 02 Fail1603 Setup"）
+2026-10-11 10:41:48 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=1603，耗时 5.0 秒
+2026-10-11 10:41:48 [信息] 【执行】Windows Installer 退出状态：1603：安装过程中发生致命错误（常见：未以管理员身份运行、前置条件不满足、自定义操作失败、磁盘空间不足；详因见 MSI 详细日志）
+2026-10-11 10:41:48 [警告] 【判定】MSI 详细日志要点：MSI (c) (38:54) [10:41:48:594]: Note: 1: 2228 2:  3: Error 4: SELECT `Message` FROM `Error` WHERE `Error` = 1709 ｜ Action ended 10:41:48: INSTALL. Return value 3.
+2026-10-11 10:41:52 [信息] 【判定】第 3/3 次尝试判定：部分完成（置信度 low）
+2026-10-11 10:41:52 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 1603：安装过程中发生致命错误（常见：未以管理员身份运行、前置条件不满足、自定义操作失败、磁盘空间不足；详因见 MSI 详细日志）
+2026-10-11 10:41:52 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 1603：安装过程中发生致命错误（常见：未以管理员身份运行、前置条件不满足、自定义操作失败、磁盘空间不足；详因见 MSI 详细日志）
+2026-10-11 10:41:52 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 1603：安装过程中发生致命错误（常见：未以管理员身份运行、前置条件不满足、自定义操作失败、磁盘空间不足；详因见 MSI 详细日志）
+2026-10-11 10:41:52 [信息] 【清理】已保留 3 份安装器详细日志（失败排查用）：<REPORT_ROOT_A>\elevated\19-group-msi-logs
+2026-10-11 10:41:52 [信息] 【结果】<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-02-安装致命错误1603.msi → 部分完成
+2026-10-11 10:41:52 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-04-per-user安装.msi（优先级 P1，判定依据 entry_p1_named）
+2026-10-11 10:41:52 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-04-per-user安装.msi → msi（440.0 KB）
+2026-10-11 10:41:52 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-04-per-user安装.msi
+2026-10-11 10:41:52 [信息] 【执行】准备按 3 种方式依次尝试安装：msi、msi、msi
+2026-10-11 10:41:52 [信息] 【执行】第 1/3 次尝试：方法=msi，命令="C:\\WINDOWS\\System32\\msiexec.exe" "/i" "C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\19-合成安装器(MSI-WiX)\\MSI-04-per-user安装.msi" "/quiet" "/norestart" "/L*v" "C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-969443331\\MSI-0.log"
+2026-10-11 10:41:52 [信息] 【执行】已启动安装进程：方法=msi，PID=1124
+2026-10-11 10:41:53 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 1.7 秒
+2026-10-11 10:41:53 [信息] 【执行】Windows Installer 退出状态：0
+2026-10-11 10:41:57 [信息] 【判定】第 1/3 次尝试判定：安装成功（置信度 medium）
+2026-10-11 10:41:57 [信息] 【结果】<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-04-per-user安装.msi → 安装成功
+2026-10-11 10:41:57 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-05-多文件较长安装.msi（优先级 P1，判定依据 entry_p1_named）
+2026-10-11 10:41:57 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-05-多文件较长安装.msi → msi（912.0 KB）
+2026-10-11 10:41:57 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-05-多文件较长安装.msi
+2026-10-11 10:41:57 [信息] 【执行】准备按 3 种方式依次尝试安装：msi、msi、msi
+2026-10-11 10:41:57 [信息] 【执行】第 1/3 次尝试：方法=msi，命令="C:\\WINDOWS\\System32\\msiexec.exe" "/i" "C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\19-合成安装器(MSI-WiX)\\MSI-05-多文件较长安装.msi" "/quiet" "/norestart" "/L*v" "C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-497854352\\MSI-0.log"
+2026-10-11 10:41:57 [信息] 【执行】已启动安装进程：方法=msi，PID=8020
+2026-10-11 10:41:59 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 2.3 秒
+2026-10-11 10:41:59 [信息] 【执行】Windows Installer 退出状态：0
+2026-10-11 10:42:02 [信息] 【判定】第 1/3 次尝试判定：安装成功（置信度 medium）
+2026-10-11 10:42:02 [信息] 【结果】<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-05-多文件较长安装.msi → 安装成功
+2026-10-11 10:42:02 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-03-需重启3010.msi（优先级 P2，判定依据 entry_p2_installer）
+2026-10-11 10:42:02 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-03-需重启3010.msi → msi（440.0 KB）
+2026-10-11 10:42:02 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-03-需重启3010.msi
+2026-10-11 10:42:03 [信息] 【执行】准备按 3 种方式依次尝试安装：msi、msi、msi
+2026-10-11 10:42:03 [信息] 【执行】第 1/3 次尝试：方法=msi，命令="C:\\WINDOWS\\System32\\msiexec.exe" "/i" "C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\19-合成安装器(MSI-WiX)\\MSI-03-需重启3010.msi" "/quiet" "/norestart" "/L*v" "C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-4037211478\\MSI-0.log"
+2026-10-11 10:42:03 [信息] 【执行】已启动安装进程：方法=msi，PID=4712
+2026-10-11 10:42:04 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=3010，耗时 1.1 秒
+2026-10-11 10:42:04 [信息] 【执行】Windows Installer 退出状态：3010：安装成功，需要重启才能生效
+2026-10-11 10:42:07 [信息] 【判定】第 1/3 次尝试判定：安装成功（置信度 medium）
+2026-10-11 10:42:07 [信息] 【结果】<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-03-需重启3010.msi → 安装成功
+2026-10-11 10:42:07 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-07-无效MSI-纯文本内容.msi（优先级 P2，判定依据 entry_p2_installer）
+2026-10-11 10:42:07 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-07-无效MSI-纯文本内容.msi → msi（104 B）
+2026-10-11 10:42:07 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-07-无效MSI-纯文本内容.msi
+2026-10-11 10:42:07 [信息] 【执行】准备按 3 种方式依次尝试安装：msi、msi、msi
+2026-10-11 10:42:07 [信息] 【执行】第 1/3 次尝试：方法=msi，命令="C:\\WINDOWS\\System32\\msiexec.exe" "/i" "C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\19-合成安装器(MSI-WiX)\\MSI-07-无效MSI-纯文本内容.msi" "/quiet" "/norestart" "/L*v" "C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-2627008428\\MSI-0.log"
+2026-10-11 10:42:07 [信息] 【执行】已启动安装进程：方法=msi，PID=7800
+2026-10-11 10:42:07 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=1620，耗时 0.1 秒
+2026-10-11 10:42:07 [信息] 【执行】Windows Installer 退出状态：1620：安装包无效（不是合法的 MSI）
+2026-10-11 10:42:11 [信息] 【判定】第 1/3 次尝试判定：失败（置信度 未知）
+2026-10-11 10:42:11 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 1620：安装包无效（不是合法的 MSI）
+2026-10-11 10:42:13 [信息] 【执行】第 2/3 次尝试：方法=msi，命令="C:\\WINDOWS\\System32\\msiexec.exe" "/i" "C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\19-合成安装器(MSI-WiX)\\MSI-07-无效MSI-纯文本内容.msi" "/passive" "/norestart" "/L*v" "C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-2627008428\\MSI-1.log"
+2026-10-11 10:42:13 [信息] 【执行】已启动安装进程：方法=msi，PID=3828
+2026-10-11 10:42:13 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=1620，耗时 0.2 秒
+2026-10-11 10:42:13 [信息] 【执行】Windows Installer 退出状态：1620：安装包无效（不是合法的 MSI）
+2026-10-11 10:42:16 [信息] 【判定】第 2/3 次尝试判定：失败（置信度 未知）
+2026-10-11 10:42:16 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 1620：安装包无效（不是合法的 MSI）
+2026-10-11 10:42:16 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 1620：安装包无效（不是合法的 MSI）
+2026-10-11 10:42:18 [信息] 【执行】第 3/3 次尝试：方法=msi，命令="C:\\WINDOWS\\System32\\msiexec.exe" "/i" "C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\19-合成安装器(MSI-WiX)\\MSI-07-无效MSI-纯文本内容.msi" "/norestart" "/L*v" "C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-2627008428\\MSI-2.log"
+2026-10-11 10:42:18 [信息] 【执行】已启动安装进程：方法=msi，PID=9044
+2026-10-11 10:42:18 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=1620，耗时 0.2 秒
+2026-10-11 10:42:18 [信息] 【执行】Windows Installer 退出状态：1620：安装包无效（不是合法的 MSI）
+2026-10-11 10:42:22 [信息] 【判定】第 3/3 次尝试判定：失败（置信度 未知）
+2026-10-11 10:42:22 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 1620：安装包无效（不是合法的 MSI）
+2026-10-11 10:42:22 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 1620：安装包无效（不是合法的 MSI）
+2026-10-11 10:42:22 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 1620：安装包无效（不是合法的 MSI）
+2026-10-11 10:42:22 [信息] 【清理】已保留 3 份安装器详细日志（失败排查用）：<REPORT_ROOT_A>\elevated\19-group-msi-logs
+2026-10-11 10:42:22 [信息] 【结果】<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-07-无效MSI-纯文本内容.msi → 失败
+2026-10-11 10:42:22 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-08-损坏的MSI.msi（优先级 P2，判定依据 entry_p2_installer）
+2026-10-11 10:42:22 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-08-损坏的MSI.msi → msi（146.7 KB）
+2026-10-11 10:42:22 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-08-损坏的MSI.msi
+2026-10-11 10:42:22 [信息] 【执行】准备按 3 种方式依次尝试安装：msi、msi、msi
+2026-10-11 10:42:22 [信息] 【执行】第 1/3 次尝试：方法=msi，命令="C:\\WINDOWS\\System32\\msiexec.exe" "/i" "C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\19-合成安装器(MSI-WiX)\\MSI-08-损坏的MSI.msi" "/quiet" "/norestart" "/L*v" "C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-3654174576\\MSI-0.log"
+2026-10-11 10:42:22 [信息] 【执行】已启动安装进程：方法=msi，PID=4800
+2026-10-11 10:42:22 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=1620，耗时 0.1 秒
+2026-10-11 10:42:22 [信息] 【执行】Windows Installer 退出状态：1620：安装包无效（不是合法的 MSI）
+2026-10-11 10:42:26 [信息] 【判定】第 1/3 次尝试判定：失败（置信度 未知）
+2026-10-11 10:42:26 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 1620：安装包无效（不是合法的 MSI）
+2026-10-11 10:42:28 [信息] 【执行】第 2/3 次尝试：方法=msi，命令="C:\\WINDOWS\\System32\\msiexec.exe" "/i" "C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\19-合成安装器(MSI-WiX)\\MSI-08-损坏的MSI.msi" "/passive" "/norestart" "/L*v" "C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-3654174576\\MSI-1.log"
+2026-10-11 10:42:28 [信息] 【执行】已启动安装进程：方法=msi，PID=10000
+2026-10-11 10:42:28 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=1620，耗时 0.2 秒
+2026-10-11 10:42:28 [信息] 【执行】Windows Installer 退出状态：1620：安装包无效（不是合法的 MSI）
+2026-10-11 10:42:31 [信息] 【判定】第 2/3 次尝试判定：失败（置信度 未知）
+2026-10-11 10:42:31 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 1620：安装包无效（不是合法的 MSI）
+2026-10-11 10:42:31 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 1620：安装包无效（不是合法的 MSI）
+2026-10-11 10:42:33 [信息] 【执行】第 3/3 次尝试：方法=msi，命令="C:\\WINDOWS\\System32\\msiexec.exe" "/i" "C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\19-合成安装器(MSI-WiX)\\MSI-08-损坏的MSI.msi" "/norestart" "/L*v" "C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-3654174576\\MSI-2.log"
+2026-10-11 10:42:33 [信息] 【执行】已启动安装进程：方法=msi，PID=9696
+2026-10-11 10:42:33 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=1620，耗时 0.2 秒
+2026-10-11 10:42:33 [信息] 【执行】Windows Installer 退出状态：1620：安装包无效（不是合法的 MSI）
+2026-10-11 10:42:37 [信息] 【判定】第 3/3 次尝试判定：失败（置信度 未知）
+2026-10-11 10:42:37 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 1620：安装包无效（不是合法的 MSI）
+2026-10-11 10:42:37 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 1620：安装包无效（不是合法的 MSI）
+2026-10-11 10:42:37 [警告] 【判定】证据冲突（N1）：安装进程返回失败退出码 1620：安装包无效（不是合法的 MSI）
+2026-10-11 10:42:37 [信息] 【清理】已保留 3 份安装器详细日志（失败排查用）：<REPORT_ROOT_A>\elevated\19-group-msi-logs
+2026-10-11 10:42:37 [信息] 【结果】<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-08-损坏的MSI.msi → 失败
+2026-10-11 10:42:37 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-01-标准安装成功.wixpdb（优先级 P5，判定依据 non_executable_entry）
+2026-10-11 10:42:37 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-01-标准安装成功.wixpdb → unknown（338.8 KB）
+2026-10-11 10:42:37 [信息] 【结果】<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-01-标准安装成功.wixpdb → 失败（untriggerable）
+2026-10-11 10:42:37 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-02-安装致命错误1603.wixpdb（优先级 P5，判定依据 non_executable_entry）
+2026-10-11 10:42:37 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-02-安装致命错误1603.wixpdb → unknown（340.2 KB）
+2026-10-11 10:42:37 [信息] 【结果】<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-02-安装致命错误1603.wixpdb → 失败（untriggerable）
+2026-10-11 10:42:37 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-03-需重启3010.wixpdb（优先级 P5，判定依据 non_executable_entry）
+2026-10-11 10:42:37 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-03-需重启3010.wixpdb → unknown（339.2 KB）
+2026-10-11 10:42:37 [信息] 【结果】<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-03-需重启3010.wixpdb → 失败（untriggerable）
+2026-10-11 10:42:37 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-04-per-user安装.wixpdb（优先级 P5，判定依据 non_executable_entry）
+2026-10-11 10:42:37 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-04-per-user安装.wixpdb → unknown（338.3 KB）
+2026-10-11 10:42:37 [信息] 【结果】<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-04-per-user安装.wixpdb → 失败（untriggerable）
+2026-10-11 10:42:37 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-05-多文件较长安装.wixpdb（优先级 P5，判定依据 non_executable_entry）
+2026-10-11 10:42:37 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-05-多文件较长安装.wixpdb → unknown（341.4 KB）
+2026-10-11 10:42:37 [信息] 【结果】<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-05-多文件较长安装.wixpdb → 失败（untriggerable）
+2026-10-11 10:42:37 [信息] 【入口】排除（命中禁执行清单 update|updater|checkupdate|升级）：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-06-升级覆盖V1.msi
+2026-10-11 10:42:37 [信息] 【结果】<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-06-升级覆盖V1.msi → 跳过（excluded_blacklist: update|updater|checkupdate|升级）
+2026-10-11 10:42:37 [信息] 【入口】排除（命中禁执行清单 update|updater|checkupdate|升级）：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-06-升级覆盖V1.wixpdb
+2026-10-11 10:42:37 [信息] 【结果】<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-06-升级覆盖V1.wixpdb → 跳过（excluded_blacklist: update|updater|checkupdate|升级）
+2026-10-11 10:42:37 [信息] 【入口】排除（命中禁执行清单 update|updater|checkupdate|升级）：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-06-升级覆盖V2.msi
+2026-10-11 10:42:37 [信息] 【结果】<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-06-升级覆盖V2.msi → 跳过（excluded_blacklist: update|updater|checkupdate|升级）
+2026-10-11 10:42:37 [信息] 【入口】排除（命中禁执行清单 update|updater|checkupdate|升级）：<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-06-升级覆盖V2.wixpdb
+2026-10-11 10:42:37 [信息] 【结果】<SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-06-升级覆盖V2.wixpdb → 跳过（excluded_blacklist: update|updater|checkupdate|升级）
+2026-10-11 10:42:37 [信息] 【结果】本次运行结束：总耗时 87.3 秒，退出码 0 —— 处理完成（具体结果见结果 JSON）
+2026-10-11 10:42:37 [信息] 【结果】总体结论：部分成功
+2026-10-11 10:42:37 [信息] 【结果】样本统计：样本总数 16｜安装成功 4｜部分完成 1｜失败 7｜跳过 4

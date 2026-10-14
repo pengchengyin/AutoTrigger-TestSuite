@@ -1,0 +1,11 @@
+2026-10-11 20:24:57 [警告] 【任务】配置提示：内置图像模板为空：仍会使用 UIA/Win32 与 OCR 识别；如需更高命中率，请按 D17 补齐模板
+2026-10-11 20:24:57 [信息] 【任务】任务开始：task_id=c9aaccb3-b354-4a60-a265-6da49389c9c5，工具版本 0.1.0，资源包 0.1.0
+2026-10-11 20:24:57 [信息] 【任务】结果文件：<REPORT_ROOT_A>\elevated-batch\13-03.json
+2026-10-11 20:24:57 [信息] 【任务】日志文件：<REPORT_ROOT_A>\elevated-batch\13-03.log
+2026-10-11 20:24:58 [信息] 【任务】开始处理样本：<SUITE_ROOT>\samples\13-光盘映像 ISO\A26-03-os_install_media.iso（1.2 MB）
+2026-10-11 20:24:58 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\13-光盘映像 ISO\A26-03-os_install_media.iso → disk_image（1.2 MB）
+2026-10-11 20:24:58 [信息] 【解压】识别为光盘映像（ISO），按策略 extract_first 处理：<SUITE_ROOT>\samples\13-光盘映像 ISO\A26-03-os_install_media.iso
+2026-10-11 20:24:58 [信息] 【结果】<SUITE_ROOT>\samples\13-光盘映像 ISO\A26-03-os_install_media.iso → 跳过（os_media）
+2026-10-11 20:24:58 [信息] 【结果】本次运行结束：总耗时 1.1 秒，退出码 0 —— 处理完成（具体结果见结果 JSON）
+2026-10-11 20:24:58 [信息] 【结果】总体结论：已跳过
+2026-10-11 20:24:58 [信息] 【结果】样本统计：样本总数 1｜跳过 1

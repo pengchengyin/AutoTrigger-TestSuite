@@ -1,0 +1,71 @@
+2026-10-11 12:24:50 [警告] 【任务】配置提示：内置图像模板为空：仍会使用 UIA/Win32 与 OCR 识别；如需更高命中率，请按 D17 补齐模板
+2026-10-11 12:24:50 [信息] 【任务】任务开始：task_id=6d713992-e972-471f-a0a4-701155548c0f，工具版本 0.1.0，资源包 0.1.0
+2026-10-11 12:24:50 [信息] 【任务】结果文件：<REPORT_ROOT_A>\elevated-a25\01-A25-01-规范包-含黑名单.json
+2026-10-11 12:24:50 [信息] 【任务】日志文件：<REPORT_ROOT_A>\elevated-a25\01-A25-01-规范包-含黑名单.log
+2026-10-11 12:24:51 [信息] 【任务】开始处理目录：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单（递归=false，共发现 21 个文件）
+2026-10-11 12:24:52 [信息] 【入口】结构分析完成：候选入口 21 个，排除 11 个（排除项见结果 JSON 的 layout_analysis）
+2026-10-11 12:24:52 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\vcredist_x64.exe（优先级 P3，判定依据 entry_p3_prereq）
+2026-10-11 12:24:52 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\vcredist_x64.exe → pe_executable（6.5 KB）
+2026-10-11 12:24:52 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\vcredist_x64.exe
+2026-10-11 12:24:53 [信息] 【执行】准备按 9 种方式依次尝试安装：silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、no_param_run
+2026-10-11 12:24:53 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-01-规范包-含黑名单\\vcredist_x64.exe" "/VERYSILENT" "/NORESTART" "/SUPPRESSMSGBOXES"
+2026-10-11 12:24:53 [信息] 【执行】已启动安装进程：方法=silent_install，PID=2864
+2026-10-11 12:24:53 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 0.4 秒
+2026-10-11 12:25:02 [信息] 【判定】第 1/9 次尝试判定：安装成功（置信度 low）
+2026-10-11 12:25:02 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\vcredist_x64.exe → 安装成功
+2026-10-11 12:25:02 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\install.bat（优先级 P0，判定依据 entry_p0_manifest）
+2026-10-11 12:25:02 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\install.bat → script（825 B）
+2026-10-11 12:25:02 [信息] 【执行】准备按 1 种方式依次尝试安装：script
+2026-10-11 12:25:02 [信息] 【执行】第 1/1 次尝试：方法=script，命令="C:\\WINDOWS\\System32\\cmd.exe" "/d" "/s" "/c" "\"C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-01-规范包-含黑名单\\install.bat\""
+2026-10-11 12:25:02 [信息] 【执行】已启动安装进程：方法=script，PID=11972
+2026-10-11 12:25:02 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 0.2 秒
+2026-10-11 12:25:02 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\install.bat → 已触发（未确认安装）
+2026-10-11 12:25:02 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\setup.exe（优先级 P0，判定依据 entry_p0_manifest）
+2026-10-11 12:25:02 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\setup.exe → pe_executable（242.2 KB）
+2026-10-11 12:25:02 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\setup.exe
+2026-10-11 12:25:03 [信息] 【执行】准备按 9 种方式依次尝试安装：silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、no_param_run
+2026-10-11 12:25:03 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\10-入口分层与黑名单\\A25-01-规范包-含黑名单\\setup.exe" "/S"
+2026-10-11 12:25:03 [信息] 【执行】已启动安装进程：方法=silent_install，PID=11724
+2026-10-11 12:25:03 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 0.7 秒
+2026-10-11 12:25:07 [信息] 【判定】第 1/9 次尝试判定：安装成功（置信度 medium）
+2026-10-11 12:25:07 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\setup.exe → 安装成功
+2026-10-11 12:25:07 [信息] 【入口】已达成安装成功，按「成功即收敛」策略停止执行本包后续候选
+2026-10-11 12:25:07 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\setup_x64.exe
+2026-10-11 12:25:07 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\setup_x64.exe → 跳过（skipped_after_success）
+2026-10-11 12:25:07 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\setup_x86.exe
+2026-10-11 12:25:07 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\setup_x86.exe → 跳过（skipped_after_success）
+2026-10-11 12:25:07 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\MyApp.exe
+2026-10-11 12:25:07 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\MyApp.exe → 跳过（skipped_after_success）
+2026-10-11 12:25:07 [信息] 【入口】排除（命中禁执行清单 update|updater|checkupdate|升级）：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\checkupdate.exe
+2026-10-11 12:25:07 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\checkupdate.exe → 跳过（excluded_blacklist: update|updater|checkupdate|升级）
+2026-10-11 12:25:07 [信息] 【入口】排除（命中禁执行清单 crashpad|crashreporter|werfault|debug）：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\crashpad_handler.exe
+2026-10-11 12:25:07 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\crashpad_handler.exe → 跳过（excluded_blacklist: crashpad|crashreporter|werfault|debug）
+2026-10-11 12:25:07 [信息] 【入口】排除（命中禁执行清单 crashpad|crashreporter|werfault|debug）：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\crashreporter.exe
+2026-10-11 12:25:07 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\crashreporter.exe → 跳过（excluded_blacklist: crashpad|crashreporter|werfault|debug）
+2026-10-11 12:25:07 [信息] 【入口】排除（命中禁执行清单 crashpad|crashreporter|werfault|debug）：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\debug-helper.exe
+2026-10-11 12:25:07 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\debug-helper.exe → 跳过（excluded_blacklist: crashpad|crashreporter|werfault|debug）
+2026-10-11 12:25:07 [信息] 【入口】排除（命中禁执行清单 ）：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\help.chm
+2026-10-11 12:25:07 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\help.chm → 跳过（non_executable_entry）
+2026-10-11 12:25:07 [信息] 【入口】排除（命中禁执行清单 ）：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\manual.pdf
+2026-10-11 12:25:07 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\manual.pdf → 跳过（non_executable_entry）
+2026-10-11 12:25:07 [信息] 【入口】排除（命中禁执行清单 repair|修复|modify）：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\modify.exe
+2026-10-11 12:25:07 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\modify.exe → 跳过（excluded_blacklist: repair|修复|modify）
+2026-10-11 12:25:07 [信息] 【入口】排除（命中禁执行清单 ）：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\readme.txt
+2026-10-11 12:25:07 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\readme.txt → 跳过（non_executable_entry）
+2026-10-11 12:25:07 [信息] 【入口】排除（命中禁执行清单 repair|修复|modify）：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\repair.exe
+2026-10-11 12:25:07 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\repair.exe → 跳过（excluded_blacklist: repair|修复|modify）
+2026-10-11 12:25:07 [信息] 【入口】排除（命中禁执行清单 uninstall|unins0|卸载|反安装|remove）：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\unins000.exe
+2026-10-11 12:25:07 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\unins000.exe → 跳过（excluded_blacklist: uninstall|unins0|卸载|反安装|remove）
+2026-10-11 12:25:07 [信息] 【入口】排除（命中禁执行清单 uninstall|unins0|卸载|反安装|remove）：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\uninstall.exe
+2026-10-11 12:25:07 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\uninstall.exe → 跳过（excluded_blacklist: uninstall|unins0|卸载|反安装|remove）
+2026-10-11 12:25:07 [信息] 【入口】排除（命中禁执行清单 update|updater|checkupdate|升级）：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\update.exe
+2026-10-11 12:25:07 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\update.exe → 跳过（excluded_blacklist: update|updater|checkupdate|升级）
+2026-10-11 12:25:07 [信息] 【入口】排除（命中禁执行清单 update|updater|checkupdate|升级）：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\updater.exe
+2026-10-11 12:25:07 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\updater.exe → 跳过（excluded_blacklist: update|updater|checkupdate|升级）
+2026-10-11 12:25:07 [信息] 【入口】排除（命中禁执行清单 uninstall|unins0|卸载|反安装|remove）：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\卸载.exe
+2026-10-11 12:25:07 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\卸载.exe → 跳过（excluded_blacklist: uninstall|unins0|卸载|反安装|remove）
+2026-10-11 12:25:07 [信息] 【入口】排除（命中禁执行清单 ）：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\安装说明.txt
+2026-10-11 12:25:07 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单\安装说明.txt → 跳过（non_executable_entry）
+2026-10-11 12:25:07 [信息] 【结果】本次运行结束：总耗时 17.2 秒，退出码 0 —— 处理完成（具体结果见结果 JSON）
+2026-10-11 12:25:07 [信息] 【结果】总体结论：安装成功
+2026-10-11 12:25:07 [信息] 【结果】样本统计：样本总数 21｜安装成功 2｜已触发 1｜跳过 18

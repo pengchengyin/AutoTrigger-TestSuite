@@ -1,0 +1,22 @@
+﻿--- start ---
+##### [1/7] A30-01-慢安装器-持续写盘90s.exe #####
+EXIT=0 ELAPSED_S=98.3
+RESIDUAL_cmd_ping=0
+##### [2/7] A30-02-启动后无动作.exe #####
+EXIT=0 ELAPSED_S=26160.9
+RESIDUAL_cmd_ping=0
+##### [3/7] A30-03-运行中静止.exe #####
+EXIT=0 ELAPSED_S=204.7
+RESIDUAL_cmd_ping=0
+##### [4/7] A30-04-完成安装后卡在完成页.exe #####
+EXIT=0 ELAPSED_S=204.3
+RESIDUAL_cmd_ping=0
+##### [5/7] A30-05-联网下载组件等待.exe #####
+EXIT=0 ELAPSED_S=204.7
+RESIDUAL_cmd_ping=0
+##### [6/7] A30-06-子进程脱离-进程树清理.exe #####
+EXIT=0 ELAPSED_S=216
+RESIDUAL_cmd_ping=0
+##### [7/7] A30-08-GUI窗口-正在下载组件.exe #####
+EXIT=0 ELAPSED_S=204.9
+RESIDUAL_cmd_ping=0

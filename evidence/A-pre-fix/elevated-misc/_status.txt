@@ -1,0 +1,29 @@
+﻿--- start ---
+##### [16] OWNERDRAW-自绘向导-浅色.exe #####
+EXIT=0 ELAPSED_S=182.5
+##### [16] OWNERDRAW-自绘向导-深色.exe #####
+EXIT=0 ELAPSED_S=182.1
+##### [14] 01-空文件.exe #####
+EXIT=0 ELAPSED_S=1.1
+##### [14] 02-空文件.dat #####
+EXIT=0 ELAPSED_S=1.1
+##### [14] 03-单字节文件.bin #####
+EXIT=0 ELAPSED_S=1.2
+##### [14] 04-损坏的zip.zip #####
+EXIT=0 ELAPSED_S=1.3
+##### [14] 05-损坏的7z.7z #####
+EXIT=0 ELAPSED_S=1.3
+##### [14] 06-截断的zip.zip #####
+EXIT=0 ELAPSED_S=1.3
+##### [14] 07-加密zip.zip #####
+EXIT=0 ELAPSED_S=1.2
+##### [14] 08-加密7z-文件名加密.7z #####
+EXIT=0 ELAPSED_S=1.2
+##### [14] 09-未知扩展名但MZ头.qwerty #####
+EXIT=0 ELAPSED_S=5.3
+##### [14] 未知扩展名-MZ头.bin #####
+EXIT=0 ELAPSED_S=53.2
+##### [14] 无扩展名文件 #####
+EXIT=0 ELAPSED_S=50.1
+##### [14-炸弹] 10-zip炸弹-解压超2G.zip  freeBefore=28.62GB #####
+EXIT=0 ELAPSED_S=1.1 freeAfter=28.62GB deltaMB=0.1

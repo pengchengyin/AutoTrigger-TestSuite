@@ -1,0 +1,2408 @@
+[
+ {
+  "path": "01-Inno Setup/Git-2.47.1-64-bit.exe",
+  "group": "01-Inno Setup",
+  "name": "Git-2.47.1-64-bit.exe",
+  "size": 69109976,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "Inno Setup",
+  "sections": [
+   ".text",
+   ".itext",
+   ".data",
+   ".bss",
+   ".idata",
+   ".didata",
+   ".edata",
+   ".tls",
+   ".rdata",
+   ".reloc",
+   ".rsrc"
+  ],
+  "signer": "CN=Johannes Schindelin, O=Johannes Schindelin, S=Nordrhein-Westfalen, C=DE"
+ },
+ {
+  "path": "01-Inno Setup/Notepad3-Setup.exe",
+  "group": "01-Inno Setup",
+  "name": "Notepad3-Setup.exe",
+  "size": 5290800,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "Inno Setup",
+  "sections": [
+   ".text",
+   ".itext",
+   ".data",
+   ".bss",
+   ".idata",
+   ".didata",
+   ".edata",
+   ".tls",
+   ".rdata",
+   ".reloc",
+   ".rsrc"
+  ],
+  "signer": "CN=\"Open Source Developer, Derick Payne\", O=Open Source Developer, L=George, S=Western Cape, C=ZA"
+ },
+ {
+  "path": "01-Inno Setup/ShareX-17.0.0-setup.exe",
+  "group": "01-Inno Setup",
+  "name": "ShareX-17.0.0-setup.exe",
+  "size": 45438484,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "Inno Setup",
+  "sections": [
+   ".text",
+   ".itext",
+   ".data",
+   ".bss",
+   ".idata",
+   ".didata",
+   ".edata",
+   ".tls",
+   ".rdata",
+   ".reloc",
+   ".rsrc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "01-Inno Setup/WinMerge-2.16.46-x64-Setup.exe",
+  "group": "01-Inno Setup",
+  "name": "WinMerge-2.16.46-x64-Setup.exe",
+  "size": 10030808,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "Inno Setup",
+  "sections": [
+   ".text",
+   ".itext",
+   ".data",
+   ".bss",
+   ".idata",
+   ".tls",
+   ".rdata",
+   ".rsrc"
+  ],
+  "signer": "CN=Takashi Sawanaka, O=Takashi Sawanaka, L=Chiba, S=Chiba, C=JP"
+ },
+ {
+  "path": "01-Inno Setup/audacity-win-3.7.1-64bit.exe",
+  "group": "01-Inno Setup",
+  "name": "audacity-win-3.7.1-64bit.exe",
+  "size": 16696416,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "Inno Setup",
+  "sections": [
+   ".text",
+   ".itext",
+   ".data",
+   ".bss",
+   ".idata",
+   ".didata",
+   ".edata",
+   ".tls",
+   ".rdata",
+   ".reloc",
+   ".rsrc"
+  ],
+  "signer": "CN=Musecy SM Ltd., O=Musecy SM Ltd., S=Lemesos, C=CY"
+ },
+ {
+  "path": "02-NSIS/Defraggler.exe",
+  "group": "02-NSIS",
+  "name": "Defraggler.exe",
+  "size": 7466056,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "NSIS",
+  "sections": [
+   ".text",
+   ".rdata",
+   ".data",
+   ".ndata",
+   ".rsrc"
+  ],
+  "signer": "CN=Piriform Software Ltd, OU=RE 901, O=Piriform Software Ltd, L=London, C=GB"
+ },
+ {
+  "path": "02-NSIS/Everything-1.4.1.1026.x64-Setup.exe",
+  "group": "02-NSIS",
+  "name": "Everything-1.4.1.1026.x64-Setup.exe",
+  "size": 1913064,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "NSIS",
+  "sections": [
+   ".text",
+   ".rdata",
+   ".data",
+   ".ndata",
+   ".rsrc"
+  ],
+  "signer": "CN=voidtools, O=voidtools, L=Wilmington, S=South Australia, C=AU"
+ },
+ {
+  "path": "02-NSIS/Firefox-Setup-zh-CN.exe",
+  "group": "02-NSIS",
+  "name": "Firefox-Setup-zh-CN.exe",
+  "size": 93462472,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族(名称含 install/setup)",
+  "sections": [
+   "UPX0",
+   "UPX1",
+   ".rsrc"
+  ],
+  "signer": "CN=Mozilla Corporation, OU=Firefox Engineering Operations, O=Mozilla Corporation, L=San Francisco, S=California, C=US"
+ },
+ {
+  "path": "02-NSIS/Recuva.exe",
+  "group": "02-NSIS",
+  "name": "Recuva.exe",
+  "size": 12997472,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "NSIS",
+  "sections": [
+   ".text",
+   ".rdata",
+   ".data",
+   ".ndata",
+   ".rsrc"
+  ],
+  "signer": "CN=Piriform Software Ltd, O=Piriform Software Ltd, L=London, C=GB, SERIALNUMBER=08235567, OID.1.3.6.1.4.1.311.60.2.1.3=GB, OID.2.5.4.15=Private Organization"
+ },
+ {
+  "path": "02-NSIS/npp.8.8.1.Installer.x64.exe",
+  "group": "02-NSIS",
+  "name": "npp.8.8.1.Installer.x64.exe",
+  "size": 6824080,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "NSIS",
+  "sections": [
+   ".text",
+   ".rdata",
+   ".data",
+   ".ndata",
+   ".rsrc"
+  ],
+  "signer": "CN=\"Notepad++\", O=\"Notepad++\", L=Saint Cloud, S=Ile-de-France, C=FR"
+ },
+ {
+  "path": "03-MSI/7z2600-x64.msi",
+  "group": "03-MSI",
+  "name": "7z2600-x64.msi",
+  "size": 1999872,
+  "ext": ".msi",
+  "magic": "OLE",
+  "family": "MSI(OLE)",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "03-MSI/KeePassXC-2.7.9-Win64.msi",
+  "group": "03-MSI",
+  "name": "KeePassXC-2.7.9-Win64.msi",
+  "size": 34394112,
+  "ext": ".msi",
+  "magic": "OLE",
+  "family": "MSI(OLE)",
+  "sections": [],
+  "signer": "CN=\"DroidMonkey Apps, LLC\", O=\"DroidMonkey Apps, LLC\", S=Virginia, C=US"
+ },
+ {
+  "path": "03-MSI/MobaXterm_installer_26.5.msi",
+  "group": "03-MSI",
+  "name": "MobaXterm_installer_26.5.msi",
+  "size": 14770176,
+  "ext": ".msi",
+  "magic": "OLE",
+  "family": "MSI(OLE)",
+  "sections": [],
+  "signer": "CN=Mobatek, O=Mobatek, S=Occitanie, C=FR, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=FR, SERIALNUMBER=502 869 258 00041"
+ },
+ {
+  "path": "03-MSI/TortoiseGit-2.17.0.0-64bit.msi",
+  "group": "03-MSI",
+  "name": "TortoiseGit-2.17.0.0-64bit.msi",
+  "size": 22622208,
+  "ext": ".msi",
+  "magic": "OLE",
+  "family": "MSI(OLE)",
+  "sections": [],
+  "signer": "CN=\"Open Source Developer, Sven Strickroth\", O=Open Source Developer, S=Bayern, C=DE"
+ },
+ {
+  "path": "03-MSI/node-v22.11.0-x64.msi",
+  "group": "03-MSI",
+  "name": "node-v22.11.0-x64.msi",
+  "size": 30289920,
+  "ext": ".msi",
+  "magic": "OLE",
+  "family": "MSI(OLE)",
+  "sections": [],
+  "signer": "CN=OpenJS Foundation, OU=Nodejs, O=OpenJS Foundation, L=San Francisco, S=California, C=US, SERIALNUMBER=5579593, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US"
+ },
+ {
+  "path": "03-MSI/putty-64bit-0.85-installer.msi",
+  "group": "03-MSI",
+  "name": "putty-64bit-0.85-installer.msi",
+  "size": 3846144,
+  "ext": ".msi",
+  "magic": "OLE",
+  "family": "MSI(OLE)",
+  "sections": [],
+  "signer": "CN=Simon Tatham, O=Simon Tatham, S=Cambridgeshire, C=GB"
+ },
+ {
+  "path": "04-Burn bootstrapper/VC_redist.x64.exe",
+  "group": "04-Burn bootstrapper",
+  "name": "VC_redist.x64.exe",
+  "size": 25635768,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "WiX Burn bootstrapper",
+  "sections": [
+   ".text",
+   ".rdata",
+   ".data",
+   ".wixburn",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+ },
+ {
+  "path": "04-Burn bootstrapper/python-3.13.0-amd64.exe",
+  "group": "04-Burn bootstrapper",
+  "name": "python-3.13.0-amd64.exe",
+  "size": 28160096,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "WiX Burn bootstrapper",
+  "sections": [
+   ".text",
+   ".rdata",
+   ".data",
+   ".wixburn",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": "CN=Python Software Foundation, O=Python Software Foundation, L=Beaverton, S=Oregon, C=US"
+ },
+ {
+  "path": "04-Burn bootstrapper/windowsdesktop-runtime-8.0-win-x64.exe",
+  "group": "04-Burn bootstrapper",
+  "name": "windowsdesktop-runtime-8.0-win-x64.exe",
+  "size": 58715896,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "WiX Burn bootstrapper",
+  "sections": [
+   ".text",
+   ".rdata",
+   ".data",
+   ".wixburn",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": "CN=.NET, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+ },
+ {
+  "path": "05-其它厂商安装器/TeraCopy.exe",
+  "group": "05-其它厂商安装器",
+  "name": "TeraCopy.exe",
+  "size": 15550960,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "Advanced Installer",
+  "sections": [
+   ".text",
+   ".rdata",
+   ".data",
+   ".didat",
+   ".fptable",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": "CN=Code Sector Pty Ltd., O=Code Sector Pty Ltd., S=Queensland, C=AU"
+ },
+ {
+  "path": "05-其它厂商安装器/VeraCrypt.exe",
+  "group": "05-其它厂商安装器",
+  "name": "VeraCrypt.exe",
+  "size": 40643880,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "Advanced Installer",
+  "sections": [
+   ".text",
+   ".rdata",
+   ".data",
+   ".didat",
+   ".fptable",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": "CN=IDRIX SARL, O=IDRIX SARL, STREET=5 AVENUE INGRES, L=Paris, S=脦le-de-France, C=FR, OID.1.3.6.1.4.1.311.60.2.1.3=FR, SERIALNUMBER=490 000 619, OID.2.5.4.15=Private Organization"
+ },
+ {
+  "path": "05-其它厂商安装器/ZoomInstallerFull.exe",
+  "group": "05-其它厂商安装器",
+  "name": "ZoomInstallerFull.exe",
+  "size": 118232360,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族(名称含 install/setup)",
+  "sections": [
+   ".text",
+   ".rdata",
+   ".data",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": "CN=\"Zoom Video Communications, Inc.\", O=\"Zoom Video Communications, Inc.\", L=San Jose, S=California, C=US, SERIALNUMBER=4969967, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US"
+ },
+ {
+  "path": "06-压缩包/7z2600-x64-32bit.exe",
+  "group": "06-压缩包",
+  "name": "7z2600-x64-32bit.exe",
+  "size": 1355804,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rdata",
+   ".data",
+   ".rsrc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "07-脚本与快捷方式/10-导出函数库.dll",
+  "group": "07-脚本与快捷方式",
+  "name": "10-导出函数库.dll",
+  "size": 3584,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "07-脚本与快捷方式/11-原生导出表(7z).dll",
+  "group": "07-脚本与快捷方式",
+  "name": "11-原生导出表(7z).dll",
+  "size": 1908736,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "NSIS",
+  "sections": [
+   ".text",
+   ".rdata",
+   ".data",
+   ".pdata",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "07-脚本与快捷方式/com-命令触发器.com",
+  "group": "07-脚本与快捷方式",
+  "name": "com-命令触发器.com",
+  "size": 6656,
+  "ext": ".com",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "07-脚本与快捷方式/scr-屏保触发器.scr",
+  "group": "07-脚本与快捷方式",
+  "name": "scr-屏保触发器.scr",
+  "size": 6656,
+  "ext": ".scr",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "09-类型识别与伪装/MZ头但非PE.exe",
+  "group": "09-类型识别与伪装",
+  "name": "MZ头但非PE.exe",
+  "size": 2050,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "09-类型识别与伪装/OLE头伪msi.msi",
+  "group": "09-类型识别与伪装",
+  "name": "OLE头伪msi.msi",
+  "size": 4104,
+  "ext": ".msi",
+  "magic": "OLE",
+  "family": "MSI(OLE)",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "09-类型识别与伪装/伪装成exe的文本.exe",
+  "group": "09-类型识别与伪装",
+  "name": "伪装成exe的文本.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "09-类型识别与伪装/实际是PDF的exe.exe",
+  "group": "09-类型识别与伪装",
+  "name": "实际是PDF的exe.exe",
+  "size": 69,
+  "ext": ".exe",
+  "magic": "PDF",
+  "family": "-",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "09-类型识别与伪装/实际是ZIP的exe.exe",
+  "group": "09-类型识别与伪装",
+  "name": "实际是ZIP的exe.exe",
+  "size": 145,
+  "ext": ".exe",
+  "magic": "ZIP",
+  "family": "-",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "09-类型识别与伪装/实际是文本的exe.exe",
+  "group": "09-类型识别与伪装",
+  "name": "实际是文本的exe.exe",
+  "size": 61,
+  "ext": ".exe",
+  "magic": "未知",
+  "family": "-",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/MyApp.exe",
+  "group": "10-入口分层与黑名单",
+  "name": "MyApp.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/checkupdate.exe",
+  "group": "10-入口分层与黑名单",
+  "name": "checkupdate.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/crashpad_handler.exe",
+  "group": "10-入口分层与黑名单",
+  "name": "crashpad_handler.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/crashreporter.exe",
+  "group": "10-入口分层与黑名单",
+  "name": "crashreporter.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/debug-helper.exe",
+  "group": "10-入口分层与黑名单",
+  "name": "debug-helper.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/modify.exe",
+  "group": "10-入口分层与黑名单",
+  "name": "modify.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/repair.exe",
+  "group": "10-入口分层与黑名单",
+  "name": "repair.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/setup.exe",
+  "group": "10-入口分层与黑名单",
+  "name": "setup.exe",
+  "size": 248040,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "NSIS",
+  "sections": [
+   ".text",
+   ".rdata",
+   ".data",
+   ".ndata",
+   ".rsrc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/setup_x64.exe",
+  "group": "10-入口分层与黑名单",
+  "name": "setup_x64.exe",
+  "size": 248040,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "NSIS",
+  "sections": [
+   ".text",
+   ".rdata",
+   ".data",
+   ".ndata",
+   ".rsrc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/setup_x86.exe",
+  "group": "10-入口分层与黑名单",
+  "name": "setup_x86.exe",
+  "size": 248040,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "NSIS",
+  "sections": [
+   ".text",
+   ".rdata",
+   ".data",
+   ".ndata",
+   ".rsrc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/unins000.exe",
+  "group": "10-入口分层与黑名单",
+  "name": "unins000.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/uninstall.exe",
+  "group": "10-入口分层与黑名单",
+  "name": "uninstall.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族(名称含 install/setup)",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/update.exe",
+  "group": "10-入口分层与黑名单",
+  "name": "update.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/updater.exe",
+  "group": "10-入口分层与黑名单",
+  "name": "updater.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/vcredist_x64.exe",
+  "group": "10-入口分层与黑名单",
+  "name": "vcredist_x64.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/卸载.exe",
+  "group": "10-入口分层与黑名单",
+  "name": "卸载.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib00.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib00.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib01.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib01.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib02.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib02.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib03.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib03.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib04.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib04.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib05.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib05.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib06.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib06.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib07.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib07.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib08.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib08.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib09.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib09.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib10.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib10.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib11.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib11.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib12.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib12.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib13.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib13.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib14.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib14.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib15.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib15.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib16.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib16.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib17.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib17.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib18.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib18.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib19.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib19.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib20.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib20.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib21.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib21.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib22.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib22.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib23.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib23.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib24.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib24.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib25.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib25.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib26.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib26.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib27.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib27.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib28.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib28.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib29.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib29.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib30.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib30.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib31.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib31.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib32.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib32.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib33.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib33.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib34.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib34.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib35.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib35.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib36.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib36.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib37.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib37.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib38.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib38.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/runtime/lib39.dll",
+  "group": "10-入口分层与黑名单",
+  "name": "lib39.dll",
+  "size": 514,
+  "ext": ".dll",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-01-规范包-含黑名单/sub/deep/tool-p5.exe",
+  "group": "10-入口分层与黑名单",
+  "name": "tool-p5.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-02-readme指向不存在文件/unrelated.exe",
+  "group": "10-入口分层与黑名单",
+  "name": "unrelated.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-03-架构优先/setup_x64.exe",
+  "group": "10-入口分层与黑名单",
+  "name": "setup_x64.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族(名称含 install/setup)",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-03-架构优先/setup_x86.exe",
+  "group": "10-入口分层与黑名单",
+  "name": "setup_x86.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族(名称含 install/setup)",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-06-阶段2兜底/MyApp.exe",
+  "group": "10-入口分层与黑名单",
+  "name": "MyApp.exe",
+  "size": 514,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-06-阶段2兜底/install-helper.exe",
+  "group": "10-入口分层与黑名单",
+  "name": "install-helper.exe",
+  "size": 514,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族(名称含 install/setup)",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-06-阶段2兜底/setup.exe",
+  "group": "10-入口分层与黑名单",
+  "name": "setup.exe",
+  "size": 514,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族(名称含 install/setup)",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-06-阶段2兜底/vcredist_x64.exe",
+  "group": "10-入口分层与黑名单",
+  "name": "vcredist_x64.exe",
+  "size": 514,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "10-入口分层与黑名单/A25-06-阶段2兜底/deep/tools/extra/runtime-helper.exe",
+  "group": "10-入口分层与黑名单",
+  "name": "runtime-helper.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "11-安装成功判定/A29-01-假成功bootstrapper.exe",
+  "group": "11-安装成功判定",
+  "name": "A29-01-假成功bootstrapper.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "11-安装成功判定/A29-02-纯退出码0.exe",
+  "group": "11-安装成功判定",
+  "name": "A29-02-纯退出码0.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "11-安装成功判定/A29-03-标准安装-落盘+卸载项.exe",
+  "group": "11-安装成功判定",
+  "name": "A29-03-标准安装-落盘+卸载项.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "11-安装成功判定/A29-04-per-user安装-HKCU卸载项.exe",
+  "group": "11-安装成功判定",
+  "name": "A29-04-per-user安装-HKCU卸载项.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "11-安装成功判定/A29-05-绿色便携-仅落盘.exe",
+  "group": "11-安装成功判定",
+  "name": "A29-05-绿色便携-仅落盘.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "11-安装成功判定/A29-06-反证据-失败码+回滚日志.exe",
+  "group": "11-安装成功判定",
+  "name": "A29-06-反证据-失败码+回滚日志.exe",
+  "size": 7168,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "11-安装成功判定/A29-07-反证据-装后回滚.exe",
+  "group": "11-安装成功判定",
+  "name": "A29-07-反证据-装后回滚.exe",
+  "size": 7168,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "11-安装成功判定/A29-08-退出码1603失败.exe",
+  "group": "11-安装成功判定",
+  "name": "A29-08-退出码1603失败.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "11-安装成功判定/A29-09-覆盖升级-字段变化.exe",
+  "group": "11-安装成功判定",
+  "name": "A29-09-覆盖升级-字段变化.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "11-安装成功判定/A29-10-已安装检测-幂等.exe",
+  "group": "11-安装成功判定",
+  "name": "A29-10-已安装检测-幂等.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "11-安装成功判定/A29-11-宽松口径-A1加副作用.exe",
+  "group": "11-安装成功判定",
+  "name": "A29-11-宽松口径-A1加副作用.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "11-安装成功判定/A29-12-落盘到监控外目录.exe",
+  "group": "11-安装成功判定",
+  "name": "A29-12-落盘到监控外目录.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "12-超时与活动感知/A30-01-慢安装器-持续写盘90s.exe",
+  "group": "12-超时与活动感知",
+  "name": "A30-01-慢安装器-持续写盘90s.exe",
+  "size": 7168,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "12-超时与活动感知/A30-02-启动后无动作.exe",
+  "group": "12-超时与活动感知",
+  "name": "A30-02-启动后无动作.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "12-超时与活动感知/A30-03-运行中静止.exe",
+  "group": "12-超时与活动感知",
+  "name": "A30-03-运行中静止.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "12-超时与活动感知/A30-04-完成安装后卡在完成页.exe",
+  "group": "12-超时与活动感知",
+  "name": "A30-04-完成安装后卡在完成页.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "12-超时与活动感知/A30-05-联网下载组件等待.exe",
+  "group": "12-超时与活动感知",
+  "name": "A30-05-联网下载组件等待.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "12-超时与活动感知/A30-06-子进程脱离-进程树清理.exe",
+  "group": "12-超时与活动感知",
+  "name": "A30-06-子进程脱离-进程树清理.exe",
+  "size": 7168,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "12-超时与活动感知/A30-07-超长安装-持续700s.exe",
+  "group": "12-超时与活动感知",
+  "name": "A30-07-超长安装-持续700s.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "13-光盘映像 ISO/A26-01-installer_media.iso",
+  "group": "13-光盘映像 ISO",
+  "name": "A26-01-installer_media.iso",
+  "size": 1245184,
+  "ext": ".iso",
+  "magic": "未知",
+  "family": "-",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "13-光盘映像 ISO/A26-02-malware_lure.iso",
+  "group": "13-光盘映像 ISO",
+  "name": "A26-02-malware_lure.iso",
+  "size": 1179648,
+  "ext": ".iso",
+  "magic": "未知",
+  "family": "-",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "13-光盘映像 ISO/A26-03-os_install_media.iso",
+  "group": "13-光盘映像 ISO",
+  "name": "A26-03-os_install_media.iso",
+  "size": 1245184,
+  "ext": ".iso",
+  "magic": "未知",
+  "family": "-",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "13-光盘映像 ISO/A26-04-media_disc.iso",
+  "group": "13-光盘映像 ISO",
+  "name": "A26-04-media_disc.iso",
+  "size": 1245184,
+  "ext": ".iso",
+  "magic": "未知",
+  "family": "-",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "13-光盘映像 ISO/A26-05-data_disc.iso",
+  "group": "13-光盘映像 ISO",
+  "name": "A26-05-data_disc.iso",
+  "size": 1245184,
+  "ext": ".iso",
+  "magic": "未知",
+  "family": "-",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "13-光盘映像 ISO/A26-06-garbled-names.iso",
+  "group": "13-光盘映像 ISO",
+  "name": "A26-06-garbled-names.iso",
+  "size": 1179648,
+  "ext": ".iso",
+  "magic": "未知",
+  "family": "-",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "13-光盘映像 ISO/A26-07-autorun-missing.iso",
+  "group": "13-光盘映像 ISO",
+  "name": "A26-07-autorun-missing.iso",
+  "size": 1179648,
+  "ext": ".iso",
+  "magic": "未知",
+  "family": "-",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "13-光盘映像 ISO/A26-08-deep-longpath.iso",
+  "group": "13-光盘映像 ISO",
+  "name": "A26-08-deep-longpath.iso",
+  "size": 1245184,
+  "ext": ".iso",
+  "magic": "未知",
+  "family": "-",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "13-光盘映像 ISO/A27-09-UDF-only.iso",
+  "group": "13-光盘映像 ISO",
+  "name": "A27-09-UDF-only.iso",
+  "size": 1179648,
+  "ext": ".iso",
+  "magic": "未知",
+  "family": "-",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "13-光盘映像 ISO/A27-10-截断损坏.iso",
+  "group": "13-光盘映像 ISO",
+  "name": "A27-10-截断损坏.iso",
+  "size": 435815,
+  "ext": ".iso",
+  "magic": "未知",
+  "family": "-",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "14-跳过与兜底/01-空文件.exe",
+  "group": "14-跳过与兜底",
+  "name": "01-空文件.exe",
+  "size": 0,
+  "ext": ".exe",
+  "magic": "空文件",
+  "family": "-",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "15-批量与嵌套/A6-批量50文件/case01.exe",
+  "group": "15-批量与嵌套",
+  "name": "case01.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "15-批量与嵌套/A6-批量50文件/case02.dll",
+  "group": "15-批量与嵌套",
+  "name": "case02.dll",
+  "size": 256,
+  "ext": ".dll",
+  "magic": "未知",
+  "family": "-",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "15-批量与嵌套/A6-批量50文件/case11.exe",
+  "group": "15-批量与嵌套",
+  "name": "case11.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "15-批量与嵌套/A6-批量50文件/case12.dll",
+  "group": "15-批量与嵌套",
+  "name": "case12.dll",
+  "size": 256,
+  "ext": ".dll",
+  "magic": "未知",
+  "family": "-",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "15-批量与嵌套/A6-批量50文件/case21.exe",
+  "group": "15-批量与嵌套",
+  "name": "case21.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "15-批量与嵌套/A6-批量50文件/case22.dll",
+  "group": "15-批量与嵌套",
+  "name": "case22.dll",
+  "size": 256,
+  "ext": ".dll",
+  "magic": "未知",
+  "family": "-",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "15-批量与嵌套/A6-批量50文件/case31.exe",
+  "group": "15-批量与嵌套",
+  "name": "case31.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "15-批量与嵌套/A6-批量50文件/case32.dll",
+  "group": "15-批量与嵌套",
+  "name": "case32.dll",
+  "size": 256,
+  "ext": ".dll",
+  "magic": "未知",
+  "family": "-",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "15-批量与嵌套/A6-批量50文件/case41.exe",
+  "group": "15-批量与嵌套",
+  "name": "case41.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "15-批量与嵌套/A6-批量50文件/case42.dll",
+  "group": "15-批量与嵌套",
+  "name": "case42.dll",
+  "size": 256,
+  "ext": ".dll",
+  "magic": "未知",
+  "family": "-",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "16-自绘界面-OCR专项/OWNERDRAW-自绘向导-浅色.exe",
+  "group": "16-自绘界面-OCR专项",
+  "name": "OWNERDRAW-自绘向导-浅色.exe",
+  "size": 8704,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "16-自绘界面-OCR专项/OWNERDRAW-自绘向导-深色.exe",
+  "group": "16-自绘界面-OCR专项",
+  "name": "OWNERDRAW-自绘向导-深色.exe",
+  "size": 8704,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "17-合成安装器(Inno)/INNO-01-静默安装成功.exe",
+  "group": "17-合成安装器(Inno)",
+  "name": "INNO-01-静默安装成功.exe",
+  "size": 2260543,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "Inno Setup",
+  "sections": [
+   ".text",
+   ".itext",
+   ".data",
+   ".bss",
+   ".idata",
+   ".didata",
+   ".edata",
+   ".tls",
+   ".rdata",
+   ".reloc",
+   ".rsrc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "17-合成安装器(Inno)/INNO-02-仅GUI向导-中文.exe",
+  "group": "17-合成安装器(Inno)",
+  "name": "INNO-02-仅GUI向导-中文.exe",
+  "size": 2260864,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "Inno Setup",
+  "sections": [
+   ".text",
+   ".itext",
+   ".data",
+   ".bss",
+   ".idata",
+   ".didata",
+   ".edata",
+   ".tls",
+   ".rdata",
+   ".reloc",
+   ".rsrc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "17-合成安装器(Inno)/INNO-03-仅GUI向导-英文.exe",
+  "group": "17-合成安装器(Inno)",
+  "name": "INNO-03-仅GUI向导-英文.exe",
+  "size": 2260763,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "Inno Setup",
+  "sections": [
+   ".text",
+   ".itext",
+   ".data",
+   ".bss",
+   ".idata",
+   ".didata",
+   ".edata",
+   ".tls",
+   ".rdata",
+   ".reloc",
+   ".rsrc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "17-合成安装器(Inno)/INNO-04-per-user安装-lowest.exe",
+  "group": "17-合成安装器(Inno)",
+  "name": "INNO-04-per-user安装-lowest.exe",
+  "size": 2260384,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "Inno Setup",
+  "sections": [
+   ".text",
+   ".itext",
+   ".data",
+   ".bss",
+   ".idata",
+   ".didata",
+   ".edata",
+   ".tls",
+   ".rdata",
+   ".reloc",
+   ".rsrc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "17-合成安装器(Inno)/INNO-05-长安装-持续写盘90s.exe",
+  "group": "17-合成安装器(Inno)",
+  "name": "INNO-05-长安装-持续写盘90s.exe",
+  "size": 2299645,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "Inno Setup",
+  "sections": [
+   ".text",
+   ".itext",
+   ".data",
+   ".bss",
+   ".idata",
+   ".didata",
+   ".edata",
+   ".tls",
+   ".rdata",
+   ".reloc",
+   ".rsrc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "17-合成安装器(Inno)/INNO-06-假成功-只解压无卸载项.exe",
+  "group": "17-合成安装器(Inno)",
+  "name": "INNO-06-假成功-只解压无卸载项.exe",
+  "size": 2316334,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "Inno Setup",
+  "sections": [
+   ".text",
+   ".itext",
+   ".data",
+   ".bss",
+   ".idata",
+   ".didata",
+   ".edata",
+   ".tls",
+   ".rdata",
+   ".reloc",
+   ".rsrc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "17-合成安装器(Inno)/INNO-07-安装后失败框-退出码1.exe",
+  "group": "17-合成安装器(Inno)",
+  "name": "INNO-07-安装后失败框-退出码1.exe",
+  "size": 2260493,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "Inno Setup",
+  "sections": [
+   ".text",
+   ".itext",
+   ".data",
+   ".bss",
+   ".idata",
+   ".didata",
+   ".edata",
+   ".tls",
+   ".rdata",
+   ".reloc",
+   ".rsrc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "17-合成安装器(Inno)/INNO-08-需重启-返回3010.exe",
+  "group": "17-合成安装器(Inno)",
+  "name": "INNO-08-需重启-返回3010.exe",
+  "size": 2260367,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "Inno Setup",
+  "sections": [
+   ".text",
+   ".itext",
+   ".data",
+   ".bss",
+   ".idata",
+   ".didata",
+   ".edata",
+   ".tls",
+   ".rdata",
+   ".reloc",
+   ".rsrc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "17-合成安装器(Inno)/INNO-09-卡在完成页-超时验证.exe",
+  "group": "17-合成安装器(Inno)",
+  "name": "INNO-09-卡在完成页-超时验证.exe",
+  "size": 2260454,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "Inno Setup",
+  "sections": [
+   ".text",
+   ".itext",
+   ".data",
+   ".bss",
+   ".idata",
+   ".didata",
+   ".edata",
+   ".tls",
+   ".rdata",
+   ".reloc",
+   ".rsrc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "17-合成安装器(Inno)/INNO-10-联网下载组件等待.exe",
+  "group": "17-合成安装器(Inno)",
+  "name": "INNO-10-联网下载组件等待.exe",
+  "size": 2260435,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "Inno Setup",
+  "sections": [
+   ".text",
+   ".itext",
+   ".data",
+   ".bss",
+   ".idata",
+   ".didata",
+   ".edata",
+   ".tls",
+   ".rdata",
+   ".reloc",
+   ".rsrc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "17-合成安装器(Inno)/INNO-11-仅GUI向导-无许可页.exe",
+  "group": "17-合成安装器(Inno)",
+  "name": "INNO-11-仅GUI向导-无许可页.exe",
+  "size": 2260542,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "Inno Setup",
+  "sections": [
+   ".text",
+   ".itext",
+   ".data",
+   ".bss",
+   ".idata",
+   ".didata",
+   ".edata",
+   ".tls",
+   ".rdata",
+   ".reloc",
+   ".rsrc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "18-合成安装器(NSIS)/NSIS-01-静默安装成功.exe",
+  "group": "18-合成安装器(NSIS)",
+  "name": "NSIS-01-静默安装成功.exe",
+  "size": 248040,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "NSIS",
+  "sections": [
+   ".text",
+   ".rdata",
+   ".data",
+   ".ndata",
+   ".rsrc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "18-合成安装器(NSIS)/NSIS-02-仅GUI向导-中文.exe",
+  "group": "18-合成安装器(NSIS)",
+  "name": "NSIS-02-仅GUI向导-中文.exe",
+  "size": 249546,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "NSIS",
+  "sections": [
+   ".text",
+   ".rdata",
+   ".data",
+   ".ndata",
+   ".rsrc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "18-合成安装器(NSIS)/NSIS-03-仅GUI向导-英文.exe",
+  "group": "18-合成安装器(NSIS)",
+  "name": "NSIS-03-仅GUI向导-英文.exe",
+  "size": 248060,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "NSIS",
+  "sections": [
+   ".text",
+   ".rdata",
+   ".data",
+   ".ndata",
+   ".rsrc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "18-合成安装器(NSIS)/NSIS-04-静默无效果-需GUI兜底.exe",
+  "group": "18-合成安装器(NSIS)",
+  "name": "NSIS-04-静默无效果-需GUI兜底.exe",
+  "size": 248097,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "NSIS",
+  "sections": [
+   ".text",
+   ".rdata",
+   ".data",
+   ".ndata",
+   ".rsrc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "18-合成安装器(NSIS)/NSIS-05-安装后回滚.exe",
+  "group": "18-合成安装器(NSIS)",
+  "name": "NSIS-05-安装后回滚.exe",
+  "size": 248126,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "NSIS",
+  "sections": [
+   ".text",
+   ".rdata",
+   ".data",
+   ".ndata",
+   ".rsrc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "18-合成安装器(NSIS)/NSIS-06-需重启-3010.exe",
+  "group": "18-合成安装器(NSIS)",
+  "name": "NSIS-06-需重启-3010.exe",
+  "size": 248065,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "NSIS",
+  "sections": [
+   ".text",
+   ".rdata",
+   ".data",
+   ".ndata",
+   ".rsrc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "18-合成安装器(NSIS)/NSIS-07-长安装-持续写盘.exe",
+  "group": "18-合成安装器(NSIS)",
+  "name": "NSIS-07-长安装-持续写盘.exe",
+  "size": 248138,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "NSIS",
+  "sections": [
+   ".text",
+   ".rdata",
+   ".data",
+   ".ndata",
+   ".rsrc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "19-合成安装器(MSI-WiX)/MSI-01-标准安装成功.msi",
+  "group": "19-合成安装器(MSI-WiX)",
+  "name": "MSI-01-标准安装成功.msi",
+  "size": 450560,
+  "ext": ".msi",
+  "magic": "OLE",
+  "family": "MSI(OLE)",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "19-合成安装器(MSI-WiX)/MSI-02-安装致命错误1603.msi",
+  "group": "19-合成安装器(MSI-WiX)",
+  "name": "MSI-02-安装致命错误1603.msi",
+  "size": 450560,
+  "ext": ".msi",
+  "magic": "OLE",
+  "family": "MSI(OLE)",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "19-合成安装器(MSI-WiX)/MSI-03-需重启3010.msi",
+  "group": "19-合成安装器(MSI-WiX)",
+  "name": "MSI-03-需重启3010.msi",
+  "size": 450560,
+  "ext": ".msi",
+  "magic": "OLE",
+  "family": "MSI(OLE)",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "19-合成安装器(MSI-WiX)/MSI-04-per-user安装.msi",
+  "group": "19-合成安装器(MSI-WiX)",
+  "name": "MSI-04-per-user安装.msi",
+  "size": 450560,
+  "ext": ".msi",
+  "magic": "OLE",
+  "family": "MSI(OLE)",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "19-合成安装器(MSI-WiX)/MSI-05-多文件较长安装.msi",
+  "group": "19-合成安装器(MSI-WiX)",
+  "name": "MSI-05-多文件较长安装.msi",
+  "size": 933888,
+  "ext": ".msi",
+  "magic": "OLE",
+  "family": "MSI(OLE)",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "19-合成安装器(MSI-WiX)/MSI-06-升级覆盖V1.msi",
+  "group": "19-合成安装器(MSI-WiX)",
+  "name": "MSI-06-升级覆盖V1.msi",
+  "size": 450560,
+  "ext": ".msi",
+  "magic": "OLE",
+  "family": "MSI(OLE)",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "19-合成安装器(MSI-WiX)/MSI-06-升级覆盖V2.msi",
+  "group": "19-合成安装器(MSI-WiX)",
+  "name": "MSI-06-升级覆盖V2.msi",
+  "size": 450560,
+  "ext": ".msi",
+  "magic": "OLE",
+  "family": "MSI(OLE)",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "19-合成安装器(MSI-WiX)/MSI-07-无效MSI-纯文本内容.msi",
+  "group": "19-合成安装器(MSI-WiX)",
+  "name": "MSI-07-无效MSI-纯文本内容.msi",
+  "size": 104,
+  "ext": ".msi",
+  "magic": "未知",
+  "family": "-",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "19-合成安装器(MSI-WiX)/MSI-08-损坏的MSI.msi",
+  "group": "19-合成安装器(MSI-WiX)",
+  "name": "MSI-08-损坏的MSI.msi",
+  "size": 150186,
+  "ext": ".msi",
+  "magic": "OLE",
+  "family": "MSI(OLE)",
+  "sections": [],
+  "signer": ""
+ },
+ {
+  "path": "20-静默参数探测/F13-参数探测桩-只认NSIS的S.exe",
+  "group": "20-静默参数探测",
+  "name": "F13-参数探测桩-只认NSIS的S.exe",
+  "size": 7168,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "20-静默参数探测/F13-参数探测桩-见VERYSILENT即成功.exe",
+  "group": "20-静默参数探测",
+  "name": "F13-参数探测桩-见VERYSILENT即成功.exe",
+  "size": 7168,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ },
+ {
+  "path": "20-静默参数探测/F13-参数探测桩-记录全部尝试.exe",
+  "group": "20-静默参数探测",
+  "name": "F13-参数探测桩-记录全部尝试.exe",
+  "size": 6656,
+  "ext": ".exe",
+  "magic": "PE",
+  "family": "未识别家族",
+  "sections": [
+   ".text",
+   ".rsrc",
+   ".reloc"
+  ],
+  "signer": ""
+ }
+]

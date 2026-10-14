@@ -1,0 +1,158 @@
+2026-10-11 12:27:38 [警告] 【任务】配置提示：内置图像模板为空：仍会使用 UIA/Win32 与 OCR 识别；如需更高命中率，请按 D17 补齐模板
+2026-10-11 12:27:38 [信息] 【任务】任务开始：task_id=dc7070c3-2389-40da-b9c7-ada4cdc23cc0，工具版本 0.1.0，资源包 0.1.0
+2026-10-11 12:27:38 [信息] 【任务】结果文件：<REPORT_ROOT_A>\elevated-a25\05-A25-04-规范包压缩版.json
+2026-10-11 12:27:38 [信息] 【任务】日志文件：<REPORT_ROOT_A>\elevated-a25\05-A25-04-规范包压缩版.log
+2026-10-11 12:27:39 [信息] 【任务】开始处理样本：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-04-规范包压缩版.7z（247.0 KB）
+2026-10-11 12:27:39 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-04-规范包压缩版.7z → archive（247.0 KB）
+2026-10-11 12:27:39 [信息] 【解压】识别为压缩包，开始解压处理：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-04-规范包压缩版.7z
+2026-10-11 12:27:39 [信息] 【解压】预检归档文件：<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-04-规范包压缩版.7z，可执行条目 51 个，已排除 11 个（卸载/修复/更新/调试类绝不执行）
+2026-10-11 12:27:39 [信息] 【解压】开始解压到临时目录：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046
+2026-10-11 12:27:40 [信息] 【入口】结构分析完成：候选入口 62 个，排除 11 个（排除项见结果 JSON 的 layout_analysis）
+2026-10-11 12:27:40 [信息] 【入口】选用入口：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\vcredist_x64.exe（优先级 P3，判定依据 entry_p3_prereq）
+2026-10-11 12:27:40 [信息] 【识别】识别结果：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\vcredist_x64.exe → pe_executable（6.5 KB）
+2026-10-11 12:27:40 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\vcredist_x64.exe
+2026-10-11 12:27:40 [信息] 【执行】准备按 9 种方式依次尝试安装：silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、no_param_run
+2026-10-11 12:27:40 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-3724409046\\vcredist_x64.exe" "/VERYSILENT" "/NORESTART" "/SUPPRESSMSGBOXES"
+2026-10-11 12:27:40 [信息] 【执行】已启动安装进程：方法=silent_install，PID=12660
+2026-10-11 12:27:41 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 0.1 秒
+2026-10-11 12:27:44 [信息] 【判定】第 1/9 次尝试判定：安装成功（置信度 low）
+2026-10-11 12:27:44 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\vcredist_x64.exe → 安装成功
+2026-10-11 12:27:44 [信息] 【入口】选用入口：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\install.bat（优先级 P0，判定依据 entry_p0_manifest）
+2026-10-11 12:27:44 [信息] 【识别】识别结果：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\install.bat → script（825 B）
+2026-10-11 12:27:44 [信息] 【执行】准备按 1 种方式依次尝试安装：script
+2026-10-11 12:27:44 [信息] 【执行】第 1/1 次尝试：方法=script，命令="C:\\WINDOWS\\System32\\cmd.exe" "/d" "/s" "/c" "\"C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-3724409046\\install.bat\""
+2026-10-11 12:27:44 [信息] 【执行】已启动安装进程：方法=script，PID=9284
+2026-10-11 12:27:44 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 0.2 秒
+2026-10-11 12:27:44 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\install.bat → 已触发（未确认安装）
+2026-10-11 12:27:44 [信息] 【入口】选用入口：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\setup.exe（优先级 P0，判定依据 entry_p0_manifest）
+2026-10-11 12:27:44 [信息] 【识别】识别结果：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\setup.exe → pe_executable（242.2 KB）
+2026-10-11 12:27:44 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\setup.exe
+2026-10-11 12:27:44 [信息] 【执行】准备按 9 种方式依次尝试安装：silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、no_param_run
+2026-10-11 12:27:44 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-3724409046\\setup.exe" "/S"
+2026-10-11 12:27:44 [信息] 【执行】已启动安装进程：方法=silent_install，PID=8700
+2026-10-11 12:27:45 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 0.7 秒
+2026-10-11 12:27:48 [信息] 【判定】第 1/9 次尝试判定：安装成功（置信度 medium）
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\setup.exe → 安装成功
+2026-10-11 12:27:48 [信息] 【入口】已达成安装成功，按「成功即收敛」策略停止执行本包后续候选
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\setup_x64.exe
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\setup_x64.exe → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\setup_x86.exe
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\setup_x86.exe → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\MyApp.exe
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\MyApp.exe → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】排除（命中禁执行清单 update|updater|checkupdate|升级）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\checkupdate.exe
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\checkupdate.exe → 跳过（excluded_blacklist: update|updater|checkupdate|升级）
+2026-10-11 12:27:48 [信息] 【入口】排除（命中禁执行清单 crashpad|crashreporter|werfault|debug）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\crashpad_handler.exe
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\crashpad_handler.exe → 跳过（excluded_blacklist: crashpad|crashreporter|werfault|debug）
+2026-10-11 12:27:48 [信息] 【入口】排除（命中禁执行清单 crashpad|crashreporter|werfault|debug）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\crashreporter.exe
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\crashreporter.exe → 跳过（excluded_blacklist: crashpad|crashreporter|werfault|debug）
+2026-10-11 12:27:48 [信息] 【入口】排除（命中禁执行清单 crashpad|crashreporter|werfault|debug）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\debug-helper.exe
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\debug-helper.exe → 跳过（excluded_blacklist: crashpad|crashreporter|werfault|debug）
+2026-10-11 12:27:48 [信息] 【入口】排除（命中禁执行清单 ）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\help.chm
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\help.chm → 跳过（non_executable_entry）
+2026-10-11 12:27:48 [信息] 【入口】排除（命中禁执行清单 ）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\manual.pdf
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\manual.pdf → 跳过（non_executable_entry）
+2026-10-11 12:27:48 [信息] 【入口】排除（命中禁执行清单 repair|修复|modify）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\modify.exe
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\modify.exe → 跳过（excluded_blacklist: repair|修复|modify）
+2026-10-11 12:27:48 [信息] 【入口】排除（命中禁执行清单 ）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\readme.txt
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\readme.txt → 跳过（non_executable_entry）
+2026-10-11 12:27:48 [信息] 【入口】排除（命中禁执行清单 repair|修复|modify）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\repair.exe
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\repair.exe → 跳过（excluded_blacklist: repair|修复|modify）
+2026-10-11 12:27:48 [信息] 【入口】排除（命中禁执行清单 uninstall|unins0|卸载|反安装|remove）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\unins000.exe
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\unins000.exe → 跳过（excluded_blacklist: uninstall|unins0|卸载|反安装|remove）
+2026-10-11 12:27:48 [信息] 【入口】排除（命中禁执行清单 uninstall|unins0|卸载|反安装|remove）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\uninstall.exe
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\uninstall.exe → 跳过（excluded_blacklist: uninstall|unins0|卸载|反安装|remove）
+2026-10-11 12:27:48 [信息] 【入口】排除（命中禁执行清单 update|updater|checkupdate|升级）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\update.exe
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\update.exe → 跳过（excluded_blacklist: update|updater|checkupdate|升级）
+2026-10-11 12:27:48 [信息] 【入口】排除（命中禁执行清单 update|updater|checkupdate|升级）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\updater.exe
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\updater.exe → 跳过（excluded_blacklist: update|updater|checkupdate|升级）
+2026-10-11 12:27:48 [信息] 【入口】排除（命中禁执行清单 uninstall|unins0|卸载|反安装|remove）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\卸载.exe
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\卸载.exe → 跳过（excluded_blacklist: uninstall|unins0|卸载|反安装|remove）
+2026-10-11 12:27:48 [信息] 【入口】排除（命中禁执行清单 ）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\安装说明.txt
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\安装说明.txt → 跳过（non_executable_entry）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib00.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib00.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib01.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib01.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib02.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib02.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib03.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib03.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib04.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib04.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib05.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib05.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib06.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib06.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib07.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib07.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib08.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib08.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib09.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib09.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib10.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib10.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib11.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib11.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib12.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib12.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib13.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib13.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib14.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib14.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib15.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib15.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib16.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib16.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib17.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib17.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib18.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib18.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib19.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib19.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib20.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib20.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib21.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib21.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib22.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib22.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib23.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib23.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib24.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib24.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib25.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib25.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib26.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib26.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib27.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib27.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib28.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib28.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib29.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib29.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib30.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib30.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib31.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib31.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib32.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib32.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib33.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib33.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib34.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib34.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib35.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib35.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib36.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib36.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib37.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib37.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib38.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib38.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib39.dll
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\runtime\lib39.dll → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【入口】跳过（本包已安装成功，后续候选不再执行）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\sub\deep\tool-p5.exe
+2026-10-11 12:27:48 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-3724409046\sub\deep\tool-p5.exe → 跳过（skipped_after_success）
+2026-10-11 12:27:48 [信息] 【结果】<SUITE_ROOT>\samples\10-入口分层与黑名单\A25-04-规范包压缩版.7z → 安装成功（container processed）
+2026-10-11 12:27:48 [信息] 【结果】本次运行结束：总耗时 10.5 秒，退出码 0 —— 处理完成（具体结果见结果 JSON）
+2026-10-11 12:27:48 [信息] 【结果】总体结论：安装成功
+2026-10-11 12:27:48 [信息] 【结果】样本统计：样本总数 63｜安装成功 3｜已触发 1｜跳过 59

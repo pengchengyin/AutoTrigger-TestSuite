@@ -1,0 +1,5 @@
+2026-10-11 10:34:09 [警告] 【任务】配置提示：内置图像模板为空：仍会使用 UIA/Win32 与 OCR 识别；如需更高命中率，请按 D17 补齐模板
+2026-10-11 10:34:09 [信息] 【任务】任务开始：task_id=6217acff-a9fa-4dd0-956a-9f688c19a82c，工具版本 0.1.0，资源包 0.1.0
+2026-10-11 10:34:09 [信息] 【任务】结果文件：<REPORT_ROOT_A>\elevated\18-NSIS-01.json
+2026-10-11 10:34:09 [信息] 【任务】日志文件：<REPORT_ROOT_A>\elevated\18-NSIS-01.log
+2026-10-11 10:34:11 [错误] 【结果】工具错误：another AutoTrigger instance holds the machine lock

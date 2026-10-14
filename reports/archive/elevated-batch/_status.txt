@@ -1,0 +1,25 @@
+﻿--- start ---
+##### [1] A6-批量50文件 #####
+EXIT=0 ELAPSED_S=433.1
+##### [2] 01-三层嵌套.7z #####
+EXIT=0 ELAPSED_S=5.9
+##### [1] A26-01-installer_media.iso #####
+EXIT=0 ELAPSED_S=4.7
+##### [2] A26-02-malware_lure.iso #####
+EXIT=0 ELAPSED_S=5.3
+##### [3] A26-03-os_install_media.iso #####
+EXIT=0 ELAPSED_S=1.2
+##### [4] A26-04-media_disc.iso #####
+EXIT=0 ELAPSED_S=1.2
+##### [5] A26-05-data_disc.iso #####
+EXIT=0 ELAPSED_S=5.5
+##### [6] A26-06-garbled-names.iso #####
+EXIT=0 ELAPSED_S=5.3
+##### [7] A26-07-autorun-missing.iso #####
+EXIT=0 ELAPSED_S=4.5
+##### [8] A26-08-deep-longpath.iso #####
+EXIT=0 ELAPSED_S=5.4
+##### [9] A27-09-UDF-only.iso #####
+EXIT=0 ELAPSED_S=4.7
+##### [10] A27-10-截断损坏.iso #####
+EXIT=0 ELAPSED_S=8.9

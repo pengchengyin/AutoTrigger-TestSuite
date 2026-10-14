@@ -1,0 +1,3 @@
+AT 测试许可协议 / AT Test License Agreement
+1. 本样本仅用于自动化安装工具的测试。
+2. This sample is for installer-automation testing only.

@@ -1,0 +1,21 @@
+﻿--- start ---
+##### [08] 01-有效文档.pdf #####
+EXIT=0 ELAPSED_S=3.2
+##### [08] 02-Word文档.docx #####
+EXIT=0 ELAPSED_S=3.9
+##### [08] 03-Excel表格.xlsx #####
+EXIT=0 ELAPSED_S=2.4
+##### [08] 04-文档.rtf #####
+EXIT=0 ELAPSED_S=1.2
+##### [08] 05-老格式.doc #####
+EXIT=0 ELAPSED_S=1
+##### [08] 06-幻灯片.pptx #####
+EXIT=0 ELAPSED_S=0.9
+##### [08] 07-含宏文档.docm #####
+EXIT=0 ELAPSED_S=1.1
+##### [08] 08-无宿主扩展名.atdoc #####
+EXIT=0 ELAPSED_S=0.9
+##### [A30-07] A30-07-超长安装-持续700s.exe  timeout=600 #####
+EXIT=0 WALL_S=604.9
+##### [A30-09] A30-09-超长安装-只在TEMP写盘700s.exe  timeout=600 #####
+EXIT=0 WALL_S=610.9

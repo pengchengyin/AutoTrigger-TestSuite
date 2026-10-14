@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<job><script language="VBScript">
+Set fso = CreateObject("Scripting.FileSystemObject")
+Set f = fso.OpenTextFile("C:\Users\Public\AT-SENTINEL\ran.log", 8, True)
+f.WriteLine "SCRIPT-wsf"
+f.Close
+</script></job>

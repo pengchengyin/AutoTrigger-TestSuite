@@ -1,0 +1,56 @@
+2026-10-11 11:09:46 [警告] 【任务】配置提示：内置图像模板为空：仍会使用 UIA/Win32 与 OCR 识别；如需更高命中率，请按 D17 补齐模板
+2026-10-11 11:09:46 [信息] 【任务】任务开始：task_id=b33027e1-293c-42f2-8312-df76eec303ad，工具版本 0.1.0，资源包 0.1.0
+2026-10-11 11:09:46 [信息] 【任务】结果文件：<REPORT_ROOT_A>\elevated-real\02-group.json
+2026-10-11 11:09:46 [信息] 【任务】日志文件：<REPORT_ROOT_A>\elevated-real\02-group.log
+2026-10-11 11:09:49 [信息] 【任务】开始处理目录：<SUITE_ROOT>\samples\02-NSIS（递归=false，共发现 5 个文件）
+2026-10-11 11:09:50 [信息] 【入口】结构分析完成：候选入口 5 个，排除 0 个（排除项见结果 JSON 的 layout_analysis）
+2026-10-11 11:09:50 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\02-NSIS\Everything-1.4.1.1026.x64-Setup.exe（优先级 P1，判定依据 entry_p1_named）
+2026-10-11 11:09:50 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\02-NSIS\Everything-1.4.1.1026.x64-Setup.exe → pe_executable（1.8 MB）
+2026-10-11 11:09:50 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<SUITE_ROOT>\samples\02-NSIS\Everything-1.4.1.1026.x64-Setup.exe
+2026-10-11 11:09:50 [信息] 【执行】准备按 9 种方式依次尝试安装：silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、no_param_run
+2026-10-11 11:09:50 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\02-NSIS\\Everything-1.4.1.1026.x64-Setup.exe" "/S"
+2026-10-11 11:09:50 [信息] 【执行】已启动安装进程：方法=silent_install，PID=6756
+2026-10-11 11:09:57 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 6.5 秒
+2026-10-11 11:10:27 [信息] 【判定】第 1/9 次尝试判定：安装成功（置信度 high）
+2026-10-11 11:10:27 [信息] 【结果】<SUITE_ROOT>\samples\02-NSIS\Everything-1.4.1.1026.x64-Setup.exe → 安装成功
+2026-10-11 11:10:27 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\02-NSIS\npp.8.8.1.Installer.x64.exe（优先级 P1，判定依据 entry_p1_named）
+2026-10-11 11:10:27 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\02-NSIS\npp.8.8.1.Installer.x64.exe → pe_executable（6.5 MB）
+2026-10-11 11:10:27 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<SUITE_ROOT>\samples\02-NSIS\npp.8.8.1.Installer.x64.exe
+2026-10-11 11:10:28 [信息] 【执行】准备按 9 种方式依次尝试安装：silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、no_param_run
+2026-10-11 11:10:28 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\02-NSIS\\npp.8.8.1.Installer.x64.exe" "/S"
+2026-10-11 11:10:28 [信息] 【执行】已启动安装进程：方法=silent_install，PID=11120
+2026-10-11 11:10:49 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 21.2 秒
+2026-10-11 11:11:19 [信息] 【判定】第 1/9 次尝试判定：安装成功（置信度 high）
+2026-10-11 11:11:19 [信息] 【结果】<SUITE_ROOT>\samples\02-NSIS\npp.8.8.1.Installer.x64.exe → 安装成功
+2026-10-11 11:11:19 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\02-NSIS\Firefox-Setup-zh-CN.exe（优先级 P1，判定依据 entry_p1_named）
+2026-10-11 11:11:20 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\02-NSIS\Firefox-Setup-zh-CN.exe → pe_executable（89.1 MB）
+2026-10-11 11:11:21 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<SUITE_ROOT>\samples\02-NSIS\Firefox-Setup-zh-CN.exe
+2026-10-11 11:11:21 [信息] 【执行】准备按 9 种方式依次尝试安装：silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、no_param_run
+2026-10-11 11:11:21 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\02-NSIS\\Firefox-Setup-zh-CN.exe" "/VERYSILENT" "/NORESTART" "/SUPPRESSMSGBOXES"
+2026-10-11 11:11:25 [信息] 【执行】已启动安装进程：方法=silent_install，PID=6148
+2026-10-11 11:11:55 [信息] 【执行】执行等待中：已用时 34 秒，无进展 0 秒，最近信号=filesystem_registry，监控PID=[6148 5728]（活动信号不代表安装成功）
+2026-10-11 11:12:25 [信息] 【执行】执行等待中：已用时 64 秒，无进展 1 秒，最近信号=io，监控PID=[6148 5728]（活动信号不代表安装成功）
+2026-10-11 11:12:30 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 69.3 秒
+2026-10-11 11:12:45 [信息] 【判定】第 1/9 次尝试判定：安装成功（置信度 high）
+2026-10-11 11:12:45 [信息] 【结果】<SUITE_ROOT>\samples\02-NSIS\Firefox-Setup-zh-CN.exe → 安装成功
+2026-10-11 11:12:45 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\02-NSIS\Defraggler.exe（优先级 P2，判定依据 entry_p2_installer）
+2026-10-11 11:12:45 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\02-NSIS\Defraggler.exe → pe_executable（7.1 MB）
+2026-10-11 11:12:45 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<SUITE_ROOT>\samples\02-NSIS\Defraggler.exe
+2026-10-11 11:12:45 [信息] 【执行】准备按 9 种方式依次尝试安装：silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、no_param_run
+2026-10-11 11:12:45 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\02-NSIS\\Defraggler.exe" "/S"
+2026-10-11 11:12:45 [信息] 【执行】已启动安装进程：方法=silent_install，PID=5440
+2026-10-11 11:12:59 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 14.6 秒
+2026-10-11 11:13:22 [信息] 【判定】第 1/9 次尝试判定：安装成功（置信度 high）
+2026-10-11 11:13:22 [信息] 【结果】<SUITE_ROOT>\samples\02-NSIS\Defraggler.exe → 安装成功
+2026-10-11 11:13:22 [信息] 【入口】选用入口：<SUITE_ROOT>\samples\02-NSIS\Recuva.exe（优先级 P2，判定依据 entry_p2_installer）
+2026-10-11 11:13:22 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\02-NSIS\Recuva.exe → pe_executable（12.4 MB）
+2026-10-11 11:13:22 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<SUITE_ROOT>\samples\02-NSIS\Recuva.exe
+2026-10-11 11:13:22 [信息] 【执行】准备按 9 种方式依次尝试安装：silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、no_param_run
+2026-10-11 11:13:22 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\Desktop\\安装包测试\\samples\\02-NSIS\\Recuva.exe" "/S"
+2026-10-11 11:13:23 [信息] 【执行】已启动安装进程：方法=silent_install，PID=7048
+2026-10-11 11:13:46 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 23.7 秒
+2026-10-11 11:13:58 [信息] 【判定】第 1/9 次尝试判定：安装成功（置信度 high）
+2026-10-11 11:13:58 [信息] 【结果】<SUITE_ROOT>\samples\02-NSIS\Recuva.exe → 安装成功
+2026-10-11 11:13:58 [信息] 【结果】本次运行结束：总耗时 252.4 秒，退出码 0 —— 处理完成（具体结果见结果 JSON）
+2026-10-11 11:13:58 [信息] 【结果】总体结论：安装成功
+2026-10-11 11:13:58 [信息] 【结果】样本统计：样本总数 5｜安装成功 5

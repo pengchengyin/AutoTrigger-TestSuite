@@ -1,0 +1,20 @@
+﻿--- start ---
+cleanup done
+##### A29-07 : <SUITE_ROOT>\samples\11-安装成功判定\A29-07-反证据-装后回滚.exe #####
+EXIT=0 ELAPSED_S=70.1
+##### A25-01-blacklist : <SUITE_ROOT>\samples\10-入口分层与黑名单\A25-01-规范包-含黑名单 #####
+EXIT=0 ELAPSED_S=12.1
+##### lnk-installer : <SUITE_ROOT>\samples\07-脚本与快捷方式\09-快捷方式-指向安装器.lnk #####
+EXIT=0 ELAPSED_S=5.1
+##### MSI-06-V1 : <SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-06-升级覆盖V1.msi #####
+EXIT=0 ELAPSED_S=7.6
+##### MSI-06-V2 : <SUITE_ROOT>\samples\19-合成安装器(MSI-WiX)\MSI-06-升级覆盖V2.msi #####
+EXIT=0 ELAPSED_S=5.8
+##### A29-09-V1 : <SUITE_ROOT>\samples\11-安装成功判定\A29-09-覆盖升级-字段变化.exe #####
+EXIT=0 ELAPSED_S=5
+##### A29-09-V2 : <SUITE_ROOT>\samples\11-安装成功判定\A29-09-覆盖升级-字段变化.exe #####
+EXIT=0 ELAPSED_S=4.9
+##### A29-10-V1 : <SUITE_ROOT>\samples\11-安装成功判定\A29-10-已安装检测-幂等.exe #####
+EXIT=0 ELAPSED_S=5
+##### A29-10-V2 : <SUITE_ROOT>\samples\11-安装成功判定\A29-10-已安装检测-幂等.exe #####
+EXIT=0 ELAPSED_S=34.3

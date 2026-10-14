@@ -1,0 +1,31 @@
+﻿--- start ---
+##### [1/13] A29-01-假成功bootstrapper.exe #####
+EXIT=0 ELAPSED_S=53.9
+##### [1/13] A29-02-纯退出码0.exe #####
+EXIT=0 ELAPSED_S=48
+##### [1/13] A29-03-标准安装-落盘+卸载项.exe #####
+EXIT=0 ELAPSED_S=1.3
+##### [1/13] A29-04-per-user安装-HKCU卸载项.exe #####
+EXIT=0 ELAPSED_S=1.4
+##### [1/13] A29-05-绿色便携-仅落盘.exe #####
+EXIT=0 ELAPSED_S=51.1
+##### [1/13] A29-06-反证据-失败码+回滚日志.exe #####
+EXIT=0 ELAPSED_S=47.9
+##### [1/13] A29-07-反证据-装后回滚.exe #####
+EXIT=0 ELAPSED_S=15.3
+##### [1/13] A29-08-退出码1603失败.exe #####
+EXIT=0 ELAPSED_S=62.1
+##### [1/13] A29-09-覆盖升级-字段变化.exe #####
+EXIT=0 ELAPSED_S=1.8
+##### [1/13] A29-10-已安装检测-幂等.exe #####
+EXIT=0 ELAPSED_S=8.8
+##### [1/13] A29-11b-宽松口径-A1加落盘副作用.exe #####
+EXIT=0 ELAPSED_S=58.5
+##### [1/13] A29-11-口径对照-仅非卸载项注册表副作用.exe #####
+EXIT=0 ELAPSED_S=0.8
+##### [1/13] A29-12-落盘到监控外目录.exe #####
+EXIT=0 ELAPSED_S=53.2
+##### [2nd run] A29-09-覆盖升级-字段变化.exe #####
+EXIT=0 ELAPSED_S=1.1
+##### [2nd run] A29-10-已安装检测-幂等.exe #####
+EXIT=0 ELAPSED_S=75.6

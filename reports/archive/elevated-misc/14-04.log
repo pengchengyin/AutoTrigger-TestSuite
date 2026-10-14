@@ -1,0 +1,19 @@
+2026-10-11 20:35:26 [警告] 【任务】配置提示：内置图像模板为空：仍会使用 UIA/Win32 与 OCR 识别；如需更高命中率，请按 D17 补齐模板
+2026-10-11 20:35:26 [信息] 【任务】任务开始：task_id=65507293-86d3-45b7-b512-2a2d898c99a3，工具版本 0.1.0，资源包 0.1.0
+2026-10-11 20:35:26 [信息] 【任务】结果文件：<REPORT_ROOT_A>\elevated-misc\14-04.json
+2026-10-11 20:35:26 [信息] 【任务】日志文件：<REPORT_ROOT_A>\elevated-misc\14-04.log
+2026-10-11 20:35:27 [信息] 【任务】开始处理样本：<SUITE_ROOT>\samples\14-跳过与兜底\04-损坏的zip.zip（1.0 KB）
+2026-10-11 20:35:27 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\14-跳过与兜底\04-损坏的zip.zip → archive（1.0 KB）
+2026-10-11 20:35:27 [信息] 【解压】识别为压缩包，开始解压处理：<SUITE_ROOT>\samples\14-跳过与兜底\04-损坏的zip.zip
+2026-10-11 20:35:27 [信息] 【结果】<SUITE_ROOT>\samples\14-跳过与兜底\04-损坏的zip.zip → 失败（<DESKTOP>\third_party\7zip\7-Zip\7z.exe exited 2: 
+ERROR: <SUITE_ROOT>\samples\14-跳过与兜底\04-损坏的zip.zip : <SUITE_ROOT>\samples\14-跳过与兜底\04-损坏的zip.zip
+Open ERROR: Cannot open the file as [zip] archive
+
+
+ERRORS:
+Is not archive
+
+）
+2026-10-11 20:35:27 [信息] 【结果】本次运行结束：总耗时 1.2 秒，退出码 0 —— 处理完成（具体结果见结果 JSON）
+2026-10-11 20:35:27 [信息] 【结果】总体结论：安装失败
+2026-10-11 20:35:27 [信息] 【结果】样本统计：样本总数 1｜失败 1

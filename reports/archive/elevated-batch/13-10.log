@@ -1,0 +1,19 @@
+2026-10-11 20:25:25 [警告] 【任务】配置提示：内置图像模板为空：仍会使用 UIA/Win32 与 OCR 识别；如需更高命中率，请按 D17 补齐模板
+2026-10-11 20:25:25 [信息] 【任务】任务开始：task_id=3151f13d-ed51-48bb-b722-6964eafe9505，工具版本 0.1.0，资源包 0.1.0
+2026-10-11 20:25:25 [信息] 【任务】结果文件：<REPORT_ROOT_A>\elevated-batch\13-10.json
+2026-10-11 20:25:25 [信息] 【任务】日志文件：<REPORT_ROOT_A>\elevated-batch\13-10.log
+2026-10-11 20:25:26 [信息] 【任务】开始处理样本：<SUITE_ROOT>\samples\13-光盘映像 ISO\A27-10-截断损坏.iso（425.6 KB）
+2026-10-11 20:25:26 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\13-光盘映像 ISO\A27-10-截断损坏.iso → disk_image（425.6 KB）
+2026-10-11 20:25:26 [信息] 【解压】识别为光盘映像（ISO），按策略 extract_first 处理：<SUITE_ROOT>\samples\13-光盘映像 ISO\A27-10-截断损坏.iso
+2026-10-11 20:25:34 [信息] 【结果】<SUITE_ROOT>\samples\13-光盘映像 ISO\A27-10-截断损坏.iso → 失败（C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe exited 1: Mount-DiskImage : �ļ���Ŀ¼�����޷���ȡ�� 
+����λ�� ��:1 �ַ�: 248
++ ... rship unknown'};$disk=Mount-DiskImage -ImagePath $p -PassThru;$v=$dis ...
++                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (MSFT_DiskImage:ROOT/Microsoft/.../MSFT_DiskImage) [Mount-DiskImage], CimE 
+   xception
+    + FullyQualifiedErrorId : HRESULT 0x80070570,Mount-DiskImage
+ 
+）
+2026-10-11 20:25:34 [信息] 【结果】本次运行结束：总耗时 8.9 秒，退出码 0 —— 处理完成（具体结果见结果 JSON）
+2026-10-11 20:25:34 [信息] 【结果】总体结论：安装失败
+2026-10-11 20:25:34 [信息] 【结果】样本统计：样本总数 1｜失败 1

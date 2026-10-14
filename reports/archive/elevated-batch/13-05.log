@@ -1,0 +1,40 @@
+2026-10-11 20:24:59 [警告] 【任务】配置提示：内置图像模板为空：仍会使用 UIA/Win32 与 OCR 识别；如需更高命中率，请按 D17 补齐模板
+2026-10-11 20:24:59 [信息] 【任务】任务开始：task_id=9d9276e5-2df6-411e-ae7c-2caf70a0f192，工具版本 0.1.0，资源包 0.1.0
+2026-10-11 20:24:59 [信息] 【任务】结果文件：<REPORT_ROOT_A>\elevated-batch\13-05.json
+2026-10-11 20:24:59 [信息] 【任务】日志文件：<REPORT_ROOT_A>\elevated-batch\13-05.log
+2026-10-11 20:25:01 [信息] 【任务】开始处理样本：<SUITE_ROOT>\samples\13-光盘映像 ISO\A26-05-data_disc.iso（1.2 MB）
+2026-10-11 20:25:01 [信息] 【识别】识别结果：<SUITE_ROOT>\samples\13-光盘映像 ISO\A26-05-data_disc.iso → disk_image（1.2 MB）
+2026-10-11 20:25:01 [信息] 【解压】识别为光盘映像（ISO），按策略 extract_first 处理：<SUITE_ROOT>\samples\13-光盘映像 ISO\A26-05-data_disc.iso
+2026-10-11 20:25:01 [信息] 【解压】预检归档文件：<SUITE_ROOT>\samples\13-光盘映像 ISO\A26-05-data_disc.iso，可执行条目 9 个，已排除 0 个（卸载/修复/更新/调试类绝不执行）
+2026-10-11 20:25:01 [信息] 【解压】开始解压到临时目录：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1081558747
+2026-10-11 20:25:01 [信息] 【入口】结构分析完成：候选入口 9 个，排除 0 个（排除项见结果 JSON 的 layout_analysis）
+2026-10-11 20:25:01 [信息] 【入口】选用入口：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1081558747\setup.exe（优先级 P1，判定依据 entry_p1_named）
+2026-10-11 20:25:01 [信息] 【识别】识别结果：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1081558747\setup.exe → pe_executable（6.5 KB）
+2026-10-11 20:25:01 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1081558747\setup.exe
+2026-10-11 20:25:01 [信息] 【执行】准备按 9 种方式依次尝试安装：silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、silent_install、no_param_run
+2026-10-11 20:25:01 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-1081558747\\setup.exe" "/VERYSILENT" "/NORESTART" "/SUPPRESSMSGBOXES"
+2026-10-11 20:25:01 [信息] 【执行】已启动安装进程：方法=silent_install，PID=15284
+2026-10-11 20:25:01 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 0.1 秒
+2026-10-11 20:25:05 [信息] 【判定】第 1/9 次尝试判定：安装成功（置信度 low）
+2026-10-11 20:25:05 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-1081558747\setup.exe → 安装成功
+2026-10-11 20:25:05 [信息] 【入口】已达成安装成功，按「成功即收敛」策略停止执行本包后续候选
+2026-10-11 20:25:05 [信息] 【入口】排除（命中禁执行清单 ）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1081558747\readme.txt
+2026-10-11 20:25:05 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-1081558747\readme.txt → 跳过（non_executable_entry）
+2026-10-11 20:25:05 [信息] 【入口】排除（命中禁执行清单 ）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1081558747\docs\file00.txt
+2026-10-11 20:25:05 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-1081558747\docs\file00.txt → 跳过（non_executable_entry）
+2026-10-11 20:25:05 [信息] 【入口】排除（命中禁执行清单 ）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1081558747\docs\file01.txt
+2026-10-11 20:25:05 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-1081558747\docs\file01.txt → 跳过（non_executable_entry）
+2026-10-11 20:25:05 [信息] 【入口】排除（命中禁执行清单 ）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1081558747\docs\file02.txt
+2026-10-11 20:25:05 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-1081558747\docs\file02.txt → 跳过（non_executable_entry）
+2026-10-11 20:25:05 [信息] 【入口】排除（命中禁执行清单 ）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1081558747\docs\file03.txt
+2026-10-11 20:25:05 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-1081558747\docs\file03.txt → 跳过（non_executable_entry）
+2026-10-11 20:25:05 [信息] 【入口】排除（命中禁执行清单 ）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1081558747\docs\file04.txt
+2026-10-11 20:25:05 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-1081558747\docs\file04.txt → 跳过（non_executable_entry）
+2026-10-11 20:25:05 [信息] 【入口】排除（命中禁执行清单 ）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1081558747\docs\file05.txt
+2026-10-11 20:25:05 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-1081558747\docs\file05.txt → 跳过（non_executable_entry）
+2026-10-11 20:25:05 [信息] 【入口】排除（命中禁执行清单 ）：<DESKTOP>\<USER>\AppData\Local\Temp\AT-1081558747\photos\image01.jpg
+2026-10-11 20:25:05 [信息] 【结果】<DESKTOP>\<USER>\AppData\Local\Temp\AT-1081558747\photos\image01.jpg → 跳过（non_executable_entry）
+2026-10-11 20:25:05 [信息] 【结果】<SUITE_ROOT>\samples\13-光盘映像 ISO\A26-05-data_disc.iso → 安装成功（container processed）
+2026-10-11 20:25:05 [信息] 【结果】本次运行结束：总耗时 5.4 秒，退出码 0 —— 处理完成（具体结果见结果 JSON）
+2026-10-11 20:25:05 [信息] 【结果】总体结论：安装成功
+2026-10-11 20:25:05 [信息] 【结果】样本统计：样本总数 10｜安装成功 2｜跳过 8

@@ -1,0 +1,19 @@
+# 大体积/生成物/第三方 —— 不入 Git
+/_toolchain/
+/samples/01-Inno Setup/
+/samples/02-NSIS/
+/samples/03-MSI/
+/samples/04-Burn bootstrapper/
+/samples/05-其它厂商安装器/
+/samples/06-压缩包/
+*.wixpdb
+*.wixobj
+*.pdb
+*.part
+*.ok
+/dist/
+/tmp/
+/out/
+# 本地结果（脚本运行时产生，不覆盖历史）
+/runs/
+*.local.json

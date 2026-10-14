@@ -1,0 +1,28 @@
+AutoTrigger.exe : 2026-10-14 14:25:54 [璀﹀憡] 銆愪换鍔°€戦厤缃彁绀猴細鍐呯疆鍥惧儚妯℃澘涓虹┖锛氫粛浼氫娇鐢?UIA/Win32 涓?OCR 璇嗗埆锛涘闇€鏇撮珮鍛戒腑鐜囷紝璇锋寜 D17 
+琛ラ綈妯℃澘
+所在位置 C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\scripts\Invoke-SampleTest.ps1:112 字符: 3
++   & $AutoTrigger --input $it.Full --output $json --log-file $log --ti ...
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-10-14 14:2...紝璇锋寜 D17 琛ラ綈妯℃澘:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-10-14 14:25:54 [淇℃伅] 銆愪换鍔°€戜换鍔″紑濮嬶細task_id=4d0b8678-dff8-43f2-99cd-53fd338b6433锛屽伐鍏风増鏈?0.1.0锛岃祫婧愬寘 0.1.0
+2026-10-14 14:25:54 [淇℃伅] 銆愪换鍔°€戠粨鏋滄枃浠讹細C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\runs\20261014-141508\17-鍚堟垚瀹
+夎鍣?Inno)_INNO-08-闇€閲嶅惎-杩斿洖3010.exe.json
+2026-10-14 14:25:54 [淇℃伅] 銆愪换鍔°€戞棩蹇楁枃浠讹細C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\runs\20261014-141508\17-鍚堟垚瀹
+夎鍣?Inno)_INNO-08-闇€閲嶅惎-杩斿洖3010.exe.log
+2026-10-14 14:25:57 [淇℃伅] 銆愪换鍔°€戝紑濮嬪鐞嗘牱鏈細C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\samples\17-鍚堟垚瀹夎鍣?Inno)\
+INNO-08-闇€閲嶅惎-杩斿洖3010.exe锛?.2 MB锛?2026-10-14 14:25:58 [淇℃伅] 銆愯瘑鍒€戣瘑鍒粨鏋滐細\\vmware-host\Shared Folders\AutoTrigger-Test
+Suite\samples\17-鍚堟垚瀹夎鍣?Inno)\INNO-08-闇€閲嶅惎-杩斿洖3010.exe 鈫?pe_executable锛?.2 MB锛?2026-10-14 14:25:58 [淇℃伅] 銆愬垽瀹氥€戦噰闆嗗畨瑁
+呭墠鍩虹嚎蹇収锛堟敞鍐岃〃鍗歌浇椤?/ 鐩戞帶鐩綍 / 鏂囦欢鍏宠仈锛夛紝鐢ㄤ簬鍒ゅ畾鏈瀹夎鏄惁鐪熺殑鐢熸晥锛歕\vmware-host\Shared Folders\AutoTrigger-TestSuite\samples
+\17-鍚堟垚瀹夎鍣?Inno)\INNO-08-闇€閲嶅惎-杩斿洖3010.exe
+2026-10-14 14:25:58 [淇℃伅] 銆愭墽琛屻€戝噯澶囦緷娆″皾璇曟墽琛岋紝鏈€澶?9 娆★細闈欓粯瀹夎 8 缁勫弬鏁般€佺洿鎺ヨ繍琛?1 娆?2026-10-14 14:25:58 [淇℃伅] 銆愭墽琛屻€戠 1/9
+ 娆″皾璇曪細鏂规硶=silent_install锛屽懡浠?"\\\\vmware-host\\Shared Folders\\AutoTrigger-TestSuite\\samples\\17-鍚堟垚瀹夎鍣?Inno)\\INNO-
+08-闇€閲嶅惎-杩斿洖3010.exe" "/VERYSILENT" "/NORESTART" "/SUPPRESSMSGBOXES"
+2026-10-14 14:25:59 [淇℃伅] 銆愭墽琛屻€戝凡鍚姩瀹夎杩涚▼锛氭柟娉?silent_install锛孭ID=12248
+2026-10-14 14:26:02 [淇℃伅] 銆愮晫闈€戣嚜鍔ㄧ偣鍑伙細纭畾锛堣瘑鍒潵婧?uia锛岀獥鍙?"Setup"锛?2026-10-14 14:26:02 [淇℃伅] 銆愭墽琛屻€戞湰杞皾璇曠粨鏉燂細瀹夎杩涚▼宸茶
+嚜琛岄€€鍑猴紝鑰楁椂 3.8 绉?2026-10-14 14:26:17 [璀﹀憡] 銆愮晫闈€戝畨瑁呯▼搴忔彁绀洪渶瑕侀噸鍚墠鑳藉畬鎴愶紝鎸夐厤缃仠姝㈠悗缁皾璇?2026-10-14 14:26:17 [淇℃伅] 銆愬垽瀹氥€
+戠 1/9 娆″皾璇曞垽瀹氾細瀹夎鎴愬姛锛堢疆淇″害 high锛?2026-10-14 14:26:17 [淇℃伅] 銆愮粨鏋溿€慭\vmware-host\Shared Folders\AutoTrigger-TestSuite\s
+amples\17-鍚堟垚瀹夎鍣?Inno)\INNO-08-闇€閲嶅惎-杩斿洖3010.exe 鈫?瀹夎鎴愬姛
+2026-10-14 14:26:17 [淇℃伅] 銆愮粨鏋溿€戞湰娆¤繍琛岀粨鏉燂細鎬昏€楁椂 23.5 绉掞紝閫€鍑虹爜 0 鈥斺€?澶勭悊瀹屾垚锛堝叿浣撶粨鏋滆缁撴灉 JSON锛?2026-10-14 14:26:17 [淇℃伅]
+ 銆愮粨鏋溿€戞€讳綋缁撹锛氬畨瑁呮垚鍔?2026-10-14 14:26:17 [淇℃伅] 銆愮粨鏋溿€戞牱鏈粺璁★細鏍锋湰鎬绘暟 1锝滃畨瑁呮垚鍔?1

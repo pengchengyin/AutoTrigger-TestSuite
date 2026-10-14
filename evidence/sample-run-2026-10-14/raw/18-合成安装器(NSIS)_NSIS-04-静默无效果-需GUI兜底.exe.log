@@ -1,0 +1,22 @@
+2026-10-14 14:32:37 [警告] 【任务】配置提示：内置图像模板为空：仍会使用 UIA/Win32 与 OCR 识别；如需更高命中率，请按 D17 补齐模板
+2026-10-14 14:32:37 [信息] 【任务】任务开始：task_id=a4d9af24-2e9a-4e99-8840-4e02fff0a71b，工具版本 0.1.0，资源包 0.1.0
+2026-10-14 14:32:37 [信息] 【任务】结果文件：C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\runs\20261014-141508\18-合成安装器(NSIS)_NSIS-04-静默无效果-需GUI兜底.exe.json
+2026-10-14 14:32:37 [信息] 【任务】日志文件：C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\runs\20261014-141508\18-合成安装器(NSIS)_NSIS-04-静默无效果-需GUI兜底.exe.log
+2026-10-14 14:32:39 [信息] 【任务】开始处理样本：C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\samples\18-合成安装器(NSIS)\NSIS-04-静默无效果-需GUI兜底.exe（242.3 KB）
+2026-10-14 14:32:39 [信息] 【识别】识别结果：C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\samples\18-合成安装器(NSIS)\NSIS-04-静默无效果-需GUI兜底.exe → pe_executable（242.3 KB）
+2026-10-14 14:32:39 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\samples\18-合成安装器(NSIS)\NSIS-04-静默无效果-需GUI兜底.exe
+2026-10-14 14:32:40 [信息] 【执行】准备依次尝试执行，最多 9 次：静默安装 8 组参数、直接运行 1 次
+2026-10-14 14:32:40 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="\\\\vmware-host\\Shared Folders\\AutoTrigger-TestSuite\\samples\\18-合成安装器(NSIS)\\NSIS-04-静默无效果-需GUI兜底.exe" "/S"
+2026-10-14 14:32:40 [信息] 【执行】已启动安装进程：方法=silent_install，PID=4500
+2026-10-14 14:32:40 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 0.2 秒
+2026-10-14 14:32:57 [信息] 【判定】第 1/9 次尝试判定：安装成功（未验证）（置信度 low）
+2026-10-14 14:32:59 [信息] 【执行】第 2/9 次尝试：方法=silent_install，命令="\\\\vmware-host\\Shared Folders\\AutoTrigger-TestSuite\\samples\\18-合成安装器(NSIS)\\NSIS-04-静默无效果-需GUI兜底.exe" "/VERYSILENT" "/NORESTART" "/SUPPRESSMSGBOXES"
+2026-10-14 14:32:59 [信息] 【执行】已启动安装进程：方法=silent_install，PID=8644
+2026-10-14 14:33:01 [信息] 【界面】自动点击：安装(I)（识别来源 uia，窗口 "AT Synthetic NSIS 04 SilentNoop 安装 "）
+2026-10-14 14:33:03 [信息] 【界面】自动点击：完成(F)（识别来源 uia，窗口 "AT Synthetic NSIS 04 SilentNoop 安装 "）
+2026-10-14 14:33:03 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 4.4 秒
+2026-10-14 14:33:14 [信息] 【判定】第 2/9 次尝试判定：安装成功（置信度 high）
+2026-10-14 14:33:14 [信息] 【结果】C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\samples\18-合成安装器(NSIS)\NSIS-04-静默无效果-需GUI兜底.exe → 安装成功
+2026-10-14 14:33:14 [信息] 【结果】本次运行结束：总耗时 37.4 秒，退出码 0 —— 处理完成（具体结果见结果 JSON）
+2026-10-14 14:33:14 [信息] 【结果】总体结论：安装成功
+2026-10-14 14:33:14 [信息] 【结果】样本统计：样本总数 1｜安装成功 1

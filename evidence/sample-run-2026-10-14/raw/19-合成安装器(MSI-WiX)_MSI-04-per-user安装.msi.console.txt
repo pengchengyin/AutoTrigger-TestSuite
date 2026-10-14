@@ -1,0 +1,30 @@
+AutoTrigger.exe : 2026-10-14 14:43:11 [璀﹀憡] 銆愪换鍔°€戦厤缃彁绀猴細鍐呯疆鍥惧儚妯℃澘涓虹┖锛氫粛浼氫娇鐢?UIA/Win32 涓?OCR 璇嗗埆锛涘闇€鏇撮珮鍛戒腑鐜囷紝璇锋寜 D17 
+琛ラ綈妯℃澘
+所在位置 C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\scripts\Invoke-SampleTest.ps1:112 字符: 3
++   & $AutoTrigger --input $it.Full --output $json --log-file $log --ti ...
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-10-14 14:4...紝璇锋寜 D17 琛ラ綈妯℃澘:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-10-14 14:43:11 [淇℃伅] 銆愪换鍔°€戜换鍔″紑濮嬶細task_id=e5a186be-355f-48e1-acc6-d21eddb496d4锛屽伐鍏风増鏈?0.1.0锛岃祫婧愬寘 0.1.0
+2026-10-14 14:43:11 [淇℃伅] 銆愪换鍔°€戠粨鏋滄枃浠讹細C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\runs\20261014-141508\19-鍚堟垚瀹
+夎鍣?MSI-WiX)_MSI-04-per-user瀹夎.msi.json
+2026-10-14 14:43:11 [淇℃伅] 銆愪换鍔°€戞棩蹇楁枃浠讹細C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\runs\20261014-141508\19-鍚堟垚瀹
+夎鍣?MSI-WiX)_MSI-04-per-user瀹夎.msi.log
+2026-10-14 14:43:14 [淇℃伅] 銆愪换鍔°€戝紑濮嬪鐞嗘牱鏈細C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\samples\19-鍚堟垚瀹夎鍣?MSI-Wi
+X)\MSI-04-per-user瀹夎.msi锛?40.0 KB锛?2026-10-14 14:43:14 [淇℃伅] 銆愯瘑鍒€戣瘑鍒粨鏋滐細\\vmware-host\Shared Folders\AutoTrigger-Te
+stSuite\samples\19-鍚堟垚瀹夎鍣?MSI-WiX)\MSI-04-per-user瀹夎.msi 鈫?msi锛?40.0 KB锛?2026-10-14 14:43:14 [淇℃伅] 銆愬垽瀹氥€戦噰闆嗗畨瑁呭墠鍩虹嚎蹇
+収锛堟敞鍐岃〃鍗歌浇椤?/ 鐩戞帶鐩綍 / 鏂囦欢鍏宠仈锛夛紝鐢ㄤ簬鍒ゅ畾鏈瀹夎鏄惁鐪熺殑鐢熸晥锛歕\vmware-host\Shared Folders\AutoTrigger-TestSuite\samples\19-鍚堟
+垚瀹夎鍣?MSI-WiX)\MSI-04-per-user瀹夎.msi
+2026-10-14 14:43:15 [璀﹀憡] 銆愬垽瀹氥€戝熀绾块噰闆嗗憡璀︼紙C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\samples\19-鍚堟垚瀹夎鍣?MSI-Wi
+X)\MSI-04-per-user瀹夎.msi锛夛細鏂囦欢绯荤粺蹇収涓嶅畬鏁达紙鏉冮檺銆佹潯鐩暟鎴?450ms 棰勭畻闄愬埗锛夛細鏂囦欢宸紓璇佹嵁宸茬鐢?2026-10-14 14:43:15 [淇℃伅] 銆愭墽琛屻€戝噯澶囦
+緷娆″皾璇曟墽琛岋紝鏈€澶?3 娆★細Windows 瀹夎鍖呮墽琛?3 娆?2026-10-14 14:43:15 [淇℃伅] 銆愭墽琛屻€戠 1/3 娆″皾璇曪細鏂规硶=msi锛屽懡浠?"C:\\WINDOWS\\System32\
+\msiexec.exe" "/i" "\\\\vmware-host\\Shared Folders\\AutoTrigger-TestSuite\\samples\\19-鍚堟垚瀹夎鍣?MSI-WiX)\\MSI-04-per-us
+er瀹夎.msi" "/quiet" "/norestart" "/L*v" "C:\\Users\\<USER>\\AppData\\Local\\Temp\\AT-454434575\\MSI-0.log"
+2026-10-14 14:43:15 [淇℃伅] 銆愭墽琛屻€戝凡鍚姩瀹夎杩涚▼锛氭柟娉?msi锛孭ID=9420
+2026-10-14 14:43:16 [淇℃伅] 銆愭墽琛屻€戞湰杞皾璇曠粨鏉燂細瀹夎杩涚▼宸茶嚜琛岄€€鍑猴紝閫€鍑虹爜=0锛岃€楁椂 1.6 绉?2026-10-14 14:43:16 [淇℃伅] 銆愭墽琛屻€慦indows I
+nstaller 閫€鍑虹姸鎬侊細0
+2026-10-14 14:43:47 [淇℃伅] 銆愬垽瀹氥€戠 1/3 娆″皾璇曞垽瀹氾細瀹夎鎴愬姛锛堢疆淇″害 medium锛?2026-10-14 14:43:47 [淇℃伅] 銆愮粨鏋溿€慭\vmware-host\Shar
+ed Folders\AutoTrigger-TestSuite\samples\19-鍚堟垚瀹夎鍣?MSI-WiX)\MSI-04-per-user瀹夎.msi 鈫?瀹夎鎴愬姛
+2026-10-14 14:43:47 [淇℃伅] 銆愮粨鏋溿€戞湰娆¤繍琛岀粨鏉燂細鎬昏€楁椂 36.1 绉掞紝閫€鍑虹爜 0 鈥斺€?澶勭悊瀹屾垚锛堝叿浣撶粨鏋滆缁撴灉 JSON锛?2026-10-14 14:43:47 [淇℃伅]
+ 銆愮粨鏋溿€戞€讳綋缁撹锛氬畨瑁呮垚鍔?2026-10-14 14:43:47 [淇℃伅] 銆愮粨鏋溿€戞牱鏈粺璁★細鏍锋湰鎬绘暟 1锝滃畨瑁呮垚鍔?1

@@ -1,0 +1,783 @@
+AutoTrigger.exe : 2026-10-14 14:28:52 [璀﹀憡] 銆愪换鍔°€戦厤缃彁绀猴細鍐呯疆鍥惧儚妯℃澘涓虹┖锛氫粛浼氫娇鐢?UIA/Win32 涓?OCR 璇嗗埆锛涘闇€鏇撮珮鍛戒腑鐜囷紝璇锋寜 D17 
+琛ラ綈妯℃澘
+所在位置 C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\scripts\Invoke-SampleTest.ps1:112 字符: 3
++   & $AutoTrigger --input $it.Full --output $json --log-file $log --ti ...
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-10-14 14:2...紝璇锋寜 D17 琛ラ綈妯℃澘:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-10-14 14:28:52 [淇℃伅] 銆愪换鍔°€戜换鍔″紑濮嬶細task_id=ff0ed33b-de33-442c-8e92-ba1f2181f6ce锛屽伐鍏风増鏈?0.1.0锛岃祫婧愬寘 0.1.0
+2026-10-14 14:28:52 [淇℃伅] 銆愪换鍔°€戠粨鏋滄枃浠讹細C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\runs\20261014-141508\17-鍚堟垚瀹
+夎鍣?Inno)_INNO-10-鑱旂綉涓嬭浇缁勪欢绛夊緟.exe.json
+2026-10-14 14:28:52 [淇℃伅] 銆愪换鍔°€戞棩蹇楁枃浠讹細C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\runs\20261014-141508\17-鍚堟垚瀹
+夎鍣?Inno)_INNO-10-鑱旂綉涓嬭浇缁勪欢绛夊緟.exe.log
+2026-10-14 14:28:54 [淇℃伅] 銆愪换鍔°€戝紑濮嬪鐞嗘牱鏈細C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\samples\17-鍚堟垚瀹夎鍣?Inno)\
+INNO-10-鑱旂綉涓嬭浇缁勪欢绛夊緟.exe锛?.2 MB锛?2026-10-14 14:28:54 [淇℃伅] 銆愯瘑鍒€戣瘑鍒粨鏋滐細\\vmware-host\Shared Folders\AutoTrigger-TestS
+uite\samples\17-鍚堟垚瀹夎鍣?Inno)\INNO-10-鑱旂綉涓嬭浇缁勪欢绛夊緟.exe 鈫?pe_executable锛?.2 MB锛?2026-10-14 14:28:54 [淇℃伅] 銆愬垽瀹氥€戦噰闆嗗畨瑁呭墠
+鍩虹嚎蹇収锛堟敞鍐岃〃鍗歌浇椤?/ 鐩戞帶鐩綍 / 鏂囦欢鍏宠仈锛夛紝鐢ㄤ簬鍒ゅ畾鏈瀹夎鏄惁鐪熺殑鐢熸晥锛歕\vmware-host\Shared Folders\AutoTrigger-TestSuite\samples\1
+7-鍚堟垚瀹夎鍣?Inno)\INNO-10-鑱旂綉涓嬭浇缁勪欢绛夊緟.exe
+2026-10-14 14:28:54 [淇℃伅] 銆愭墽琛屻€戝噯澶囦緷娆″皾璇曟墽琛岋紝鏈€澶?9 娆★細闈欓粯瀹夎 8 缁勫弬鏁般€佺洿鎺ヨ繍琛?1 娆?2026-10-14 14:28:54 [淇℃伅] 銆愭墽琛屻€戠 1/9
+ 娆″皾璇曪細鏂规硶=silent_install锛屽懡浠?"\\\\vmware-host\\Shared Folders\\AutoTrigger-TestSuite\\samples\\17-鍚堟垚瀹夎鍣?Inno)\\INNO-
+10-鑱旂綉涓嬭浇缁勪欢绛夊緟.exe" "/VERYSILENT" "/NORESTART" "/SUPPRESSMSGBOXES"
+2026-10-14 14:28:55 [淇℃伅] 銆愭墽琛屻€戝凡鍚姩瀹夎杩涚▼锛氭柟娉?silent_install锛孭ID=12228
+2026-10-14 14:29:03 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR recognition: context deadline exceeded
+2026-10-14 14:29:03 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:11 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR recognition: context deadline exceeded
+2026-10-14 14:29:11 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:18 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR recognition: context deadline exceeded
+2026-10-14 14:29:18 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:20 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:20 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:21 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:21 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:21 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:21 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:22 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:22 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:22 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:22 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:23 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:23 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:23 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:23 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:23 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:23 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:24 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:24 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:25 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:25 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:25 [淇℃伅] 銆愭墽琛屻€戞墽琛岀瓑寰呬腑锛氬凡鐢ㄦ椂 30 绉掞紝鏃犺繘灞?3 绉掞紝鏈€杩戜俊鍙?filesystem_registry锛岀洃鎺ID=[12228 9428 1296 5052]
+锛堟椿鍔ㄤ俊鍙蜂笉浠ｈ〃瀹夎鎴愬姛锛?2026-10-14 14:29:25 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload
+\\netwait.exe" OCR 璇嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:25 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:26 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:26 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:26 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:26 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:26 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:26 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:27 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:27 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:27 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:27 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:28 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:28 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:28 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:28 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:29 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:29 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:30 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:30 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:30 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:30 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:31 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:31 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:32 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:32 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:32 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:32 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:33 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:33 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:33 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:33 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:34 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:34 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:34 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:34 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:35 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:35 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:35 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:35 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:35 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:35 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:36 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:36 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:37 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:37 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:37 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:37 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:38 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:38 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:40 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:40 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛?2026-10-14 14:29:41 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload
+\\netwait.exe" OCR 璇嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:41 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:41 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:41 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:42 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:42 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:42 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:42 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:43 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:43 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:44 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:44 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:44 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:44 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:45 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:45 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:46 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:46 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:46 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:46 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:47 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:47 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:47 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:47 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:48 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:48 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:48 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:48 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:49 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:49 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:49 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:49 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:50 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:50 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:51 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:51 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:52 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:52 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:52 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:52 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:53 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:53 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:53 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:53 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:54 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:54 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:55 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:55 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:55 [淇℃伅] 銆愭墽琛屻€戞墽琛岀瓑寰呬腑锛氬凡鐢ㄦ椂 60 绉掞紝鏃犺繘灞?9 绉掞紝鏈€杩戜俊鍙?filesystem_registry锛岀洃鎺ID=[12228 9428 1296 5052]
+锛堟椿鍔ㄤ俊鍙蜂笉浠ｈ〃瀹夎鎴愬姛锛?2026-10-14 14:29:55 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload
+\\netwait.exe" OCR 璇嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:55 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:56 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:56 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:56 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:56 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:57 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:57 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:29:58 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:29:58 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:00 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:00 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛?2026-10-14 14:30:01 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload
+\\netwait.exe" OCR 璇嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:01 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:02 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:02 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:02 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:02 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:03 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:03 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:03 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:03 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:04 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:04 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:04 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:04 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:05 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:05 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:06 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:06 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:06 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:06 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:07 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:07 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:07 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:07 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:08 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:08 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:09 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:09 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:09 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:09 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:10 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:10 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:13 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:13 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:13 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:13 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:14 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:14 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:14 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:14 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:15 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:15 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:15 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:15 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:16 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:16 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:16 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:16 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:17 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:17 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:18 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:18 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:19 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:19 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:20 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:20 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:20 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:20 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:21 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:21 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:22 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:22 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:22 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:22 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:23 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:23 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:23 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:23 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:24 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:24 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:25 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:25 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:25 [淇℃伅] 銆愭墽琛屻€戞墽琛岀瓑寰呬腑锛氬凡鐢ㄦ椂 91 绉掞紝鏃犺繘灞?0 绉掞紝鏈€杩戜俊鍙?filesystem_registry锛岀洃鎺ID=[12228 9428 1296 5052]
+锛堟椿鍔ㄤ俊鍙蜂笉浠ｈ〃瀹夎鎴愬姛锛?2026-10-14 14:30:26 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload
+\\netwait.exe" OCR 璇嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:26 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:26 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:26 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:27 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:27 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:28 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:28 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:28 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:28 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:29 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:29 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:29 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:29 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:30 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:30 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:31 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:31 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:32 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:32 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:32 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:32 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:33 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:33 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:33 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:33 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:34 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:34 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:34 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:34 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:35 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:35 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:35 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:35 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:36 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:36 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:36 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:36 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:37 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:37 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:37 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:37 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:38 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:38 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:39 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:39 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:39 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:39 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:40 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:40 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:40 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:40 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:41 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:41 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:42 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:42 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:44 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:44 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:45 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:45 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:46 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:46 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:46 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:46 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:47 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:47 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:47 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:47 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:48 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:48 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:49 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:49 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:49 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:49 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:50 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:50 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:51 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:51 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:51 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:51 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:52 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:52 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:52 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:52 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:53 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:53 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:53 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:53 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:54 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:54 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:54 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe" OCR 璇
+嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:30:54 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\netwait.exe"锛圥ID 1
+296锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏
+忓寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:30:54 [淇℃伅] 銆愭墽琛屻€戞湰杞皾璇曠粨鏉燂細瓒呮椂琚己鍒剁粓姝紝鑰楁椂 120.0 绉?2026-10-14 14:30:58 [淇℃伅] 銆愬垽瀹氥€戠 1/9 娆″皾璇曞垽瀹氾細瀹夎鎴
+愬姛锛堢疆淇″害 high锛?2026-10-14 14:30:58 [璀﹀憡] 銆愭墽琛屻€戝畨瑁呰繘绋嬪洜瓒呮椂琚粓姝紝浣嗕粛閲囬泦鍒板畨瑁呰瘉鎹細\\vmware-host\Shared Folders\AutoTrigger
+-TestSuite\samples\17-鍚堟垚瀹夎鍣?Inno)\INNO-10-鑱旂綉涓嬭浇缁勪欢绛夊緟.exe
+2026-10-14 14:30:58 [淇℃伅] 銆愮粨鏋溿€慭\vmware-host\Shared Folders\AutoTrigger-TestSuite\samples\17-鍚堟垚瀹夎鍣?Inno)\INNO-10-鑱旂綉
+涓嬭浇缁勪欢绛夊緟.exe 鈫?瀹夎鎴愬姛锛坱erminated on timeout; installation evidence still collected锛?2026-10-14 14:30:58 [淇℃伅] 銆愮粨鏋溿€戞湰
+娆¤繍琛岀粨鏉燂細鎬昏€楁椂 126.7 绉掞紝閫€鍑虹爜 0 鈥斺€?澶勭悊瀹屾垚锛堝叿浣撶粨鏋滆缁撴灉 JSON锛?2026-10-14 14:30:58 [淇℃伅] 銆愮粨鏋溿€戞€讳綋缁撹锛氬畨瑁呮垚鍔?2026-10-14 
+14:30:58 [淇℃伅] 銆愮粨鏋溿€戞牱鏈粺璁★細鏍锋湰鎬绘暟 1锝滃畨瑁呮垚鍔?1

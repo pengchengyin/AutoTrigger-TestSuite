@@ -1,4 +1,4 @@
-# AutoTrigger-TestSuite
+﻿# AutoTrigger-TestSuite
 
 面向 [AutoTrigger](https://github.com/pengchengyin/AutoTrigger)（Windows 任意文件自动安装/触发工具）的**可复现测试套件**：
 样本、源码、脚本、样本清单、逐样本结果、真实测试报告与已知问题。
@@ -31,6 +31,7 @@
 | A-修复前提权 | 10,038,272 B（2026-10-11） | 管理员 | 207 | 成功 72 / 部分 20 / 跳过 35 / 失败 32 / 已触发 36 / 超时 8 / 未验证 4 | **72/172 = 41.9%** |
 | A-修复前未提权 | 同上 | 普通用户 | 32 | 部分 5 / 成功 3 / 跳过 3 / 失败 9 / 已触发 12 | **3/29 = 10.3%** |
 | B-修复后定向复测 | 10,235,904 B（2026-10-12） | 管理员 | 8 | 成功 6 / 未验证 1 / 部分 1 | **6/8 = 75.0%** |
+| D-当前分发版自制备样 | 7,758,848 B（2026-10-14） | 管理员 | 120 | 成功 34 / 失败 20 / 容器展开 16 / 跳过 12 / 未验证 10 / 超时 10 / 部分 9 / 已触发 9 | **34/92 = 37.0%**（合成安装器专项 21/27 = **77.8%**） |
 
 **口径**：分母 = 覆盖的输入样本数 − `skipped`。
 `install_unverified` / `install_partial` / `triggered` / `killed_on_timeout` / `failed` **都不计入**"安装成功"。
@@ -39,6 +40,8 @@
 > - **A-修复前未提权**那段只覆盖 07/09 两组，作用是**证明"未提权时装不上需要管理员的软件"**，
 >   **不代表**工具在未提权下的整体能力。
 > - **B-修复后**只跑了 6 项修复对应的 8 个定向样本，属**验证子集**，**不能当全套件成功率**。
+> - **D-当前分发版**用逐样本方式跑完 **自制备样 07–20 全部 120 个**（第三方仅抽测 4 个），
+>   合成安装器专项 **21/27 = 77.8%**、黑名单 VIOLATION = 0，完整偏差见 [reports/run-2026-10-14.md](reports/run-2026-10-14.md)。
 > - 详细口径与证据索引见 **[reports/README.md](reports/README.md)** 与 **[reports/summary.md](reports/summary.md)**。
 
 ### 状态口径（务必区分）
@@ -171,7 +174,21 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\Invoke-SmokeTest.p
 
 > 需要无人值守时用 `-Unattended`，**不会**默认跳过安全确认。
 
-### 6.4 本次冒烟验证的实际结果（2026-10-14）
+### 6.4 样本级批量测试（自制备样 120 个）
+
+推荐用逐样本方式跑全套件（结果按时间戳目录归档，不覆盖历史）：
+
+~~~powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\Invoke-SampleTest.ps1 -AutoTrigger C:\path\to\AutoTrigger.exe -TimeoutSec 120
+# 中途退出后可多次续跑，再用合并脚本汇总
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\Summarize-Run.ps1 -RunDir .\runs\<时间戳1>,.\runs\<时间戳2> -OutDir .\runs\_merged
+~~~
+
+2026-10-14 实测（当前分发版 **7,758,848 B**，管理员会话，逐样本，超时 120 s）：
+**自制备样 120/120 全部覆盖**，合成安装器专项 **21/27 = 77.8%**，黑名单 **VIOLATION = 0**。
+完整结论与偏差见 **[reports/run-2026-10-14.md](reports/run-2026-10-14.md)**。
+
+### 6.5 本次冒烟验证的实际结果（2026-10-14）
 
 | 样本 | 预期 | 实际 | 耗时 |
 |---|---|---|---|
@@ -181,7 +198,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\Invoke-SmokeTest.p
 
 退出码 0，全部符合预期。原始结果见 **[evidence/smoke-2026-10-14/](evidence/smoke-2026-10-14/)**。
 
-### 6.5 跑完后清理
+### 6.6 跑完后清理
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -Command "Start-Process powershell -Verb RunAs -ArgumentList '-NoProfile','-ExecutionPolicy','Bypass','-File','.\scripts\Cleanup-SyntheticSamples.ps1'"
@@ -200,7 +217,7 @@ AutoTrigger-TestSuite\
 ├─ THIRD_PARTY_NOTICES.md     第三方软件/工具链许可与获取方式
 ├─ samples\                   自制样本（14 组 / 240 文件）
 ├─ sources\                   自制样本源码 + BUILD.md（含实测构建命令）
-├─ scripts\                   冒烟验证 / 清单校验 / 第三方获取 / 结果对比 / 清理
+├─ scripts\                   冒烟验证 / 样本级批量测试 / 结果合并 / 清单校验 / 第三方获取 / 结果对比 / 清理
 ├─ manifests\                 自制与第三方样本清单、工具链、SHA-256、索引
 ├─ reports\                   汇总报告、逐样本 CSV、35 份问题文档、历史报告
 ├─ evidence\                  脱敏后的 JSON / 日志 + 脱敏映射表
@@ -209,6 +226,7 @@ AutoTrigger-TestSuite\
 
 关键入口：
 [reports/summary.md](reports/summary.md) ·
+[reports/run-2026-10-14.md](reports/run-2026-10-14.md) ·
 [reports/per-sample.csv](reports/per-sample.csv) ·
 [reports/issues/](reports/issues/) ·
 [reports/coverage.md](reports/coverage.md) ·

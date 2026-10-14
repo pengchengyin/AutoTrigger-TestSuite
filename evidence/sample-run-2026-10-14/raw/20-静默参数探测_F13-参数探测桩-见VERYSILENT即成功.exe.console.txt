@@ -1,0 +1,16 @@
+2026-10-14 15:31:01 [警告] 【任务】配置提示：内置图像模板为空：仍会使用 UIA/Win32 与 OCR 识别；如需更高命中率，请按 D17 补齐模板
+2026-10-14 15:31:01 [信息] 【任务】任务开始：task_id=9652f4e3-ef6b-4ecb-abf5-345d29cf7fc9，工具版本 0.1.0，资源包 0.1.0
+2026-10-14 15:31:01 [信息] 【任务】结果文件：C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\runs\20261014-153006\20-静默参数探测_F13-参数探测桩-见VERYSILENT即成功.exe.json
+2026-10-14 15:31:01 [信息] 【任务】日志文件：C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\runs\20261014-153006\20-静默参数探测_F13-参数探测桩-见VERYSILENT即成功.exe.log
+2026-10-14 15:31:02 [信息] 【任务】开始处理样本：C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\samples\20-静默参数探测\F13-参数探测桩-见VERYSILENT即成功.exe（7.0 KB）
+2026-10-14 15:31:02 [信息] 【识别】识别结果：C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\samples\20-静默参数探测\F13-参数探测桩-见VERYSILENT即成功.exe → pe_executable（7.0 KB）
+2026-10-14 15:31:02 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\samples\20-静默参数探测\F13-参数探测桩-见VERYSILENT即成功.exe
+2026-10-14 15:31:02 [信息] 【执行】准备依次尝试执行，最多 9 次：静默安装 8 组参数、直接运行 1 次
+2026-10-14 15:31:02 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="\\\\vmware-host\\Shared Folders\\AutoTrigger-TestSuite\\samples\\20-静默参数探测\\F13-参数探测桩-见VERYSILENT即成功.exe" "/VERYSILENT" "/NORESTART" "/SUPPRESSMSGBOXES"
+2026-10-14 15:31:02 [信息] 【执行】已启动安装进程：方法=silent_install，PID=10984
+2026-10-14 15:31:03 [信息] 【执行】本轮尝试结束：安装进程已自行退出，退出码=0，耗时 0.1 秒
+2026-10-14 15:31:06 [信息] 【判定】第 1/9 次尝试判定：安装成功（置信度 medium）
+2026-10-14 15:31:06 [信息] 【结果】C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\samples\20-静默参数探测\F13-参数探测桩-见VERYSILENT即成功.exe → 安装成功
+2026-10-14 15:31:06 [信息] 【结果】本次运行结束：总耗时 4.3 秒，退出码 0 —— 处理完成（具体结果见结果 JSON）
+2026-10-14 15:31:06 [信息] 【结果】总体结论：安装成功
+2026-10-14 15:31:06 [信息] 【结果】样本统计：样本总数 1｜安装成功 1

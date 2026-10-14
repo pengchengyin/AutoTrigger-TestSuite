@@ -1,0 +1,18 @@
+2026-10-14 14:25:54 [警告] 【任务】配置提示：内置图像模板为空：仍会使用 UIA/Win32 与 OCR 识别；如需更高命中率，请按 D17 补齐模板
+2026-10-14 14:25:54 [信息] 【任务】任务开始：task_id=4d0b8678-dff8-43f2-99cd-53fd338b6433，工具版本 0.1.0，资源包 0.1.0
+2026-10-14 14:25:54 [信息] 【任务】结果文件：C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\runs\20261014-141508\17-合成安装器(Inno)_INNO-08-需重启-返回3010.exe.json
+2026-10-14 14:25:54 [信息] 【任务】日志文件：C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\runs\20261014-141508\17-合成安装器(Inno)_INNO-08-需重启-返回3010.exe.log
+2026-10-14 14:25:57 [信息] 【任务】开始处理样本：C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\samples\17-合成安装器(Inno)\INNO-08-需重启-返回3010.exe（2.2 MB）
+2026-10-14 14:25:58 [信息] 【识别】识别结果：C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\samples\17-合成安装器(Inno)\INNO-08-需重启-返回3010.exe → pe_executable（2.2 MB）
+2026-10-14 14:25:58 [信息] 【判定】采集安装前基线快照（注册表卸载项 / 监控目录 / 文件关联），用于判定本次安装是否真的生效：C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\samples\17-合成安装器(Inno)\INNO-08-需重启-返回3010.exe
+2026-10-14 14:25:58 [信息] 【执行】准备依次尝试执行，最多 9 次：静默安装 8 组参数、直接运行 1 次
+2026-10-14 14:25:58 [信息] 【执行】第 1/9 次尝试：方法=silent_install，命令="\\\\vmware-host\\Shared Folders\\AutoTrigger-TestSuite\\samples\\17-合成安装器(Inno)\\INNO-08-需重启-返回3010.exe" "/VERYSILENT" "/NORESTART" "/SUPPRESSMSGBOXES"
+2026-10-14 14:25:59 [信息] 【执行】已启动安装进程：方法=silent_install，PID=12248
+2026-10-14 14:26:02 [信息] 【界面】自动点击：确定（识别来源 uia，窗口 "Setup"）
+2026-10-14 14:26:02 [信息] 【执行】本轮尝试结束：安装进程已自行退出，耗时 3.8 秒
+2026-10-14 14:26:17 [警告] 【界面】安装程序提示需要重启才能完成，按配置停止后续尝试
+2026-10-14 14:26:17 [信息] 【判定】第 1/9 次尝试判定：安装成功（置信度 high）
+2026-10-14 14:26:17 [信息] 【结果】C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\samples\17-合成安装器(Inno)\INNO-08-需重启-返回3010.exe → 安装成功
+2026-10-14 14:26:17 [信息] 【结果】本次运行结束：总耗时 23.5 秒，退出码 0 —— 处理完成（具体结果见结果 JSON）
+2026-10-14 14:26:17 [信息] 【结果】总体结论：安装成功
+2026-10-14 14:26:17 [信息] 【结果】样本统计：样本总数 1｜安装成功 1

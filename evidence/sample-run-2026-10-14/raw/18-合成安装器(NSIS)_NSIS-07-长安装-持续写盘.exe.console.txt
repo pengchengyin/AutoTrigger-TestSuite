@@ -1,0 +1,31 @@
+AutoTrigger.exe : 2026-10-14 14:37:36 [璀﹀憡] 銆愪换鍔°€戦厤缃彁绀猴細鍐呯疆鍥惧儚妯℃澘涓虹┖锛氫粛浼氫娇鐢?UIA/Win32 涓?OCR 璇嗗埆锛涘闇€鏇撮珮鍛戒腑鐜囷紝璇锋寜 D17 
+琛ラ綈妯℃澘
+所在位置 C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\scripts\Invoke-SampleTest.ps1:112 字符: 3
++   & $AutoTrigger --input $it.Full --output $json --log-file $log --ti ...
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-10-14 14:3...紝璇锋寜 D17 琛ラ綈妯℃澘:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-10-14 14:37:36 [淇℃伅] 銆愪换鍔°€戜换鍔″紑濮嬶細task_id=d3a825f4-dc49-491d-b0f9-dc99ba10a8ac锛屽伐鍏风増鏈?0.1.0锛岃祫婧愬寘 0.1.0
+2026-10-14 14:37:36 [淇℃伅] 銆愪换鍔°€戠粨鏋滄枃浠讹細C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\runs\20261014-141508\18-鍚堟垚瀹
+夎鍣?NSIS)_NSIS-07-闀垮畨瑁?鎸佺画鍐欑洏.exe.json
+2026-10-14 14:37:36 [淇℃伅] 銆愪换鍔°€戞棩蹇楁枃浠讹細C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\runs\20261014-141508\18-鍚堟垚瀹
+夎鍣?NSIS)_NSIS-07-闀垮畨瑁?鎸佺画鍐欑洏.exe.log
+2026-10-14 14:37:39 [淇℃伅] 銆愪换鍔°€戝紑濮嬪鐞嗘牱鏈細C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\samples\18-鍚堟垚瀹夎鍣?NSIS)\
+NSIS-07-闀垮畨瑁?鎸佺画鍐欑洏.exe锛?42.3 KB锛?2026-10-14 14:37:40 [淇℃伅] 銆愯瘑鍒€戣瘑鍒粨鏋滐細\\vmware-host\Shared Folders\AutoTrigger-Test
+Suite\samples\18-鍚堟垚瀹夎鍣?NSIS)\NSIS-07-闀垮畨瑁?鎸佺画鍐欑洏.exe 鈫?pe_executable锛?42.3 KB锛?2026-10-14 14:37:40 [淇℃伅] 銆愬垽瀹氥€戦噰闆嗗畨瑁
+呭墠鍩虹嚎蹇収锛堟敞鍐岃〃鍗歌浇椤?/ 鐩戞帶鐩綍 / 鏂囦欢鍏宠仈锛夛紝鐢ㄤ簬鍒ゅ畾鏈瀹夎鏄惁鐪熺殑鐢熸晥锛歕\vmware-host\Shared Folders\AutoTrigger-TestSuite\samples
+\18-鍚堟垚瀹夎鍣?NSIS)\NSIS-07-闀垮畨瑁?鎸佺画鍐欑洏.exe
+2026-10-14 14:37:41 [璀﹀憡] 銆愬垽瀹氥€戝熀绾块噰闆嗗憡璀︼紙C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\samples\18-鍚堟垚瀹夎鍣?NSIS)\
+NSIS-07-闀垮畨瑁?鎸佺画鍐欑洏.exe锛夛細鏂囦欢绯荤粺蹇収涓嶅畬鏁达紙鏉冮檺銆佹潯鐩暟鎴?450ms 棰勭畻闄愬埗锛夛細鏂囦欢宸紓璇佹嵁宸茬鐢?2026-10-14 14:37:41 [淇℃伅] 銆愭墽琛屻€戝噯澶囦緷娆
+″皾璇曟墽琛岋紝鏈€澶?9 娆★細闈欓粯瀹夎 8 缁勫弬鏁般€佺洿鎺ヨ繍琛?1 娆?2026-10-14 14:37:41 [淇℃伅] 銆愭墽琛屻€戠 1/9 娆″皾璇曪細鏂规硶=silent_install锛屽懡浠?"\\\\vmw
+are-host\\Shared Folders\\AutoTrigger-TestSuite\\samples\\18-鍚堟垚瀹夎鍣?NSIS)\\NSIS-07-闀垮畨瑁?鎸佺画鍐欑洏.exe" "/S"
+2026-10-14 14:37:41 [淇℃伅] 銆愭墽琛屻€戝凡鍚姩瀹夎杩涚▼锛氭柟娉?silent_install锛孭ID=11204
+2026-10-14 14:38:11 [淇℃伅] 銆愭墽琛屻€戞墽琛岀瓑寰呬腑锛氬凡鐢ㄦ椂 30 绉掞紝鏃犺繘灞?2 绉掞紝鏈€杩戜俊鍙?filesystem_registry锛岀洃鎺ID=[11204]锛堟椿鍔ㄤ俊鍙蜂笉浠ｈ〃瀹夎
+鎴愬姛锛?2026-10-14 14:38:41 [淇℃伅] 銆愭墽琛屻€戞墽琛岀瓑寰呬腑锛氬凡鐢ㄦ椂 60 绉掞紝鏃犺繘灞?1 绉掞紝鏈€杩戜俊鍙?filesystem_registry锛岀洃鎺ID=[11204]锛堟椿鍔ㄤ俊鍙蜂笉浠
+ｈ〃瀹夎鎴愬姛锛?2026-10-14 14:39:11 [淇℃伅] 銆愭墽琛屻€戞墽琛岀瓑寰呬腑锛氬凡鐢ㄦ椂 90 绉掞紝鏃犺繘灞?1 绉掞紝鏈€杩戜俊鍙?filesystem_registry锛岀洃鎺ID=[11204]锛堟椿鍔ㄤ
+俊鍙蜂笉浠ｈ〃瀹夎鎴愬姛锛?2026-10-14 14:39:14 [淇℃伅] 銆愭墽琛屻€戞湰杞皾璇曠粨鏉燂細瀹夎杩涚▼宸茶嚜琛岄€€鍑猴紝閫€鍑虹爜=0锛岃€楁椂 92.9 绉?2026-10-14 14:39:44 [淇℃伅]
+ 銆愬垽瀹氥€戠 1/9 娆″皾璇曞垽瀹氾細瀹夎鎴愬姛锛堢疆淇″害 high锛?2026-10-14 14:39:44 [淇℃伅] 銆愮粨鏋溿€慭\vmware-host\Shared Folders\AutoTrigger-Test
+Suite\samples\18-鍚堟垚瀹夎鍣?NSIS)\NSIS-07-闀垮畨瑁?鎸佺画鍐欑洏.exe 鈫?瀹夎鎴愬姛
+2026-10-14 14:39:44 [淇℃伅] 銆愮粨鏋溿€戞湰娆¤繍琛岀粨鏉燂細鎬昏€楁椂 128.2 绉掞紝閫€鍑虹爜 0 鈥斺€?澶勭悊瀹屾垚锛堝叿浣撶粨鏋滆缁撴灉 JSON锛?2026-10-14 14:39:44 [淇℃伅
+] 銆愮粨鏋溿€戞€讳綋缁撹锛氬畨瑁呮垚鍔?2026-10-14 14:39:44 [淇℃伅] 銆愮粨鏋溿€戞牱鏈粺璁★細鏍锋湰鎬绘暟 1锝滃畨瑁呮垚鍔?1

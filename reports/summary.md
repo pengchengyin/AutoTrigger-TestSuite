@@ -1,4 +1,4 @@
-# 测试结论汇总（按环境与工具版本分段）
+﻿# 测试结论汇总（按环境与工具版本分段）
 
 ◆ **本节所有数字来自 `reports/per-sample.csv`，由实际结果 JSON 汇总而成。**
 
@@ -12,6 +12,7 @@
 | A-修复前提权 | 207 | {install_completed:72,install_partial:20,skipped:35,failed:32,triggered:36,killed_on_timeout:8,install_unverified:4} | 72/172 | 41.9% |
 | A-修复前未提权 | 32 | {install_partial:5,install_completed:3,skipped:3,failed:9,triggered:12} | 3/29 | 10.3% |
 | B-修复后定向复测 | 8 | {install_unverified:1,install_completed:6,install_partial:1} | 6/8 | 75% |
+| D-当前分发版自制备样 | 120 | {install_completed:34,failed:20,容器展开:16,skipped:12,install_unverified:10,killed_on_timeout:10,install_partial:9,triggered:9} | 34/92 | 37.0% |
 
 > 分母 = 该段覆盖的输入样本数 − `skipped`。`skipped` 排除的原因是"未执行"（无宿主、空文件、黑名单等），
 > 不构成安装能力的证据。分母**不含** `install_unverified` / `install_partial` / `triggered`。
@@ -25,6 +26,10 @@
   **不代表**工具在未提权下的整体能力。
 - **B-修复后定向复测**：2026-10-12 构建（10,235,904 字节），管理员会话。
   只跑了 **6 项修复对应的 8 个定向样本**，属于**验证子集**，**不能当作全套件成功率**。
+- **D-当前分发版自制备样**：2026-10-14 构建（**7,758,848 字节 / SHA-256 691373…B7FF**），管理员会话。
+  用 `scripts\Invoke-SampleTest.ps1` 逐样本跑完 **自制备样 07–20 共 120/120**，另抽测第三方组 01 的 4 个。
+  状态分布与偏差见 **[run-2026-10-14.md](run-2026-10-14.md)**。分母 92 = 120 − skipped 12 − 目录展开 16。
+  合成安装器专项（组 17/18/19）**21/27 = 77.8%**。第三方 25 个样本本轮**未执行**。
 
 ## 二、状态口径（务必区分）
 

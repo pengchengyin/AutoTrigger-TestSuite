@@ -1,0 +1,503 @@
+AutoTrigger.exe : 2026-10-14 14:26:17 [璀﹀憡] 銆愪换鍔°€戦厤缃彁绀猴細鍐呯疆鍥惧儚妯℃澘涓虹┖锛氫粛浼氫娇鐢?UIA/Win32 涓?OCR 璇嗗埆锛涘闇€鏇撮珮鍛戒腑鐜囷紝璇锋寜 D17 
+琛ラ綈妯℃澘
+所在位置 C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\scripts\Invoke-SampleTest.ps1:112 字符: 3
++   & $AutoTrigger --input $it.Full --output $json --log-file $log --ti ...
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-10-14 14:2...紝璇锋寜 D17 琛ラ綈妯℃澘:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-10-14 14:26:18 [淇℃伅] 銆愪换鍔°€戜换鍔″紑濮嬶細task_id=1c4a23ec-2b6d-4816-b609-0d3bb82b3df8锛屽伐鍏风増鏈?0.1.0锛岃祫婧愬寘 0.1.0
+2026-10-14 14:26:18 [淇℃伅] 銆愪换鍔°€戠粨鏋滄枃浠讹細C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\runs\20261014-141508\17-鍚堟垚瀹
+夎鍣?Inno)_INNO-09-鍗″湪瀹屾垚椤?瓒呮椂楠岃瘉.exe.json
+2026-10-14 14:26:18 [淇℃伅] 銆愪换鍔°€戞棩蹇楁枃浠讹細C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\runs\20261014-141508\17-鍚堟垚瀹
+夎鍣?Inno)_INNO-09-鍗″湪瀹屾垚椤?瓒呮椂楠岃瘉.exe.log
+2026-10-14 14:26:20 [淇℃伅] 銆愪换鍔°€戝紑濮嬪鐞嗘牱鏈細C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\samples\17-鍚堟垚瀹夎鍣?Inno)\
+INNO-09-鍗″湪瀹屾垚椤?瓒呮椂楠岃瘉.exe锛?.2 MB锛?2026-10-14 14:26:20 [淇℃伅] 銆愯瘑鍒€戣瘑鍒粨鏋滐細\\vmware-host\Shared Folders\AutoTrigger-Tes
+tSuite\samples\17-鍚堟垚瀹夎鍣?Inno)\INNO-09-鍗″湪瀹屾垚椤?瓒呮椂楠岃瘉.exe 鈫?pe_executable锛?.2 MB锛?2026-10-14 14:26:21 [淇℃伅] 銆愬垽瀹氥€戦噰闆嗗
+畨瑁呭墠鍩虹嚎蹇収锛堟敞鍐岃〃鍗歌浇椤?/ 鐩戞帶鐩綍 / 鏂囦欢鍏宠仈锛夛紝鐢ㄤ簬鍒ゅ畾鏈瀹夎鏄惁鐪熺殑鐢熸晥锛歕\vmware-host\Shared Folders\AutoTrigger-TestSuite\sampl
+es\17-鍚堟垚瀹夎鍣?Inno)\INNO-09-鍗″湪瀹屾垚椤?瓒呮椂楠岃瘉.exe
+2026-10-14 14:26:21 [淇℃伅] 銆愭墽琛屻€戝噯澶囦緷娆″皾璇曟墽琛岋紝鏈€澶?9 娆★細闈欓粯瀹夎 8 缁勫弬鏁般€佺洿鎺ヨ繍琛?1 娆?2026-10-14 14:26:21 [淇℃伅] 銆愭墽琛屻€戠 1/9
+ 娆″皾璇曪細鏂规硶=silent_install锛屽懡浠?"\\\\vmware-host\\Shared Folders\\AutoTrigger-TestSuite\\samples\\17-鍚堟垚瀹夎鍣?Inno)\\INNO-
+09-鍗″湪瀹屾垚椤?瓒呮椂楠岃瘉.exe" "/VERYSILENT" "/NORESTART" "/SUPPRESSMSGBOXES"
+2026-10-14 14:26:21 [淇℃伅] 銆愭墽琛屻€戝凡鍚姩瀹夎杩涚▼锛氭柟娉?silent_install锛孭ID=11240
+2026-10-14 14:26:29 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR recognition: context deadline exceeded
+2026-10-14 14:26:29 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:26:38 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR recognition: context deadline exceeded
+2026-10-14 14:26:38 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛?2026-10-14 14:26:47 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\
+\hanger.exe" OCR 璇嗗埆澶辫触锛歄CR recognition: context deadline exceeded
+2026-10-14 14:26:47 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛?2026-10-14 14:26:51 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\
+\hanger.exe" OCR 璇嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:26:51 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛?2026-10-14 14:26:55 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\
+\hanger.exe" OCR 璇嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:26:55 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:26:55 [淇℃伅] 銆愭墽琛屻€戞墽琛岀瓑寰呬腑锛氬凡鐢ㄦ椂 34 绉掞紝鏃犺繘灞?0 绉掞紝鏈€杩戜俊鍙?gui_change锛岀洃鎺ID=[11240 12188 9524 3284]锛堟椿鍔ㄤ俊鍙蜂
+笉浠ｈ〃瀹夎鎴愬姛锛?2026-10-14 14:26:59 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger
+.exe" 鎴浘澶辫触锛屾棤娉曡繘琛屾ā鏉?OCR 鍥為€€锛歝ontext deadline exceeded
+2026-10-14 14:26:59 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛?2026-10-14 14:27:01 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\
+\hanger.exe" OCR 璇嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:01 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:05 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:05 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛?2026-10-14 14:27:08 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\
+\hanger.exe" OCR 璇嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:08 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛?2026-10-14 14:27:09 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\
+\hanger.exe" OCR 璇嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:09 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:11 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:11 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:11 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:11 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:12 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:12 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:13 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:13 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:13 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:13 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:13 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:13 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:14 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:14 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:15 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:15 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:16 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:16 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:16 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:16 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:17 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:17 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:18 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:18 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:19 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:19 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:19 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:19 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:20 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:20 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:21 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:21 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:21 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:21 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:22 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:22 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:22 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:22 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:23 [淇℃伅] 銆愭墽琛屻€戞墽琛岀瓑寰呬腑锛氬凡鐢ㄦ椂 62 绉掞紝鏃犺繘灞?0 绉掞紝鏈€杩戜俊鍙?filesystem_registry锛岀洃鎺ID=[11240 12188 9524 3284
+]锛堟椿鍔ㄤ俊鍙蜂笉浠ｈ〃瀹夎鎴愬姛锛?2026-10-14 14:27:24 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payloa
+d\\hanger.exe" OCR 璇嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:24 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:27 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:27 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛?2026-10-14 14:27:28 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\
+\hanger.exe" OCR 璇嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:28 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:29 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:29 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:30 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:30 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:31 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:31 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:32 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:32 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:33 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:33 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:36 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" 鎴浘澶辫触
+锛屾棤娉曡繘琛屾ā鏉?OCR 鍥為€€锛歝ontext deadline exceeded
+2026-10-14 14:27:36 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:39 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:39 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:40 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:40 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:40 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:40 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:41 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:41 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:42 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:42 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:42 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:42 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:43 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:43 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:44 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:44 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:45 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:45 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:46 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:46 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:46 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:46 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:47 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:47 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:48 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:48 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:49 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:49 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:49 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:49 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:51 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:51 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:51 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:51 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:52 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:52 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:52 [淇℃伅] 銆愭墽琛屻€戞墽琛岀瓑寰呬腑锛氬凡鐢ㄦ椂 91 绉掞紝鏃犺繘灞?2 绉掞紝鏈€杩戜俊鍙?filesystem_registry锛岀洃鎺ID=[11240 12188 9524 3284
+]锛堟椿鍔ㄤ俊鍙蜂笉浠ｈ〃瀹夎鎴愬姛锛?2026-10-14 14:27:53 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payloa
+d\\hanger.exe" OCR 璇嗗埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:53 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:54 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:54 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:54 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:54 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:55 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:55 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:55 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:55 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:56 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:56 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:57 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:57 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:57 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:57 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:58 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:58 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:59 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:59 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:27:59 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:27:59 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:00 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:00 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:00 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:00 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:01 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:01 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:01 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:01 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:04 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" 鎴浘澶辫触
+锛屾棤娉曡繘琛屾ā鏉?OCR 鍥為€€锛歝ontext deadline exceeded
+2026-10-14 14:28:04 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:05 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:05 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:06 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:06 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:06 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:06 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:07 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:07 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:08 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:08 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:08 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:08 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:09 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:09 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:09 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:10 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:11 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:11 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:11 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:11 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:12 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:12 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:12 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:12 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:12 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:12 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:13 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:13 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:14 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:14 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:15 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:15 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:15 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:15 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:16 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:16 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:16 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:16 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:17 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:17 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:18 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:18 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:19 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:19 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:19 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:19 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:20 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:20 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:20 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe" OCR 璇嗗
+埆澶辫触锛歄CR disabled after restart limit
+2026-10-14 14:28:20 [璋冭瘯] 銆愮晫闈€戠晫闈㈣瘑鍒鎯咃細绐楀彛 "C:\\Users\\<USER>\\Desktop\\瀹夎鍖呮祴璇昞\_build\\payload\\hanger.exe"锛圥ID 95
+24锛夋湭璇嗗埆鍒板彲鐐瑰嚮鎺т欢锛氫笂涓€琛?button/鍙敤=true/閫変腑=false銆佸悜涓嬬炕椤?button/鍙敤=true/閫変腑=false銆佷笅涓€琛?button/鍙敤=true/閫変腑=false銆佹渶灏忓
+寲/button/鍙敤=true/閫変腑=false銆佹渶澶у寲/button/鍙敤=true/閫変腑=false銆佸叧闂?button/鍙敤=true/閫変腑=false
+2026-10-14 14:28:21 [淇℃伅] 銆愭墽琛屻€戞湰杞皾璇曠粨鏉燂細瓒呮椂琚己鍒剁粓姝紝鑰楁椂 120.0 绉?2026-10-14 14:28:51 [淇℃伅] 銆愬垽瀹氥€戠 1/9 娆″皾璇曞垽瀹氾細瀹夎鎴
+愬姛锛堢疆淇″害 high锛?2026-10-14 14:28:51 [璀﹀憡] 銆愭墽琛屻€戝畨瑁呰繘绋嬪洜瓒呮椂琚粓姝紝浣嗕粛閲囬泦鍒板畨瑁呰瘉鎹細\\vmware-host\Shared Folders\AutoTrigger
+-TestSuite\samples\17-鍚堟垚瀹夎鍣?Inno)\INNO-09-鍗″湪瀹屾垚椤?瓒呮椂楠岃瘉.exe
+2026-10-14 14:28:51 [淇℃伅] 銆愮粨鏋溿€慭\vmware-host\Shared Folders\AutoTrigger-TestSuite\samples\17-鍚堟垚瀹夎鍣?Inno)\INNO-09-鍗″湪
+瀹屾垚椤?瓒呮椂楠岃瘉.exe 鈫?瀹夎鎴愬姛锛坱erminated on timeout; installation evidence still collected锛?2026-10-14 14:28:51 [淇℃伅] 銆愮粨鏋溿€
+戞湰娆¤繍琛岀粨鏉燂細鎬昏€楁椂 154.0 绉掞紝閫€鍑虹爜 0 鈥斺€?澶勭悊瀹屾垚锛堝叿浣撶粨鏋滆缁撴灉 JSON锛?2026-10-14 14:28:51 [淇℃伅] 銆愮粨鏋溿€戞€讳綋缁撹锛氬畨瑁呮垚鍔?2026-10-1
+4 14:28:51 [淇℃伅] 銆愮粨鏋溿€戞牱鏈粺璁★細鏍锋湰鎬绘暟 1锝滃畨瑁呮垚鍔?1

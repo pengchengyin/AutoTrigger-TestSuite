@@ -1,0 +1,30 @@
+AutoTrigger.exe : 2026-10-14 14:19:48 [璀﹀憡] 銆愪换鍔°€戦厤缃彁绀猴細鍐呯疆鍥惧儚妯℃澘涓虹┖锛氫粛浼氫娇鐢?UIA/Win32 涓?OCR 璇嗗埆锛涘闇€鏇撮珮鍛戒腑鐜囷紝璇锋寜 D17 
+琛ラ綈妯℃澘
+所在位置 C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\scripts\Invoke-SampleTest.ps1:112 字符: 3
++   & $AutoTrigger --input $it.Full --output $json --log-file $log --ti ...
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2026-10-14 14:1...紝璇锋寜 D17 琛ラ綈妯℃澘:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2026-10-14 14:19:48 [淇℃伅] 銆愪换鍔°€戜换鍔″紑濮嬶細task_id=832c2de7-af80-4922-9889-eca82e6f65e0锛屽伐鍏风増鏈?0.1.0锛岃祫婧愬寘 0.1.0
+2026-10-14 14:19:48 [淇℃伅] 銆愪换鍔°€戠粨鏋滄枃浠讹細C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\runs\20261014-141508\17-鍚堟垚瀹
+夎鍣?Inno)_INNO-05-闀垮畨瑁?鎸佺画鍐欑洏90s.exe.json
+2026-10-14 14:19:48 [淇℃伅] 銆愪换鍔°€戞棩蹇楁枃浠讹細C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\runs\20261014-141508\17-鍚堟垚瀹
+夎鍣?Inno)_INNO-05-闀垮畨瑁?鎸佺画鍐欑洏90s.exe.log
+2026-10-14 14:19:50 [淇℃伅] 銆愪换鍔°€戝紑濮嬪鐞嗘牱鏈細C:\Users\<USER>\Desktop\AutoTrigger-TestSuite\samples\17-鍚堟垚瀹夎鍣?Inno)\
+INNO-05-闀垮畨瑁?鎸佺画鍐欑洏90s.exe锛?.2 MB锛?2026-10-14 14:19:50 [淇℃伅] 銆愯瘑鍒€戣瘑鍒粨鏋滐細\\vmware-host\Shared Folders\AutoTrigger-Tes
+tSuite\samples\17-鍚堟垚瀹夎鍣?Inno)\INNO-05-闀垮畨瑁?鎸佺画鍐欑洏90s.exe 鈫?pe_executable锛?.2 MB锛?2026-10-14 14:19:50 [淇℃伅] 銆愬垽瀹氥€戦噰闆嗗
+畨瑁呭墠鍩虹嚎蹇収锛堟敞鍐岃〃鍗歌浇椤?/ 鐩戞帶鐩綍 / 鏂囦欢鍏宠仈锛夛紝鐢ㄤ簬鍒ゅ畾鏈瀹夎鏄惁鐪熺殑鐢熸晥锛歕\vmware-host\Shared Folders\AutoTrigger-TestSuite\sampl
+es\17-鍚堟垚瀹夎鍣?Inno)\INNO-05-闀垮畨瑁?鎸佺画鍐欑洏90s.exe
+2026-10-14 14:19:51 [淇℃伅] 銆愭墽琛屻€戝噯澶囦緷娆″皾璇曟墽琛岋紝鏈€澶?9 娆★細闈欓粯瀹夎 8 缁勫弬鏁般€佺洿鎺ヨ繍琛?1 娆?2026-10-14 14:19:51 [淇℃伅] 銆愭墽琛屻€戠 1/9
+ 娆″皾璇曪細鏂规硶=silent_install锛屽懡浠?"\\\\vmware-host\\Shared Folders\\AutoTrigger-TestSuite\\samples\\17-鍚堟垚瀹夎鍣?Inno)\\INNO-
+05-闀垮畨瑁?鎸佺画鍐欑洏90s.exe" "/VERYSILENT" "/NORESTART" "/SUPPRESSMSGBOXES"
+2026-10-14 14:19:51 [淇℃伅] 銆愭墽琛屻€戝凡鍚姩瀹夎杩涚▼锛氭柟娉?silent_install锛孭ID=11068
+2026-10-14 14:20:21 [淇℃伅] 銆愭墽琛屻€戞墽琛岀瓑寰呬腑锛氬凡鐢ㄦ椂 30 绉掞紝鏃犺繘灞?0 绉掞紝鏈€杩戜俊鍙?cpu锛岀洃鎺ID=[11068 9808]锛堟椿鍔ㄤ俊鍙蜂笉浠ｈ〃瀹夎鎴愬姛锛?2026-1
+0-14 14:20:51 [淇℃伅] 銆愭墽琛屻€戞墽琛岀瓑寰呬腑锛氬凡鐢ㄦ椂 61 绉掞紝鏃犺繘灞?1 绉掞紝鏈€杩戜俊鍙?filesystem_registry锛岀洃鎺ID=[11068 9808]锛堟椿鍔ㄤ俊鍙蜂笉浠ｈ〃瀹夎鎴
+愬姛锛?2026-10-14 14:21:22 [淇℃伅] 銆愭墽琛屻€戞墽琛岀瓑寰呬腑锛氬凡鐢ㄦ椂 92 绉掞紝鏃犺繘灞?0 绉掞紝鏈€杩戜俊鍙?filesystem_registry锛岀洃鎺ID=[11068 9808]锛堟椿鍔ㄤ俊
+鍙蜂笉浠ｈ〃瀹夎鎴愬姛锛?2026-10-14 14:21:38 [淇℃伅] 銆愭墽琛屻€戞湰杞皾璇曠粨鏉燂細瀹夎杩涚▼宸茶嚜琛岄€€鍑猴紝閫€鍑虹爜=0锛岃€楁椂 107.2 绉?2026-10-14 14:22:09 [淇℃伅]
+ 銆愬垽瀹氥€戠 1/9 娆″皾璇曞垽瀹氾細瀹夎鎴愬姛锛堢疆淇″害 high锛?2026-10-14 14:22:09 [淇℃伅] 銆愮粨鏋溿€慭\vmware-host\Shared Folders\AutoTrigger-Test
+Suite\samples\17-鍚堟垚瀹夎鍣?Inno)\INNO-05-闀垮畨瑁?鎸佺画鍐欑洏90s.exe 鈫?瀹夎鎴愬姛
+2026-10-14 14:22:09 [淇℃伅] 銆愮粨鏋溿€戞湰娆¤繍琛岀粨鏉燂細鎬昏€楁椂 141.0 绉掞紝閫€鍑虹爜 0 鈥斺€?澶勭悊瀹屾垚锛堝叿浣撶粨鏋滆缁撴灉 JSON锛?2026-10-14 14:22:09 [淇℃伅
+] 銆愮粨鏋溿€戞€讳綋缁撹锛氬畨瑁呮垚鍔?2026-10-14 14:22:09 [淇℃伅] 銆愮粨鏋溿€戞牱鏈粺璁★細鏍锋湰鎬绘暟 1锝滃畨瑁呮垚鍔?1

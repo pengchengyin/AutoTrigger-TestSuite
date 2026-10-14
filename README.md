@@ -1,6 +1,6 @@
 # AutoTrigger-TestSuite
 
-面向 [AutoTrigger](https://github.com/)（Windows 任意文件自动安装/触发工具）的**可复现测试套件**：
+面向 [AutoTrigger](https://github.com/pengchengyin/AutoTrigger)（Windows 任意文件自动安装/触发工具）的**可复现测试套件**：
 样本、源码、脚本、样本清单、逐样本结果、真实测试报告与已知问题。
 
 > 本仓库的目的不是"证明工具很好"，而是**让任何人能在自己的机器上快速核对 AutoTrigger 的真实效果与边界**。
@@ -13,7 +13,7 @@
 | 项 | 说明 |
 |---|---|
 | 被测工具 | **AutoTrigger**（Windows 安装包自动处理工具） |
-| 主机程序链接 | **未提供** — 本仓库未获授权链接/修改主项目仓库，请向工具作者获取 |
+| 主机程序链接 | [pengchengyin/AutoTrigger](https://github.com/pengchengyin/AutoTrigger) — 本仓库仅链接，未修改主项目仓库 |
 | 工具版本 | `0.1.0`（`tool_version`），结果 JSON schema `2.8`，resource pack `0.1.0` |
 | 本套件内容 | 自制样本 240 个文件（14 组）+ 第三方样本登记 23 条（6 组，不随仓库分发） |
 | 样本源码 | ✅ 全部自制样本源码在 `sources\`，Inno/NSIS/WiX 均已实测可重新编译 |

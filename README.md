@@ -128,15 +128,18 @@
 
 ### 6.1 准备
 
+> 📦 若你是从 **GitHub Release** 下载的打包版（`AutoTrigger-TestSuite-v*.zip`）：
+> **组 01–06 的第三方样本已随包提供**（共 30 个文件 / 约 692 MB），解压后可直接跳到 [6.2](#62-校验样本完整性)，**无需**下面的 clone 与下载步骤。
+
 ```powershell
-git clone <仓库地址> AutoTrigger-TestSuite
+git clone https://github.com/pengchengyin/AutoTrigger-TestSuite.git AutoTrigger-TestSuite
 cd AutoTrigger-TestSuite
 ```
 
 必需：Windows 10/11、PowerShell 5.1、**7-Zip**、AutoTrigger.exe。
 可选：PaddleOCR-json（自绘界面样本）。
 
-第三方样本不在仓库内，如需完整覆盖请先获取：
+第三方样本不在 Git 仓库内，如需完整覆盖请先获取：
 
 ```powershell
 # 只下载清单中登记了官方直链的条目；未登记来源的会明确列出

@@ -65,3 +65,28 @@ GUI 自动化需要**可交互桌面**：
 | 第三方样本（自行下载） | `692 MB |
 | 每轮运行产物 | 数 MB（压缩包压力组可达数十 MB） |
 | 预留 | **≥ 3 GB** |
+
+
+## 八、杀毒 / 安全软件（重要，实测踩坑）
+
+本套件实测曾发生：**Windows Defender 在全量运行中途把 `AutoTrigger.exe` 判为
+`Trojan:Win32/Bearfoos.B!ml`（ML 启发式，极可能误报）并隔离**，导致该轮第 5 个样本之后
+144 个样本全部秒失败、且脚本没有报错（详见
+[reports/issues/ISSUE-36](../reports/issues/ISSUE-36-Defender隔离AutoTrigger致整轮中断.md)）。
+
+**运行前必须**把被测工具加入安全软件排除（管理员）：
+
+```powershell
+Add-MpPreference -ExclusionPath   'C:\Users\<USER>\Desktop\AutoTrigger.exe'
+Add-MpPreference -ExclusionProcess 'AutoTrigger.exe'
+```
+
+若已被隔离，先还原再排除：
+
+```powershell
+& "$env:ProgramFiles\Windows Defender\MpCmdRun.exe" -Restore -Name 'Trojan:Win32/Bearfoos.B!ml' -All
+```
+
+> 还原后请核对 `size` / `SHA-256` 与本轮报告记录一致，再继续测试。
+> 其它杀软（360、火绒、卡巴等）同理，建议对 `AutoTrigger.exe` 与 `samples\` 目录加信任。
+

@@ -1,0 +1,188 @@
+﻿# 样本级批量测试 20261015-093548
+
+- 工具: C:\Users\<USER>\Desktop\AutoTrigger.exe
+- 版本: {"go_version":"go1.20.1","resource_pack_version":"0.1.0","schema_version":"2.8","tool_version":"0.1.0"}
+- 权限: 管理员
+- 单样本超时: 240 s
+- 样本条目: 149（分组 20 个）
+
+## 分组状态分布
+
+| 分组 | 样本数 | 状态分布 |
+|---|---|---|
+| 01-Inno Setup | 5 | killed_on_timeout=2 install_completed=1 install_partial=2 |
+| 02-NSIS | 5 | install_completed=4 install_partial=1 |
+| 03-MSI | 6 | install_completed=6 |
+| 04-Burn bootstrapper | 3 | killed_on_timeout=1 install_completed=2 |
+| 05-其它厂商安装器 | 3 | install_partial=2 killed_on_timeout=1 |
+| 06-压缩包 | 7 | 容器展开=6 killed_on_timeout=1 |
+| 07-脚本与快捷方式 | 15 | triggered=8 killed_on_timeout=3 install_completed=1 failed=2 install_unverified=1 |
+| 08-文档类 | 8 | triggered=1 skipped=6 failed=1 |
+| 09-类型识别与伪装 | 13 | skipped=2 failed=6 install_completed=4 容器展开=1 |
+| 10-入口分层与黑名单 | 6 | 容器展开=6 |
+| 11-安装成功判定 | 13 | install_completed=5 install_unverified=5 install_partial=2 failed=1 |
+| 12-超时与活动感知 | 9 | install_completed=2 killed_on_timeout=6 install_partial=1 |
+| 13-光盘映像 ISO | 10 | 容器展开=7 skipped=2 failed=1 |
+| 14-跳过与兜底 | 12 | skipped=2 failed=7 install_completed=1 install_unverified=2 |
+| 15-批量与嵌套 | 2 | 容器展开=2 |
+| 16-自绘界面-OCR专项 | 2 | killed_on_timeout=1 install_partial=1 |
+| 17-合成安装器(Inno) | 11 | install_completed=7 install_partial=4 |
+| 18-合成安装器(NSIS) | 7 | install_completed=3 killed_on_timeout=2 install_partial=2 |
+| 19-合成安装器(MSI-WiX) | 9 | install_completed=5 install_partial=2 failed=2 |
+| 20-静默参数探测 | 3 | install_partial=1 install_completed=2 |
+
+## 逐样本结果
+
+| 分组 | 样本 | 类型 | 最终状态 | 置信度 | 证据 | 退出码 | 耗时秒 | VIOLATION |
+|---|---|---|---|---|---|---|---|---|
+| 01-Inno Setup | 01-Inno Setup\audacity-win-3.7.1-64bit.exe | 文件 | killed_on_timeout |  | A1/A2 | 0 | 269.4 | 0 |
+| 01-Inno Setup | 01-Inno Setup\Git-2.47.1-64-bit.exe | 文件 | install_completed | medium | A3/A1 | 0 | 113 | 0 |
+| 01-Inno Setup | 01-Inno Setup\Notepad3-Setup.exe | 文件 | install_partial | low | N1/S1/A2 | 0 | 284.9 | 0 |
+| 01-Inno Setup | 01-Inno Setup\ShareX-17.0.0-setup.exe | 文件 | killed_on_timeout |  |  | 0 | 287.6 | 0 |
+| 01-Inno Setup | 01-Inno Setup\WinMerge-2.16.46-x64-Setup.exe | 文件 | install_partial | low | A1/A3 | 0 | 271.7 | 0 |
+| 02-NSIS | 02-NSIS\Defraggler.exe | 文件 | install_completed | high | A1/S2 | 0 | 266.4 | 0 |
+| 02-NSIS | 02-NSIS\Everything-1.4.1.1026.x64-Setup.exe | 文件 | install_completed | medium | A3/A1 | 0 | 17.9 | 0 |
+| 02-NSIS | 02-NSIS\Firefox-Setup-zh-CN.exe | 文件 | install_completed | high | S2/A1 | 0 | 51.6 | 0 |
+| 02-NSIS | 02-NSIS\npp.8.8.1.Installer.x64.exe | 文件 | install_completed | high | S2/A1 | 0 | 27.4 | 0 |
+| 02-NSIS | 02-NSIS\Recuva.exe | 文件 | install_partial | low | A1/A3 | 0 | 277.1 | 0 |
+| 03-MSI | 03-MSI\7z2600-x64.msi | 文件 | install_completed | high | S3 | 0 | 29.3 | 0 |
+| 03-MSI | 03-MSI\KeePassXC-2.7.9-Win64.msi | 文件 | install_completed | high | S3 | 0 | 9.2 | 0 |
+| 03-MSI | 03-MSI\MobaXterm_installer_26.5.msi | 文件 | install_completed | high | S3 | 0 | 7.9 | 0 |
+| 03-MSI | 03-MSI\node-v22.11.0-x64.msi | 文件 | install_completed | high | S3 | 0 | 10.6 | 0 |
+| 03-MSI | 03-MSI\putty-64bit-0.85-installer.msi | 文件 | install_completed | high | S3 | 0 | 6.5 | 0 |
+| 03-MSI | 03-MSI\TortoiseGit-2.17.0.0-64bit.msi | 文件 | install_completed | medium | A3/S3 | 0 | 25.3 | 0 |
+| 04-Burn bootstrapper | 04-Burn bootstrapper\python-3.13.0-amd64.exe | 文件 | killed_on_timeout |  | A1 | 0 | 270.5 | 0 |
+| 04-Burn bootstrapper | 04-Burn bootstrapper\VC_redist.x64.exe | 文件 | install_completed | medium | A3/A1 | 0 | 20 | 0 |
+| 04-Burn bootstrapper | 04-Burn bootstrapper\windowsdesktop-runtime-8.0-win-x64.exe | 文件 | install_completed | medium | A3/A1 | 0 | 9.7 | 0 |
+| 05-其它厂商安装器 | 05-其它厂商安装器\TeraCopy.exe | 文件 | install_partial | low | N6/S2 | 0 | 254.6 | 0 |
+| 05-其它厂商安装器 | 05-其它厂商安装器\VeraCrypt.exe | 文件 | install_partial | low | A3 | 0 | 251.6 | 0 |
+| 05-其它厂商安装器 | 05-其它厂商安装器\ZoomInstallerFull.exe | 文件 | killed_on_timeout |  | A1 | 0 | 249.9 | 0 |
+| 06-压缩包 | 06-压缩包\7z2501-extra.7z | 文件 | 容器展开 |  | N1/A3/A1 | 0 | 206 | 0 |
+| 06-压缩包 | 06-压缩包\7z2600-x64-32bit.exe | 文件 | killed_on_timeout |  |  | 0 | 283.8 | 0 |
+| 06-压缩包 | 06-压缩包\MobaXterm_Installer.zip | 文件 | 容器展开 |  |  | 0 | 82.9 | 0 |
+| 06-压缩包 | 06-压缩包\npp.8.8.1.portable.x64.zip | 文件 | 容器展开 |  |  | 0 | 275.3 | 0 |
+| 06-压缩包 | 06-压缩包\nssm-2.24.zip | 文件 | 容器展开 |  | N1 | 0 | 148.5 | 0 |
+| 06-压缩包 | 06-压缩包\putty-0.85-w64.zip | 文件 | 容器展开 |  | A3 | 0 | 245.3 | 0 |
+| 06-压缩包 | 06-压缩包\嵌套包 | 目录 | 容器展开 |  | S1/A1 | 0 | 27.6 | 0 |
+| 07-脚本与快捷方式 | 07-脚本与快捷方式\01-批处理.bat | 文件 | triggered |  |  | 0 | 2 | 0 |
+| 07-脚本与快捷方式 | 07-脚本与快捷方式\02-命令脚本.cmd | 文件 | triggered |  |  | 0 | 1.9 | 0 |
+| 07-脚本与快捷方式 | 07-脚本与快捷方式\03-PowerShell.ps1 | 文件 | triggered |  |  | 0 | 4.4 | 0 |
+| 07-脚本与快捷方式 | 07-脚本与快捷方式\04-VBScript.vbs | 文件 | killed_on_timeout |  |  | 0 | 32.3 | 0 |
+| 07-脚本与快捷方式 | 07-脚本与快捷方式\05-JScript.js | 文件 | killed_on_timeout |  |  | 0 | 32.9 | 0 |
+| 07-脚本与快捷方式 | 07-脚本与快捷方式\06-WSF脚本.wsf | 文件 | triggered |  |  | 0 | 2.5 | 0 |
+| 07-脚本与快捷方式 | 07-脚本与快捷方式\07-普通JS文本.js | 文件 | killed_on_timeout |  |  | 0 | 34.4 | 0 |
+| 07-脚本与快捷方式 | 07-脚本与快捷方式\08-UTF16LE批处理.bat | 文件 | triggered |  |  | 0 | 2 | 0 |
+| 07-脚本与快捷方式 | 07-脚本与快捷方式\09-快捷方式-指向安装器.lnk | 文件 | install_completed | medium | S1/S2/A1/B1 | 0 | 9.2 | 0 |
+| 07-脚本与快捷方式 | 07-脚本与快捷方式\10-导出函数库.dll | 文件 | failed |  |  | 0 | 2.1 | 0 |
+| 07-脚本与快捷方式 | 07-脚本与快捷方式\10-快捷方式-指向不存在目标.lnk | 文件 | failed |  |  | 0 | 2.8 | 0 |
+| 07-脚本与快捷方式 | 07-脚本与快捷方式\11-快捷方式-指向文档.lnk | 文件 | triggered |  |  | 0 | 5.4 | 0 |
+| 07-脚本与快捷方式 | 07-脚本与快捷方式\11-原生导出表(7z).dll | 文件 | install_unverified | low | A1 | 0 | 21.9 | 0 |
+| 07-脚本与快捷方式 | 07-脚本与快捷方式\com-命令触发器.com | 文件 | triggered |  |  | 0 | 3.7 | 0 |
+| 07-脚本与快捷方式 | 07-脚本与快捷方式\scr-屏保触发器.scr | 文件 | triggered |  |  | 0 | 3.6 | 0 |
+| 08-文档类 | 08-文档类\01-有效文档.pdf | 文件 | triggered |  |  | 0 | 3.6 | 0 |
+| 08-文档类 | 08-文档类\02-Word文档.docx | 文件 | skipped |  |  | 0 | 2.1 | 0 |
+| 08-文档类 | 08-文档类\03-Excel表格.xlsx | 文件 | skipped |  |  | 0 | 2 | 0 |
+| 08-文档类 | 08-文档类\04-文档.rtf | 文件 | skipped |  |  | 0 | 3.4 | 0 |
+| 08-文档类 | 08-文档类\05-老格式.doc | 文件 | skipped |  |  | 0 | 2.9 | 0 |
+| 08-文档类 | 08-文档类\06-幻灯片.pptx | 文件 | skipped |  |  | 0 | 1.8 | 0 |
+| 08-文档类 | 08-文档类\07-含宏文档.docm | 文件 | skipped |  |  | 0 | 1.7 | 0 |
+| 08-文档类 | 08-文档类\08-无宿主扩展名.atdoc | 文件 | failed |  |  | 0 | 1.7 | 0 |
+| 09-类型识别与伪装 | 09-类型识别与伪装\ELF头文件.so | 文件 | skipped |  |  | 0 | 1.7 | 0 |
+| 09-类型识别与伪装 | 09-类型识别与伪装\LNK头伪lnk.lnk | 文件 | failed |  |  | 0 | 1.7 | 0 |
+| 09-类型识别与伪装 | 09-类型识别与伪装\MachO头文件.dylib | 文件 | skipped |  |  | 0 | 1.8 | 0 |
+| 09-类型识别与伪装 | 09-类型识别与伪装\MZ头但非PE.exe | 文件 | failed |  |  | 0 | 18.5 | 0 |
+| 09-类型识别与伪装 | 09-类型识别与伪装\OLE头伪msi.msi | 文件 | failed |  | N1 | 0 | 25.3 | 0 |
+| 09-类型识别与伪装 | 09-类型识别与伪装\实际是PDF的exe.exe | 文件 | failed |  |  | 0 | 1.6 | 0 |
+| 09-类型识别与伪装 | 09-类型识别与伪装\实际是PE的docx.docx | 文件 | install_completed | low | A3/A1 | 0 | 5.9 | 0 |
+| 09-类型识别与伪装 | 09-类型识别与伪装\实际是PE的jpg.jpg | 文件 | install_completed | low | A3/A1 | 0 | 5.9 | 0 |
+| 09-类型识别与伪装 | 09-类型识别与伪装\实际是PE的txt.txt | 文件 | install_completed | low | A3/A1 | 0 | 6 | 0 |
+| 09-类型识别与伪装 | 09-类型识别与伪装\实际是ZIP的exe.exe | 文件 | 容器展开 |  |  | 0 | 2.1 | 0 |
+| 09-类型识别与伪装 | 09-类型识别与伪装\实际是文本的exe.exe | 文件 | failed |  |  | 0 | 1.7 | 0 |
+| 09-类型识别与伪装 | 09-类型识别与伪装\随机高熵数据.xyz | 文件 | failed |  |  | 0 | 1.8 | 0 |
+| 09-类型识别与伪装 | 09-类型识别与伪装\伪装成exe的文本.exe | 文件 | install_completed | low | A1/A3 | 0 | 28.2 | 0 |
+| 10-入口分层与黑名单 | 10-入口分层与黑名单\A25-01-规范包-含黑名单 | 目录 | 容器展开 |  | A3/A1 | 0 | 15.8 | 0 |
+| 10-入口分层与黑名单 | 10-入口分层与黑名单\A25-02-readme指向不存在文件 | 目录 | 容器展开 |  | A3/A1 | 0 | 85 | 0 |
+| 10-入口分层与黑名单 | 10-入口分层与黑名单\A25-03-架构优先 | 目录 | 容器展开 |  | A1 | 0 | 151.9 | 0 |
+| 10-入口分层与黑名单 | 10-入口分层与黑名单\A25-04-规范包压缩版.7z | 文件 | 容器展开 |  | A3/A1 | 0 | 12.4 | 0 |
+| 10-入口分层与黑名单 | 10-入口分层与黑名单\A25-04-规范包压缩版.zip | 文件 | 容器展开 |  | A3/A1 | 0 | 25.5 | 0 |
+| 10-入口分层与黑名单 | 10-入口分层与黑名单\A25-06-阶段2兜底 | 目录 | 容器展开 |  |  | 0 | 68.7 | 0 |
+| 11-安装成功判定 | 11-安装成功判定\A29-01-假成功bootstrapper.exe | 文件 | install_completed | low | A1/A3 | 0 | 24.5 | 0 |
+| 11-安装成功判定 | 11-安装成功判定\A29-02-纯退出码0.exe | 文件 | install_unverified | low | A1 | 0 | 59.3 | 0 |
+| 11-安装成功判定 | 11-安装成功判定\A29-03-标准安装-落盘+卸载项.exe | 文件 | install_completed | low | A3/A1/B1 | 0 | 6.7 | 0 |
+| 11-安装成功判定 | 11-安装成功判定\A29-04-per-user安装-HKCU卸载项.exe | 文件 | install_completed | medium | S1/S2/A1 | 0 | 7.7 | 0 |
+| 11-安装成功判定 | 11-安装成功判定\A29-05-绿色便携-仅落盘.exe | 文件 | install_unverified | low | S2/A1 | 0 | 76.6 | 0 |
+| 11-安装成功判定 | 11-安装成功判定\A29-06-反证据-失败码+回滚日志.exe | 文件 | install_partial | low | S2/N1 | 0 | 76.8 | 0 |
+| 11-安装成功判定 | 11-安装成功判定\A29-07-反证据-装后回滚.exe | 文件 | install_partial | low | N6/S1/A1 | 0 | 76.3 | 0 |
+| 11-安装成功判定 | 11-安装成功判定\A29-08-退出码1603失败.exe | 文件 | failed |  | N1 | 0 | 60.4 | 0 |
+| 11-安装成功判定 | 11-安装成功判定\A29-09-覆盖升级-字段变化.exe | 文件 | install_completed | medium | S1/A1 | 0 | 8 | 0 |
+| 11-安装成功判定 | 11-安装成功判定\A29-10-已安装检测-幂等.exe | 文件 | install_completed | medium | S1/S2/A1 | 0 | 9.5 | 0 |
+| 11-安装成功判定 | 11-安装成功判定\A29-11b-宽松口径-A1加落盘副作用.exe | 文件 | install_unverified | low | S2/A1 | 0 | 87.4 | 0 |
+| 11-安装成功判定 | 11-安装成功判定\A29-11-口径对照-仅非卸载项注册表副作用.exe | 文件 | install_unverified | low | A1 | 0 | 96.5 | 0 |
+| 11-安装成功判定 | 11-安装成功判定\A29-12-落盘到监控外目录.exe | 文件 | install_unverified | low | A1 | 0 | 67.6 | 0 |
+| 12-超时与活动感知 | 12-超时与活动感知\A30-01-慢安装器-持续写盘90s.exe | 文件 | install_completed | medium | S1/S2/A1 | 0 | 99.9 | 0 |
+| 12-超时与活动感知 | 12-超时与活动感知\A30-02-启动后无动作.exe | 文件 | killed_on_timeout |  |  | 0 | 256.1 | 0 |
+| 12-超时与活动感知 | 12-超时与活动感知\A30-03-运行中静止.exe | 文件 | killed_on_timeout |  |  | 0 | 252.7 | 0 |
+| 12-超时与活动感知 | 12-超时与活动感知\A30-04-完成安装后卡在完成页.exe | 文件 | install_completed | medium | S1/S2 | 0 | 246.1 | 0 |
+| 12-超时与活动感知 | 12-超时与活动感知\A30-05-联网下载组件等待.exe | 文件 | killed_on_timeout |  |  | 0 | 246 | 0 |
+| 12-超时与活动感知 | 12-超时与活动感知\A30-06-子进程脱离-进程树清理.exe | 文件 | killed_on_timeout |  |  | 0 | 278.5 | 0 |
+| 12-超时与活动感知 | 12-超时与活动感知\A30-07-超长安装-持续700s.exe | 文件 | killed_on_timeout |  |  | 0 | 262.4 | 0 |
+| 12-超时与活动感知 | 12-超时与活动感知\A30-08-GUI窗口-正在下载组件.exe | 文件 | killed_on_timeout |  |  | 0 | 255.1 | 0 |
+| 12-超时与活动感知 | 12-超时与活动感知\A30-09-超长安装-只在TEMP写盘700s.exe | 文件 | install_partial | low | A3 | 0 | 246 | 0 |
+| 13-光盘映像 ISO | 13-光盘映像 ISO\A26-01-installer_media.iso | 文件 | 容器展开 |  |  | 0 | 71.6 | 0 |
+| 13-光盘映像 ISO | 13-光盘映像 ISO\A26-02-malware_lure.iso | 文件 | 容器展开 |  | A3/A1 | 0 | 18.2 | 0 |
+| 13-光盘映像 ISO | 13-光盘映像 ISO\A26-03-os_install_media.iso | 文件 | skipped |  |  | 0 | 2.2 | 0 |
+| 13-光盘映像 ISO | 13-光盘映像 ISO\A26-04-media_disc.iso | 文件 | skipped |  |  | 0 | 2.5 | 0 |
+| 13-光盘映像 ISO | 13-光盘映像 ISO\A26-05-data_disc.iso | 文件 | 容器展开 |  | A1 | 0 | 75.6 | 0 |
+| 13-光盘映像 ISO | 13-光盘映像 ISO\A26-06-garbled-names.iso | 文件 | 容器展开 |  |  | 0 | 6.4 | 0 |
+| 13-光盘映像 ISO | 13-光盘映像 ISO\A26-07-autorun-missing.iso | 文件 | 容器展开 |  | A3/A1 | 0 | 5.8 | 0 |
+| 13-光盘映像 ISO | 13-光盘映像 ISO\A26-08-deep-longpath.iso | 文件 | 容器展开 |  |  | 0 | 6.7 | 0 |
+| 13-光盘映像 ISO | 13-光盘映像 ISO\A27-09-UDF-only.iso | 文件 | 容器展开 |  |  | 0 | 6.3 | 0 |
+| 13-光盘映像 ISO | 13-光盘映像 ISO\A27-10-截断损坏.iso | 文件 | failed |  |  | 0 | 5.1 | 0 |
+| 14-跳过与兜底 | 14-跳过与兜底\01-空文件.exe | 文件 | skipped |  |  | 0 | 1.7 | 0 |
+| 14-跳过与兜底 | 14-跳过与兜底\02-空文件.dat | 文件 | skipped |  |  | 0 | 1.6 | 0 |
+| 14-跳过与兜底 | 14-跳过与兜底\03-单字节文件.bin | 文件 | failed |  |  | 0 | 1.6 | 0 |
+| 14-跳过与兜底 | 14-跳过与兜底\04-损坏的zip.zip | 文件 | failed |  |  | 0 | 1.8 | 0 |
+| 14-跳过与兜底 | 14-跳过与兜底\05-损坏的7z.7z | 文件 | failed |  |  | 0 | 1.8 | 0 |
+| 14-跳过与兜底 | 14-跳过与兜底\06-截断的zip.zip | 文件 | failed |  |  | 0 | 1.8 | 0 |
+| 14-跳过与兜底 | 14-跳过与兜底\07-加密zip.zip | 文件 | failed |  |  | 0 | 1.8 | 0 |
+| 14-跳过与兜底 | 14-跳过与兜底\08-加密7z-文件名加密.7z | 文件 | failed |  |  | 0 | 1.8 | 0 |
+| 14-跳过与兜底 | 14-跳过与兜底\09-未知扩展名但MZ头.qwerty | 文件 | install_completed | low | A3/A1 | 0 | 6 | 0 |
+| 14-跳过与兜底 | 14-跳过与兜底\10-zip炸弹-解压超2G.zip | 文件 | failed |  |  | 0 | 2 | 0 |
+| 14-跳过与兜底 | 14-跳过与兜底\未知扩展名-MZ头.bin | 文件 | install_unverified | low | A1 | 0 | 68.5 | 0 |
+| 14-跳过与兜底 | 14-跳过与兜底\无扩展名文件 | 文件 | install_unverified | low | A1 | 0 | 54.9 | 0 |
+| 15-批量与嵌套 | 15-批量与嵌套\01-三层嵌套.7z | 文件 | 容器展开 |  | A3/A1 | 0 | 7.2 | 0 |
+| 15-批量与嵌套 | 15-批量与嵌套\A6-批量50文件 | 目录 | 容器展开 |  | A3/A1 | 0 | 861.6 | 0 |
+| 16-自绘界面-OCR专项 | 16-自绘界面-OCR专项\OWNERDRAW-自绘向导-浅色.exe | 文件 | killed_on_timeout |  |  | 0 | 249.5 | 0 |
+| 16-自绘界面-OCR专项 | 16-自绘界面-OCR专项\OWNERDRAW-自绘向导-深色.exe | 文件 | install_partial | low | A3 | 0 | 248.5 | 0 |
+| 17-合成安装器(Inno) | 17-合成安装器(Inno)\INNO-01-静默安装成功.exe | 文件 | install_completed | high | A1/S2 | 0 | 151.1 | 0 |
+| 17-合成安装器(Inno) | 17-合成安装器(Inno)\INNO-02-仅GUI向导-中文.exe | 文件 | install_partial | low | S2/A1 | 0 | 245.7 | 0 |
+| 17-合成安装器(Inno) | 17-合成安装器(Inno)\INNO-03-仅GUI向导-英文.exe | 文件 | install_partial | low | S2/A1 | 0 | 254.6 | 0 |
+| 17-合成安装器(Inno) | 17-合成安装器(Inno)\INNO-04-per-user安装-lowest.exe | 文件 | install_completed | high | S2/A1 | 0 | 14.3 | 0 |
+| 17-合成安装器(Inno) | 17-合成安装器(Inno)\INNO-05-长安装-持续写盘90s.exe | 文件 | install_completed | medium | A3/A1 | 0 | 105.9 | 0 |
+| 17-合成安装器(Inno) | 17-合成安装器(Inno)\INNO-06-假成功-只解压无卸载项.exe | 文件 | install_partial | low | A1/A3 | 0 | 251.4 | 0 |
+| 17-合成安装器(Inno) | 17-合成安装器(Inno)\INNO-07-安装后失败框-退出码1.exe | 文件 | install_completed | high | S2 | 0 | 211.2 | 0 |
+| 17-合成安装器(Inno) | 17-合成安装器(Inno)\INNO-08-需重启-返回3010.exe | 文件 | install_completed | high | S2 | 0 | 16.8 | 0 |
+| 17-合成安装器(Inno) | 17-合成安装器(Inno)\INNO-09-卡在完成页-超时验证.exe | 文件 | install_completed | high | S2 | 0 | 245.8 | 0 |
+| 17-合成安装器(Inno) | 17-合成安装器(Inno)\INNO-10-联网下载组件等待.exe | 文件 | install_completed | high | S2 | 0 | 247.5 | 0 |
+| 17-合成安装器(Inno) | 17-合成安装器(Inno)\INNO-11-仅GUI向导-无许可页.exe | 文件 | install_partial | low | S2/A1 | 0 | 284.9 | 0 |
+| 18-合成安装器(NSIS) | 18-合成安装器(NSIS)\NSIS-01-静默安装成功.exe | 文件 | install_completed | medium | A3/A1 | 0 | 7.4 | 0 |
+| 18-合成安装器(NSIS) | 18-合成安装器(NSIS)\NSIS-02-仅GUI向导-中文.exe | 文件 | killed_on_timeout |  |  | 0 | 249.8 | 0 |
+| 18-合成安装器(NSIS) | 18-合成安装器(NSIS)\NSIS-03-仅GUI向导-英文.exe | 文件 | killed_on_timeout |  |  | 0 | 254.7 | 0 |
+| 18-合成安装器(NSIS) | 18-合成安装器(NSIS)\NSIS-04-静默无效果-需GUI兜底.exe | 文件 | install_completed | high | A1/S1/S2/A2 | 0 | 150.1 | 0 |
+| 18-合成安装器(NSIS) | 18-合成安装器(NSIS)\NSIS-05-安装后回滚.exe | 文件 | install_partial | low | N4/S2/N1/A2 | 0 | 249.7 | 0 |
+| 18-合成安装器(NSIS) | 18-合成安装器(NSIS)\NSIS-06-需重启-3010.exe | 文件 | install_partial | low | S1/S2/N1/A2 | 0 | 233.6 | 0 |
+| 18-合成安装器(NSIS) | 18-合成安装器(NSIS)\NSIS-07-长安装-持续写盘.exe | 文件 | install_completed | high | S1/S2/A1 | 0 | 95.1 | 0 |
+| 19-合成安装器(MSI-WiX) | 19-合成安装器(MSI-WiX)\MSI-01-标准安装成功.msi | 文件 | install_completed | medium | S2/S3/B1 | 0 | 5.4 | 0 |
+| 19-合成安装器(MSI-WiX) | 19-合成安装器(MSI-WiX)\MSI-02-安装致命错误1603.msi | 文件 | install_partial | low | N1/A2 | 0 | 19.4 | 0 |
+| 19-合成安装器(MSI-WiX) | 19-合成安装器(MSI-WiX)\MSI-03-需重启3010.msi | 文件 | install_completed | medium | S2/S3 | 0 | 4.6 | 0 |
+| 19-合成安装器(MSI-WiX) | 19-合成安装器(MSI-WiX)\MSI-04-per-user安装.msi | 文件 | install_completed | medium | S2/S3 | 0 | 4.7 | 0 |
+| 19-合成安装器(MSI-WiX) | 19-合成安装器(MSI-WiX)\MSI-05-多文件较长安装.msi | 文件 | install_completed | medium | S2/S3 | 0 | 7.7 | 0 |
+| 19-合成安装器(MSI-WiX) | 19-合成安装器(MSI-WiX)\MSI-06-升级覆盖V1.msi | 文件 | install_partial | low | N1/A2 | 0 | 17.5 | 0 |
+| 19-合成安装器(MSI-WiX) | 19-合成安装器(MSI-WiX)\MSI-06-升级覆盖V2.msi | 文件 | install_completed | medium | S2/S3 | 0 | 4.7 | 0 |
+| 19-合成安装器(MSI-WiX) | 19-合成安装器(MSI-WiX)\MSI-07-无效MSI-纯文本内容.msi | 文件 | failed |  | N1 | 0 | 18.8 | 0 |
+| 19-合成安装器(MSI-WiX) | 19-合成安装器(MSI-WiX)\MSI-08-损坏的MSI.msi | 文件 | failed |  | N1 | 0 | 15.8 | 0 |
+| 20-静默参数探测 | 20-静默参数探测\F13-参数探测桩-记录全部尝试.exe | 文件 | install_partial | low | N1/A3 | 0 | 49.2 | 0 |
+| 20-静默参数探测 | 20-静默参数探测\F13-参数探测桩-见VERYSILENT即成功.exe | 文件 | install_completed | medium | S1/S2/A1 | 0 | 4.7 | 0 |
+| 20-静默参数探测 | 20-静默参数探测\F13-参数探测桩-只认NSIS的S.exe | 文件 | install_completed | medium | A3/N1/S1/S2/A1 | 0 | 10.6 | 0 |
+
+> install_unverified / triggered / install_partial / killed_on_timeout 不等于安装成功。

@@ -69,3 +69,18 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\Cleanup-SyntheticS
 - 每个样本：结果 JSON + 日志 + 控制台输出，**独立文件，不覆盖历史**。
 - 每轮：汇总 `summary.md`，列出预期与实际差异。
 - 发布时：原始证据 → 脱敏副本（见 evidence/SANITIZATION.csv），**保留映射规则但不公开敏感映射**。
+
+
+## 八、运行前检查（2026-10-14 起强制）
+
+1. **杀软排除**：运行前把 `AutoTrigger.exe` 加入杀软排除。实测 Windows Defender 会在中途把它判为
+   `Trojan:Win32/Bearfoos.B!ml` 并隔离，导致后续样本全部秒失败（见
+   [issues/ISSUE-36](../reports/issues/ISSUE-36-Defender隔离AutoTrigger致整轮中断.md)、
+   [environment.md](environment.md) 第八节）。
+2. **交互式桌面且未锁屏**：GUI 自动化要求前台可交互桌面。
+   检查锁屏：`Get-Process LogonUI` —— **有输出即表示会话已锁屏**，此时前台窗口为
+   「Windows 默认锁屏界面」，工具无法聚焦安装器窗口，所有需要点击向导的样本会失败/超时。
+   这类失败属于**环境阻塞**，不是工具缺陷（见 [interpreting-results.md](interpreting-results.md) 第八节）。
+3. **被测 exe 存在性**：脚本在开始前与每个样本前都应校验被测 exe 仍在；
+   否则会出现「149 行结果里 145 行无结果」而脚本不报错的静默失效。
+

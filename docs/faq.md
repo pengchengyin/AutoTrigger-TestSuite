@@ -52,3 +52,11 @@ A. 那是**黑名单测试桩**，3–4 KB 的惰性程序，源码在 `sources\
 A. 三步：① [scripts/Get-SampleManifest.ps1](../scripts/Get-SampleManifest.ps1) 校验样本；
 ② [scripts/Invoke-SmokeTest.ps1](../scripts/Invoke-SmokeTest.ps1) 跑冒烟；
 ③ 需要完整覆盖时先 [scripts/Get-ThirdPartySamples.ps1](../scripts/Get-ThirdPartySamples.ps1) 取第三方样本。
+
+**Q15. 跑着跑着大量样本「秒失败 / 无结果」，怎么排查？**
+A. 先确认**被测工具是否还在**：安全软件（尤其 Windows Defender）可能在运行中把
+`AutoTrigger.exe` 隔离，之后每个样本的 `cmd.exe` 都会直接报「系统无法执行指定的程序」。
+用 `Get-MpThreatDetection` 确认、`MpCmdRun.exe -Restore` 还原，并把 `AutoTrigger.exe`
+加入排除；批量运行前也应先加排除。详见
+[reports/issues/ISSUE-36](issues/ISSUE-36-Defender隔离AutoTrigger致整轮中断.md)。
+

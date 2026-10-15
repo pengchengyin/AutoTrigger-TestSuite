@@ -1,213 +1,148 @@
-﻿# AutoTrigger-TestSuite
+# AutoTrigger-TestSuite
 
-面向 [AutoTrigger](https://github.com/pengchengyin/AutoTrigger)（Windows 任意文件自动安装/触发工具）的**可复现测试套件**：
-样本、源码、脚本、样本清单、逐样本结果、真实测试报告与已知问题。
+面向 [AutoTrigger](https://github.com/pengchengyin/AutoTrigger)（Windows 任意文件自动安装/触发工具）的**可复现测试套件**。
 
-> 本仓库的目的不是"证明工具很好"，而是**让任何人能在自己的机器上快速核对 AutoTrigger 的真实效果与边界**。
-> 结论只按实际跑出来的结果写，缺失的信息一律标注「未提供」。
+一句话：这里有一套**现成的分类样本 + 源码 + 脚本 + 实测结果**，用来回答一个问题——
+**AutoTrigger 对各种各样的文件，到底支持到什么程度、哪些支持、哪些不支持。**
 
----
-
-## 一、这是什么
-
-| 项 | 说明 |
-|---|---|
-| 被测工具 | **AutoTrigger**（Windows 安装包自动处理工具） |
-| 主机程序链接 | [pengchengyin/AutoTrigger](https://github.com/pengchengyin/AutoTrigger) — 本仓库仅链接，未修改主项目仓库 |
-| 工具版本 | `0.1.0`（`tool_version`），结果 JSON schema `2.8`，resource pack `0.1.0` |
-| 本套件内容 | 自制样本 240 个文件（14 组）+ 第三方样本登记 23 条（6 组，不随仓库分发） |
-| 样本源码 | ✅ 全部自制样本源码在 `sources\`，Inno/NSIS/WiX 均已实测可重新编译 |
-| 证据 | ✅ 逐样本结果 CSV、脱敏原始 JSON/日志、冒烟验证实录 |
+> 本套件只记录实际跑出来的结果；缺失信息一律标注「未提供」，不猜测、不补造。
 
 ---
 
-## 二、最新测试结论摘要
-
-◆ **请先读这句话：本套件从未在"同一工具版本 + 同一次运行"下跑完全部样本，因此不存在一个统一的成功率。**
-下面按 **(工具构建, 权限)** 分段给出，各段**不可相加、不可互相比较**。
-
-| 段 | 工具构建 | 权限 | 覆盖输入样本 | 状态分布 | 安装成功/分母 |
-|---|---|---|---|---|---|
-| A-修复前提权 | 10,038,272 B（2026-10-11） | 管理员 | 207 | 成功 72 / 部分 20 / 跳过 35 / 失败 32 / 已触发 36 / 超时 8 / 未验证 4 | **72/172 = 41.9%** |
-| A-修复前未提权 | 同上 | 普通用户 | 32 | 部分 5 / 成功 3 / 跳过 3 / 失败 9 / 已触发 12 | **3/29 = 10.3%** |
-| B-修复后定向复测 | 10,235,904 B（2026-10-12） | 管理员 | 8 | 成功 6 / 未验证 1 / 部分 1 | **6/8 = 75.0%** |
-| D-当前分发版自制备样 | 7,758,848 B（2026-10-14） | 管理员 | 120 | 成功 34 / 失败 20 / 容器展开 16 / 跳过 12 / 未验证 10 / 超时 10 / 部分 9 / 已触发 9 | **34/92 = 37.0%**（合成安装器专项 21/27 = **77.8%**） |
-| E-当前分发版全量 20 组 | 7,758,848 B（2026-10-14/15） | 管理员 | **149** | 成功 43 / 失败 20 / 容器展开 22 / 超时 17 / 部分 18 / 跳过 12 / 已触发 9 / 未验证 8 | **43/115 = 37.4%**（合成安装器专项 15/27 = 55.6%） |
-
-**口径**：分母 = 覆盖的输入样本数 − `skipped`。
-`install_unverified` / `install_partial` / `triggered` / `killed_on_timeout` / `failed` **都不计入**"安装成功"。
-容器展开出的子项（3403 条）**已全部排除**，避免重复统计。
-
-> - **A-修复前未提权**那段只覆盖 07/09 两组，作用是**证明"未提权时装不上需要管理员的软件"**，
->   **不代表**工具在未提权下的整体能力。
-> - **B-修复后**只跑了 6 项修复对应的 8 个定向样本，属**验证子集**，**不能当全套件成功率**。
-> - **D-当前分发版**用逐样本方式跑完 **自制备样 07–20 全部 120 个**（第三方仅抽测 4 个），
->   合成安装器专项 **21/27 = 77.8%**、黑名单 VIOLATION = 0，完整偏差见 [reports/run-2026-10-14.md](reports/run-2026-10-14.md)。
-> - **E-全量 20 组**：同一构建（7,758,848 B）以管理员权限**首次跑完全部 149 个输入样本**；
->   黑名单 VIOLATION = 0、无回调崩溃；但 GUI 类样本受**锁屏 / 前台窗口为空**影响，完整偏差与局限见 [reports/run-2026-10-14-full.md](reports/run-2026-10-14-full.md)。
-> - 详细口径与证据索引见 **[reports/README.md](reports/README.md)** 与 **[reports/summary.md](reports/summary.md)**。
-
-### 状态口径（务必区分）
-
-| 状态 | 含义 | 计入"安装成功"？ |
-|---|---|---|
-| `install_completed` | 取得安装证据（卸载项/落盘/MSI 11707 等） | ✅ |
-| `install_unverified` | 仅有退出码 0 之类的弱证据 | ❌ |
-| `install_partial` | 同时存在成功与失败反证据 | ❌ |
-| `already_installed` | 装前已存在 | ❌ |
-| `triggered` | 只被触发，未确认安装 | ❌ |
-| `killed_on_timeout` / `failed` | 超时 / 失败 | ❌ |
-| `skipped` | 未执行（空文件/无宿主/命中黑名单） | ❌（且排除出分母） |
-
-◆ **退出码为 0、安装器窗口关闭、流程正常结束，都不等于安装成功。**
-
----
-
-## 三、测试环境（如实记录）
+## 一、被测工具与测试环境
 
 | 项 | 值 |
 |---|---|
-| 测试日期 | 2026-10-11 ～ 2026-10-14 |
-| 操作系统 | Windows 11 专业版 10.0.26300（build 26300） |
-| 屏幕 / DPI | 1718x1038 / **96 DPI（100%）** |
-| PowerShell | 5.1.26100.9444 |
-| 权限 | 两段：**管理员会话** 与 **普通用户会话**（见上表） |
-| 7-Zip | ✅ 可用（`archive_backend_status=ok`） |
-| OCR | PaddleOCR-json，**状态不稳定**：多次运行中 `ocr_engine_status` 在 `ok` 与 `startup_failed` 间摆动 |
-| GUI 自动化 | `gui_automation=true` |
-| 内置模板 | `builtin_templates=false`；**模板索引内容未提供**（本机未找到可发布内容） |
-| 提交/commit | **未提供** — 测试基于分发的二进制，未记录源码提交号 |
-| 截图 | **未提供** — 证据中截图数量为 0 |
+| 工具 | AutoTrigger.exe |
+| 构建 | 7,758,848 B / SHA-256 `691373269CA840248939482479632C66933B830376C46DDF2BA2DA46206CB7FF` |
+| 版本 | tool_version **0.1.0**，结果 schema **2.8**，resource pack **0.1.0** |
+| 操作系统 | Windows 11 专业版 build 26300，**96 DPI（100%）**，中文 |
+| 权限 | **管理员会话** |
+| 前置 | 7-Zip 26.03（ok）、PaddleOCR-json（ok）、GUI 自动化开启 |
 
-> ⚠️ **此测试会在被跑机器上真实安装软件**：写注册表卸载项、写 Program Files、起进程、动鼠标键盘。
-> 请务必用**一次性虚拟机或可回滚快照**，**不要在日常办公电脑跑全套件**。
+> ⚠️ 跑本套件会**真实安装软件**：写 Program Files、写注册表卸载项、起进程、**移动鼠标键盘**。
+> 请务必用**一次性虚拟机或可回滚快照**，不要在日常办公电脑跑。
+
+---
+
+## 二、工具效果总览（20 组 / 149 个输入样本）
+
+**结论先行：**
+
+- ✅ **静默/标准安装支持**：MSI、NSIS、WiX Burn、Inno Setup 的静默安装都能装上。
+- ✅ **压缩包、脚本、文档、伪装文件、ISO、黑名单**：按设计正确处理。
+- ⚠️ **需要点击向导的安装器**：本轮测试机的桌面不可交互（锁屏/前台窗口为空），**未能验证**，
+  不能算作「不支持」，需在真正的交互桌面单独验证。
+- ⚠️ **超时与活动感知**：部分支持，个别样本状态判定仍有偏差。
+
+| 状态 | 数量 |
+|---|---|
+| ✅ 安装成功 `install_completed` | 43 |
+| 🔶 部分 `install_partial` | 18 |
+| ❌ 失败 `failed` | 20 |
+| ⏱ 超时 `killed_on_timeout` | 17 |
+| ❔ 未验证 `install_unverified` | 8 |
+| ▶ 已触发 `triggered` | 9 |
+| ⏭ 跳过 `skipped` | 12 |
+| 📦 容器展开（目录/压缩包输入） | 22 |
+
+> 口径：**只有拿到安装证据（卸载项 / 落盘 / MSI 11707 / 安装器日志等）才算「安装成功」**；
+> 退出码为 0、窗口关闭、流程结束，都**不算**。
+> 分母去掉「跳过」与「容器展开」后为 115，安装成功 **43/115 = 37.4%**；
+> 但分母里包含大量**本来就不该安装**的样本（损坏包、伪装文件、文档、黑名单陷阱），所以这个百分比不代表安装器成功率。
+
+---
+
+## 三、哪些支持、哪些不支持（按分组逐一看）
+
+| 分组 | 样本数 | 结论 | 说明 |
+|---|---|---|---|
+| 01-Inno Setup（真实） | 5 | ✅ 支持 | Git、WinMerge 安装成功；audacity / Notepad3 / ShareX 本轮桌面非交互，未验证 |
+| 02-NSIS（真实） | 5 | ✅ 支持 | npp / Everything / Defraggler / Recuva / Firefox（UPX + 中文向导）全部成功 |
+| 03-MSI | 6 | ✅ 支持 | 7z / KeePassXC / MobaXterm / node / putty / TortoiseGit 全部成功 |
+| 04-WiX Burn | 3 | ✅ 支持 | python / VC_redist / windowsdesktop-runtime 全部成功 |
+| 05-其它厂商安装器 | 3 | ⚠️ 未验证 | TeraCopy / VeraCrypt / Zoom 需要向导交互 |
+| 06-压缩包 | 7 | ✅ 支持 | zip / 7z 解压并触发内层，含 1330+ 文件的 MobaXterm 包与嵌套包 |
+| 07-脚本与快捷方式 | 15 | ✅ 支持 | bat / cmd / ps1 / wsf / com / scr / lnk 正常触发；VBS / JS 本轮未验证 |
+| 08-文档类 | 8 | ✅ 符合预期 | 有宿主则打开并记录触发，无宿主则跳过 |
+| 09-类型识别与伪装 | 13 | ✅ 支持 | 按**真实内容**识别：伪装成 docx/jpg/txt 的 PE 能被执行，ELF/Mach-O 被跳过 |
+| 10-入口分层与黑名单 | 6 | ✅ 支持 | 选中正确入口；卸载/更新类陷阱**全程不执行**（VIOLATION = 0） |
+| 11-安装成功判定 | 13 | ✅ 支持 | 分级判定（S1 卸载项 / S2 落盘 / S3 MSI 0 / A1 退出码）并识别反证据 |
+| 12-超时与活动感知 | 9 | ⚠️ 部分 | 6 个按预期超时；「启动后无动作」未判 no_activity，个别状态有偏差 |
+| 13-光盘映像 ISO | 10 | ✅ 支持 | OS 安装盘 / 影音光盘安全跳过；安装介质正常处理 |
+| 14-跳过与兜底 | 12 | ✅ 符合预期 | 空文件跳过；损坏 / 加密 / 压缩炸弹安全失败且不落盘 |
+| 15-批量与嵌套 | 2 | ✅ 支持 | 三层嵌套、50 文件批量 |
+| 16-自绘界面-OCR专项 | 2 | ⚠️ 未验证 | 需要交互桌面 + OCR 引擎 |
+| 17-合成安装器(Inno) | 11 | ✅ 静默 / ⚠️ GUI 未验证 | 静默安装成功；仅 GUI 向导类未验证 |
+| 18-合成安装器(NSIS) | 7 | ✅ 静默 / ⚠️ GUI 未验证 | 静默安装成功；仅 GUI 向导类未验证 |
+| 19-合成安装器(MSI-WiX) | 9 | ✅ 支持 | 标准 / per-user / 升级覆盖成功；无效、损坏 MSI 正确失败 |
+| 20-静默参数探测 | 3 | ✅ 支持 | 按顺序探测静默参数，成功后立即停止后续尝试 |
+
+### 三句话总结
+
+1. **支持**：静默/标准安装器（Inno / NSIS / MSI / Burn）、压缩包、脚本与快捷方式、文档、伪装文件、黑名单、ISO。
+2. **未验证**：需要「点向导」的安装器与自绘界面样本——本轮测试机桌面不可交互，需要在真实交互桌面复跑。
+3. **部分支持**：超时与活动感知，个别样本的状态判定与预期不符（见问题文档）。
 
 ---
 
 ## 四、样本构成
 
-| 类别 | 数量 | 随仓库分发 | 说明 |
+| 类别 | 分组 | 数量 | 随仓库分发 |
 |---|---|---|---|
-| 自制合成样本（组 07–20） | 240 个文件 / 14 组 | ✅ | 含 Inno/NSIS/MSI 合成安装器、脚本、伪装、ISO、黑名单陷阱等 |
-| 真实第三方安装包（组 01–06） | 23 个 | ❌ | 仅登记官方地址 + SHA-256；**6 组共 692 MB 不代发** |
+| 真实软件（厂商签名已核验） | 01–06 | 约 692 MB | ❌ 仅登记官方地址 + SHA-256 |
+| 自制合成安装器 | 17–20 | 27 个 | ✅ |
+| 自制行为样本 | 07–16 | 120 个 | ✅ |
 
-- 自制样本清单：**[manifests/samples.selfmade.json](manifests/samples.selfmade.json)**（147 条索引，146 条在盘，SHA-256 全部已核对）
-- 第三方清单：**[manifests/samples.thirdparty.json](manifests/samples.thirdparty.json)**（23 条，**8 条官方下载地址未提供**）
-- 逐样本结果：**[reports/per-sample.csv](reports/per-sample.csv)**
-- 可编译源码：**[sources/BUILD.md](sources/BUILD.md)**
-
----
-
-## 五、主要已知问题与未验证场景
-
-### 5.1 已确认修复并复测（2026-10-12 构建）
-
-| 项 | 结论 |
-|---|---|
-| 回调耗尽崩溃（`too many callback functions`） | ✅ 通过 — 6-压缩包整组 1621 条结果、38 分钟正常收尾 |
-| 黑名单误杀（卸载项/升级覆盖被跳过） | ✅ 通过（含负向对照：真实 `unins000.exe` / `update.exe` 仍被拦截） |
-| 回滚证据被清空 | ✅ 通过 — 后续正常退出不再清除已有反证据 |
-| 截断快照误判（A29 组） | ✅ 通过 — 快照不完整时不再产生文件差异证据 |
-| 截断快照误判（A30 组） | ⚠️ 部分 — 仍残留无路径的 `A3` 证据 |
-| 升级误判回滚（VC_redist） | ⚠️ 部分验证 — 本机旧版本已被消耗，无法复现真正的替换升级 |
-| 证据路径诊断 | ✅ 通过 — `S2/N5/N6` 带实际目录与增减数量 |
-
-### 5.2 仍存在（未复测修复）
-
-**36 份问题文档 + 统一追踪表**位于 **[reports/issues/](reports/issues/)**（[追踪表](reports/issues/README.md) 汇总每条 issue 的关闭判据与本轮复测结论）。
-第一轮（修复前）严重度分布：**致命 3、高 16、中 11、低 4、说明 1**。
-除上表 7 项外，其余问题的状态均为 **「仍存在（未复测修复）」**。
-
-### 5.3 未验证场景
-
-| 场景 | 状态 |
-|---|---|
-| 全部 20 组在同一版本下完整跑完 | ⚠️ 已完成一次（2026-10-14/15，**149/149**，管理员）；GUI 类样本受锁屏/前台为空影响，见 [reports/run-2026-10-14-full.md](reports/run-2026-10-14-full.md) |
-| `already_installed` 幂等判定 | ❌ 未复测 |
-| OCR 专项（16-自绘界面） | ⚠️ 受 OCR 启动不稳定影响 |
-| 远程/SSH 环境下运行 | ⚠️ GUI 向导类样本在 SSH 下 `gui_actions=0`，**不可用**；静默类可用 |
-| 组 01–06 中 8 个样本 | ❌ 官方来源未提供，未纳入可复现范围 |
+- 自制样本清单：[manifests/samples.selfmade.json](manifests/samples.selfmade.json)
+- 第三方清单：[manifests/samples.thirdparty.json](manifests/samples.thirdparty.json)
+- 逐样本结果：[reports/per-sample.csv](reports/per-sample.csv)
+- 可编译源码：[sources/BUILD.md](sources/BUILD.md)
 
 ---
 
-## 六、快速开始
+## 五、快速开始
 
-### 6.1 准备
-
-> 📦 若你是从 **GitHub Release** 下载的打包版（`AutoTrigger-TestSuite-v*.zip`）：
-> **组 01–06 的第三方样本已随包提供**（共 30 个文件 / 约 692 MB），解压后可直接跳到 [6.2](#62-校验样本完整性)，**无需**下面的 clone 与下载步骤。
-
-```powershell
-git clone https://github.com/pengchengyin/AutoTrigger-TestSuite.git AutoTrigger-TestSuite
-cd AutoTrigger-TestSuite
-```
-
-必需：Windows 10/11、PowerShell 5.1、**7-Zip**、AutoTrigger.exe。
-可选：PaddleOCR-json（自绘界面样本）。
-
-第三方样本不在 Git 仓库内，如需完整覆盖请先获取：
-
-```powershell
-# 只下载清单中登记了官方直链的条目；未登记来源的会明确列出
-powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\Get-ThirdPartySamples.ps1
-```
-
-### 6.2 校验样本完整性
+### 5.1 校验样本完整性
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\Get-SampleManifest.ps1
-# 期望输出: 结果: 一致 146 / 不一致 0 / 缺失 1（缺的是索引中的历史条目）
+# 期望输出: 结果: 一致 146 / 不一致 0 / 缺失 1
 ```
 
-### 6.3 快速冒烟验证（推荐先跑这个）
+### 5.2 快速冒烟（推荐先跑，秒级）
 
 ```powershell
-# 默认 quick：3 个自制样本，秒级，无副作用
 powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\Invoke-SmokeTest.ps1 -AutoTrigger C:\path\to\AutoTrigger.exe
 ```
 
-脚本会：检查工具/7-Zip/OCR/权限/交互式桌面/样本完整性 → 列出样本与副作用 → **等你确认** →
-逐样本输出到 `runs\<时间戳>\`（不覆盖历史）→ 生成本轮 `summary.md` 并列出**预期 vs 实际**差异。
+> 运行前请把 `AutoTrigger.exe` 加入杀软排除，否则可能中途被隔离（详见 [docs/environment.md](docs/environment.md) 第八节）。
 
-| Profile | 内容 | 需要管理员 |
-|---|---|---|
-| `quick`（默认） | 3 个跳过/失败判定样本，秒级 | 否 |
-| `standard` | 追加 ZIP 伪装、Inno/NSIS 合成安装器 | 部分需要 |
-| `blacklist` | A25-01 黑名单陷阱包（验证 11 个陷阱**未被执行**） | 否 |
-
-> 需要无人值守时用 `-Unattended`，**不会**默认跳过安全确认。
-
-### 6.4 样本级批量测试（自制备样 120 个）
-
-推荐用逐样本方式跑全套件（结果按时间戳目录归档，不覆盖历史）：
-
-~~~powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\Invoke-SampleTest.ps1 -AutoTrigger C:\path\to\AutoTrigger.exe -TimeoutSec 120
-# 中途退出后可多次续跑，再用合并脚本汇总
-powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\Summarize-Run.ps1 -RunDir .\runs\<时间戳1>,.\runs\<时间戳2> -OutDir .\runs\_merged
-~~~
-
-2026-10-14 实测（当前分发版 **7,758,848 B**，管理员会话，逐样本，超时 120 s）：
-**自制备样 120/120 全部覆盖**，合成安装器专项 **21/27 = 77.8%**，黑名单 **VIOLATION = 0**。
-完整结论与偏差见 **[reports/run-2026-10-14.md](reports/run-2026-10-14.md)**。
-
-### 6.5 本次冒烟验证的实际结果（2026-10-14）
-
-| 样本 | 预期 | 实际 | 耗时 |
-|---|---|---|---|
-| 14-跳过与兜底/01-空文件.exe | skipped | ✅ skipped | 4.8 s |
-| 14-跳过与兜底/02-空文件.dat | skipped | ✅ skipped | 7.5 s |
-| 14-跳过与兜底/03-单字节文件.bin | failed | ✅ failed | 3.8 s |
-
-退出码 0，全部符合预期。原始结果见 **[evidence/smoke-2026-10-14/](evidence/smoke-2026-10-14/)**。
-
-### 6.6 跑完后清理
+### 5.3 逐样本批量测试（全部 20 组）
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -Command "Start-Process powershell -Verb RunAs -ArgumentList '-NoProfile','-ExecutionPolicy','Bypass','-File','.\scripts\Cleanup-SyntheticSamples.ps1'"
+# 建议在「管理员身份启动的 PowerShell」里运行，并保持桌面可交互、不锁屏、不休眠
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\Invoke-SampleTest.ps1 -AutoTrigger C:\path\to\AutoTrigger.exe -TimeoutSec 240
+```
+结果按时间戳归档到 `runs\<时间戳>\`，每个样本产出结果 JSON、日志、控制台输出三件套。
+
+### 5.4 跑完清理
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -Command 'Start-Process powershell -Verb RunAs -ArgumentList ''-NoProfile'',''-ExecutionPolicy'',''Bypass'',''-File'',''.\scripts\Cleanup-SyntheticSamples.ps1'''
 ```
 
-只清理 `ATSynthetic*` / `ATSynth*` / `ATPackage*` / `ATArch*` / `ATF13*` / `ATOwnerDraw` 前缀对象与 `HK[LM|CU]\Software\AT-TestSuite`、`C:\Users\Public\AT-SENTINEL`，**不动其它软件**。
+只清理 `ATSynthetic*` / `ATSynth*` / `ATPackage*` / `ATArch*` / `ATF13*` / `ATOwnerDraw` 前缀对象与
+`HK[LM|CU]\Software\AT-TestSuite`、`C:\Users\Public\AT-SENTINEL`，不动其它软件。
+
+---
+
+## 六、已知问题
+
+共 **36 条**问题文档：[reports/issues/](reports/issues/)。
+汇总（含每条问题的**关闭判据**与当前结论）见 **[reports/issues/README.md](reports/issues/README.md)**。
+
+每次重跑后，只需按该表逐条核对判据，并把状态更新进去即可。
 
 ---
 
@@ -215,40 +150,18 @@ powershell -NoProfile -ExecutionPolicy Bypass -Command "Start-Process powershell
 
 ```text
 AutoTrigger-TestSuite\
-├─ README.md                  ← 本文件
-├─ LICENSE                    MIT（仅覆盖本仓库自制内容）
-├─ THIRD_PARTY_NOTICES.md     第三方软件/工具链许可与获取方式
-├─ samples\                   自制样本（14 组 / 240 文件）
-├─ sources\                   自制样本源码 + BUILD.md（含实测构建命令）
-├─ scripts\                   冒烟验证 / 样本级批量测试 / 结果合并 / 清单校验 / 第三方获取 / 结果对比 / 清理
-├─ manifests\                 自制与第三方样本清单、工具链、SHA-256、索引
-├─ reports\                   汇总报告、逐样本 CSV、36 份问题文档 + 统一追踪表、历史报告
-├─ evidence\                  脱敏后的 JSON / 日志 + 脱敏映射表
-└─ docs\                      测试方法、环境要求、结果判读、FAQ、整理清单
+├─ README.md                 本文件（套件是什么 + 工具效果）
+├─ samples\                  分类样本（20 组）
+├─ sources\                  自制样本源码 + BUILD.md
+├─ scripts\                  冒烟 / 批量测试 / 结果合并 / 清单校验 / 第三方获取 / 清理
+├─ manifests\                自制与第三方样本清单、工具链、SHA-256
+├─ reports\                  汇总报告、逐样本 CSV、36 份问题文档 + 追踪表
+├─ evidence\                 脱敏后的结果 JSON / 日志
+└─ docs\                      测试方法、环境要求、结果判读、FAQ
 ```
 
-关键入口：
-[reports/summary.md](reports/summary.md) ·
-[reports/run-2026-10-14.md](reports/run-2026-10-14.md) ·
-[reports/per-sample.csv](reports/per-sample.csv) ·
-[reports/issues/](reports/issues/) ·
-[reports/coverage.md](reports/coverage.md) ·
-[docs/interpreting-results.md](docs/interpreting-results.md) ·
-[docs/environment.md](docs/environment.md) ·
-[manifests/samples.thirdparty.json](manifests/samples.thirdparty.json)
+关键入口：[reports/summary.md](reports/summary.md) · [reports/per-sample.csv](reports/per-sample.csv) ·
+[reports/issues/README.md](reports/issues/README.md) · [docs/interpreting-results.md](docs/interpreting-results.md) ·
+[docs/environment.md](docs/environment.md)
 
----
-
-## 八、许可与隐私
-
-- 本仓库**自制内容**（样本、源码、脚本、文档）采用 MIT，见 [LICENSE](LICENSE)。
-- **第三方安装包不随仓库分发**（体积 + 再分发许可逐项不同），仅登记官方地址与 SHA-256，见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
-- 编译器（Inno/NSIS/WiX）同样不随仓库分发。
-- 所有证据副本已**脱敏**（用户名、机器名、邮箱、Windows SID、绝对路径），规则与逐文件记录见 [evidence/SANITIZATION.csv](evidence/SANITIZATION.csv)。
-
-## 九、如何引用/反馈
-
-- 发现样本或结论有误：请带上 `runs\<时间戳>\` 下的结果 JSON 与日志提 issue。
-- 需要引用本套件结论：请**同时说明工具构建、权限、分母口径**，不要摘取单一百分比。
-
-> 本仓库由测试者整理；**未包含**对 AutoTrigger 主项目的任何修改。
+> 每次测试后，更新第二节的数字与第三节的结论；新问题追加到 `reports/issues/` 并在追踪表中登记。
